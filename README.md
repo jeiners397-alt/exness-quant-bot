@@ -1,2 +1,2 @@
-# exness-quant-bot
+# futuros anuncios
 mi script de futuros 
