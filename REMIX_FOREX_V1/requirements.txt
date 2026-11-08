@@ -1,0 +1,3 @@
+# Instalar y ejecutar en Windows junto a MetaTrader 5 (64 bits).
+MetaTrader5>=5.0.45,<6
+numpy>=1.26,<3

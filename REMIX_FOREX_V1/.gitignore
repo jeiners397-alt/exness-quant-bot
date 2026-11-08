@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.ex5
+*.log
+reports/*.csv
+reports/*.json
+*.set
+*.ini
