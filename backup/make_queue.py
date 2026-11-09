@@ -1,4 +1,4 @@
-﻿"""Genera backup/BACKUP_QUEUE.csv: hash SHA-256 de cada artefacto duradero y su estado de respaldo REAL en Drive.
+"""Genera backup/BACKUP_QUEUE.csv: hash SHA-256 de cada artefacto duradero y su estado de respaldo REAL en Drive.
 
 Prohibido incluir: credenciales, .env, .mcp.json*, .claude/, tokens. Datasets grandes: solo manifiesto + hash.
 Estado Drive = UPLOADED_VERIFIED solo si el archivo existe en Drive y su tamano en bytes coincide con el local.

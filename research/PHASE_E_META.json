@@ -1,0 +1,38 @@
+{
+ "n_hyp_variants": 140,
+ "n_cells": 700,
+ "sl_atr": 1.5,
+ "horizons": {
+  "H1": 24,
+  "H4": 12
+ },
+ "periods": {
+  "TRAIN": [
+   "2018-01-01",
+   "2022-01-01"
+  ],
+  "VALID": [
+   "2022-01-01",
+   "2025-01-01"
+  ],
+  "EXPL": [
+   "2025-01-01",
+   "2026-11-01"
+  ]
+ },
+ "data_notes": {
+  "H1_excluded_before_2018": {
+   "bars": 6074,
+   "reason": "cobertura incompleta (2014-2016 ~300 barras/ano) y spread=0 en 2014-2017: datos invalidos"
+  },
+  "H1_2018_2024": {
+   "bars": 43539,
+   "spread_zero_replaced_by_median": 16
+  },
+  "M15_pre2025": {
+   "bars": 53880,
+   "spread_zero_replaced_by_median": 4
+  }
+ },
+ "elapsed_s": 138
+}

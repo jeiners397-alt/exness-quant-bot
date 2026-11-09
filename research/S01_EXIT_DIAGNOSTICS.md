@@ -1,4 +1,4 @@
-﻿# S01 — Diagnóstico de pérdidas y salidas (Fase C, 2026-11-09)
+# S01 — Diagnóstico de pérdidas y salidas (Fase C, 2026-11-09)
 
 Fuentes verificadas: export de deals del EA (`results/s01_official/REMIX_deals_S01_EURUSDm_PERIOD_M15.csv`, SHA-256 B5DB2514…F48C, 670 deals) e informe oficial `ReportTester-ACCOUNTID.xlsx` (SHA-256 397280368…D504, copia en `results/s01_official/`). Scripts: `research/s01_audit.py`, `s01_mae_mfe.py`, `run_exit_variants.py`, `remix_lab/exit_variants.py`.
 Todo el periodo ene-2025→oct-2026 ya fue observado: es **exploratorio, no OOS**. Hipótesis probadas en esta fase sobre S01: 10 variantes de salida (+V0). No se ha seleccionado ningún parámetro.

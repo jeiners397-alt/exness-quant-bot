@@ -1,0 +1,226 @@
+origen,familia,tf,variante,n_exploratorio,pf,exp_R,t,n_retro,exp_R_retro,decision
+Fase D,S02,M15,A_orig,1799,0.872,-0.0792,-2.77,1888,-0.1199,Descartada
+Fase D,S02,M15,B_inv,1931,0.89,-0.0744,-2.69,2072,-0.0643,Descartada
+Fase D,S02,M15,B_inv_swap,1825,0.872,-0.0513,-2.64,1914,-0.05,Descartada
+Fase D,S02,M15,C_long,1045,0.872,-0.0852,-2.26,1155,-0.129,Descartada
+Fase D,S02,M15,D_short,991,0.854,-0.0816,-2.12,1036,-0.1101,Descartada
+Fase D,S02,M15,E_long_inv,1181,0.838,-0.0926,-2.64,1353,-0.0503,Descartada
+Fase D,S02,M15,E_long_inv_swap,1057,0.883,-0.045,-1.77,1154,-0.0612,Descartada
+Fase D,S02,M15,F_short_inv,1168,0.893,-0.0784,-2.19,1193,-0.0802,Descartada
+Fase D,S02,M15,F_short_inv_swap,1025,0.882,-0.0493,-1.89,1057,-0.0369,Descartada
+Fase D,S02,H1,A_orig,490,0.883,-0.0765,-1.39,1984,-0.0382,Descartada
+Fase D,S02,H1,B_inv,538,0.949,-0.0259,-0.49,2260,-0.057,Descartada
+Fase D,S02,H1,B_inv_swap,479,1.021,0.0072,0.19,1988,-0.044,No demostrada
+Fase D,S02,H1,C_long,256,0.933,-0.0412,-0.53,1024,-0.0657,Descartada
+Fase D,S02,H1,D_short,269,0.879,-0.0889,-1.21,1080,-0.0298,Descartada
+Fase D,S02,H1,E_long_inv,303,0.858,-0.0886,-1.28,1244,-0.0014,Descartada
+Fase D,S02,H1,E_long_inv_swap,250,0.9,-0.0405,-0.78,1045,-0.0271,Descartada
+Fase D,S02,H1,F_short_inv,301,1.022,0.0181,0.26,1267,-0.0962,No demostrada
+Fase D,S02,H1,F_short_inv_swap,270,1.026,0.0195,0.39,1076,-0.0411,No demostrada
+Fase D,S03,M15,A_orig,345,0.85,-0.1057,-1.4,330,-0.2364,Descartada
+Fase D,S03,M15,B_inv,341,0.804,-0.1348,-1.8,329,0.0181,Descartada
+Fase D,S03,M15,B_inv_swap,335,0.878,-0.0436,-1.08,328,0.0045,Descartada
+Fase D,S03,M15,C_long,172,0.848,-0.1132,-1.03,152,-0.0232,Descartada
+Fase D,S03,M15,D_short,173,0.855,-0.0983,-0.94,179,-0.4218,Descartada
+Fase D,S03,M15,E_long_inv,167,0.774,-0.1557,-1.49,155,-0.0396,Descartada
+Fase D,S03,M15,E_long_inv_swap,162,0.838,-0.0556,-0.97,153,-0.0886,Descartada
+Fase D,S03,M15,F_short_inv,174,0.835,-0.1147,-1.07,175,0.0805,Descartada
+Fase D,S03,M15,F_short_inv_swap,173,0.899,-0.0324,-0.57,176,0.0883,Descartada
+Fase D,S03,H1,A_orig,101,0.712,-0.2048,-1.55,380,-0.1465,Descartada
+Fase D,S03,H1,B_inv,103,1.156,0.0989,0.69,385,0.0055,No demostrada
+Fase D,S03,H1,B_inv_swap,102,1.093,0.0269,0.39,375,0.0,No demostrada
+Fase D,S03,H1,C_long,53,0.741,-0.1639,-0.88,149,-0.1521,Descartada
+Fase D,S03,H1,D_short,48,0.668,-0.25,-1.32,231,-0.1429,Descartada
+Fase D,S03,H1,E_long_inv,53,1.43,0.2453,1.2,148,0.1136,No demostrada
+Fase D,S03,H1,E_long_inv_swap,54,1.372,0.0833,0.9,147,-0.0002,No demostrada
+Fase D,S03,H1,F_short_inv,50,0.901,-0.0563,-0.28,237,-0.062,Descartada
+Fase D,S03,H1,F_short_inv_swap,48,0.905,-0.0365,-0.35,228,0.0002,Descartada
+Fase D,S04,M15,A_orig,1177,0.837,-0.105,-2.98,1306,-0.141,Descartada
+Fase D,S04,M15,B_inv,1287,0.915,-0.0528,-1.56,1394,-0.037,Descartada
+Fase D,S04,M15,B_inv_swap,1175,0.892,-0.0464,-1.92,1315,-0.0172,Descartada
+Fase D,S04,M15,C_long,649,0.767,-0.1631,-3.46,723,-0.1082,Descartada
+Fase D,S04,M15,D_short,606,0.894,-0.0599,-1.22,630,-0.1874,Descartada
+Fase D,S04,M15,E_long_inv,705,0.963,-0.0193,-0.42,801,-0.0857,Descartada
+Fase D,S04,M15,E_long_inv_swap,648,0.992,-0.0021,-0.06,726,-0.0335,Descartada
+Fase D,S04,M15,F_short_inv,701,0.845,-0.1052,-2.32,698,-0.0221,Descartada
+Fase D,S04,M15,F_short_inv_swap,618,0.823,-0.0798,-2.39,641,-0.011,Descartada
+Fase D,S04,H1,A_orig,336,0.904,-0.0637,-0.95,1492,-0.062,Descartada
+Fase D,S04,H1,B_inv,339,1.053,0.0316,0.47,1582,-0.06,No demostrada
+Fase D,S04,H1,B_inv_swap,335,0.869,-0.0598,-1.32,1484,-0.0243,Descartada
+Fase D,S04,H1,C_long,169,0.933,-0.0407,-0.42,772,-0.0945,Descartada
+Fase D,S04,H1,D_short,189,0.874,-0.0769,-0.87,815,-0.0123,Descartada
+Fase D,S04,H1,E_long_inv,184,0.863,-0.0761,-0.85,856,-0.0129,Descartada
+Fase D,S04,H1,E_long_inv_swap,169,0.809,-0.0828,-1.3,775,-0.0086,Descartada
+Fase D,S04,H1,F_short_inv,206,1.098,0.0656,0.76,890,-0.0881,No demostrada
+Fase D,S04,H1,F_short_inv_swap,190,0.896,-0.0449,-0.75,819,-0.0443,Descartada
+Fase D,S05,H1,"{""max_bars"": 48, ""trend_filter"": false, ""z_th"": 2.0}",415,1.001,-0.0005,-0.01,1615,-0.0774,Descartada
+Fase D,S05,H1,"{""max_bars"": 48, ""trend_filter"": true, ""z_th"": 2.0}",213,0.821,-0.0856,-1.06,904,-0.0471,Descartada
+Fase D,S05,H1,"{""max_bars"": 48, ""trend_filter"": false, ""z_th"": 2.5}",245,0.881,-0.0377,-0.45,979,-0.0666,Descartada
+Fase D,S05,H1,"{""max_bars"": 48, ""trend_filter"": true, ""z_th"": 2.5}",126,0.867,-0.0591,-0.53,538,-0.0528,Descartada
+Fase D,S05,H4,"{""max_bars"": 18, ""trend_filter"": false, ""z_th"": 2.0}",95,0.813,-0.0835,-0.82,373,0.028,Descartada
+Fase D,S05,H4,"{""max_bars"": 18, ""trend_filter"": true, ""z_th"": 2.0}",45,1.194,0.0743,0.53,175,0.1009,No demostrada
+Fase D,S05,H4,"{""max_bars"": 18, ""trend_filter"": false, ""z_th"": 2.5}",57,0.701,-0.1319,-0.98,167,0.0325,Descartada
+Fase D,S05,H4,"{""max_bars"": 18, ""trend_filter"": true, ""z_th"": 2.5}",28,1.205,0.1158,0.57,80,-0.0342,Pendiente de datos
+Fase D,S06,H1,"{""rsi_hi"": 90, ""rsi_lo"": 10}",476,1.046,0.0148,0.47,1832,-0.0101,No demostrada
+Fase D,S06,H1,"{""rsi_hi"": 95, ""rsi_lo"": 5}",225,0.955,-0.0075,-0.17,938,-0.0146,Descartada
+Fase D,S06,H4,"{""rsi_hi"": 90, ""rsi_lo"": 10}",123,1.166,0.0363,0.63,435,-0.0005,No demostrada
+Fase D,S06,H4,"{""rsi_hi"": 95, ""rsi_lo"": 5}",52,1.552,0.0964,1.26,232,0.0077,No demostrada
+Fase D,S07,M15,"{""mode"": ""breakout"", ""retest_lb"": 12}",452,0.892,-0.0626,-1.16,619,-0.1287,Descartada
+Fase D,S07,M15,"{""mode"": ""sweep"", ""retest_lb"": 12}",432,0.851,-0.0822,-1.52,592,-0.0749,Descartada
+Fase D,S07,M15,"{""mode"": ""retest"", ""retest_lb"": 12}",399,0.854,-0.0871,-1.55,533,-0.106,Descartada
+Fase D,S07,H1,"{""mode"": ""breakout"", ""retest_lb"": 4}",296,0.909,-0.0433,-0.71,1319,-0.0697,Descartada
+Fase D,S07,H1,"{""mode"": ""sweep"", ""retest_lb"": 4}",248,0.903,-0.0401,-0.63,1223,-0.0472,Descartada
+Fase D,S07,H1,"{""mode"": ""retest"", ""retest_lb"": 4}",216,0.747,-0.1266,-1.89,1016,-0.0953,Descartada
+Fase D,S08,H1,"{""confirm"": false, ""max_bars"": 24, ""regime"": false}",628,0.918,-0.045,-0.89,2588,-0.059,Descartada
+Fase D,S08,H1,"{""confirm"": false, ""max_bars"": 24, ""regime"": true}",300,0.888,-0.0651,-0.89,1202,-0.0665,Descartada
+Fase D,S08,H1,"{""confirm"": true, ""max_bars"": 24, ""regime"": false}",460,0.877,-0.0542,-1.18,1931,-0.0868,Descartada
+Fase D,S08,H1,"{""confirm"": true, ""max_bars"": 24, ""regime"": true}",166,0.796,-0.0994,-1.32,692,-0.0969,Descartada
+Fase D,S08,H4,"{""confirm"": false, ""max_bars"": 12, ""regime"": false}",141,0.92,-0.0471,-0.51,593,-0.0102,Descartada
+Fase D,S08,H4,"{""confirm"": false, ""max_bars"": 12, ""regime"": true}",60,1.359,0.1223,0.84,251,0.0375,No demostrada
+Fase D,S08,H4,"{""confirm"": true, ""max_bars"": 12, ""regime"": false}",109,0.944,-0.0258,-0.28,490,-0.0454,Descartada
+Fase D,S08,H4,"{""confirm"": true, ""max_bars"": 12, ""regime"": true}",38,0.904,-0.0443,-0.28,148,0.0142,Descartada
+Fase D,S09,H4,"{""exit_mode"": ""atr"", ""mom_n"": 20}",79,1.302,0.1931,1.16,322,-0.1191,No demostrada
+Fase D,S09,H4,"{""exit_mode"": ""trend"", ""mom_n"": 20}",97,0.923,-0.0013,-0.01,345,-0.0661,Descartada
+Fase D,S09,H4,"{""exit_mode"": ""atr"", ""mom_n"": 60}",49,0.925,-0.1299,-0.66,227,-0.1301,Descartada
+Fase D,S09,H4,"{""exit_mode"": ""trend"", ""mom_n"": 60}",99,1.064,0.0206,0.19,359,-0.0477,No demostrada
+Fase D,S09,D1,"{""exit_mode"": ""atr"", ""mom_n"": 20}",9,0.948,-0.034,-0.07,35,0.1675,Pendiente de datos
+Fase D,S09,D1,"{""exit_mode"": ""trend"", ""mom_n"": 20}",3,2.183,0.5357,0.46,10,-0.0918,Pendiente de datos
+Fase D,S09,D1,"{""exit_mode"": ""atr"", ""mom_n"": 60}",11,0.641,-0.2032,-0.48,30,0.0655,Pendiente de datos
+Fase D,S09,D1,"{""exit_mode"": ""trend"", ""mom_n"": 60}",4,0.829,-0.0804,-0.15,10,-0.352,Pendiente de datos
+Fase D,S10,H1,"{""confirm"": ""cross"", ""htf"": false}",269,0.97,-0.0191,-0.22,1119,-0.088,Descartada
+Fase D,S10,H1,"{""confirm"": ""cross"", ""htf"": true}",166,0.921,-0.0489,-0.45,752,-0.1167,Descartada
+Fase D,S10,H1,"{""confirm"": ""structure"", ""htf"": false}",369,0.819,-0.1183,-1.63,1421,-0.0356,Descartada
+Fase D,S10,H1,"{""confirm"": ""structure"", ""htf"": true}",218,0.826,-0.1132,-1.2,948,-0.0703,Descartada
+Fase D,S10,H4,"{""confirm"": ""cross"", ""htf"": false}",67,0.499,-0.3773,-2.52,236,0.0425,Descartada
+Fase D,S10,H4,"{""confirm"": ""structure"", ""htf"": false}",99,0.776,-0.154,-1.13,361,-0.0523,Descartada
+Fase D,S11,H1,"{""filt"": false, ""max_bars"": 24}",281,0.992,0.0017,0.03,1109,-0.1021,No demostrada
+Fase D,S11,H1,"{""filt"": true, ""max_bars"": 24}",115,1.002,0.0074,0.07,434,-0.1318,No demostrada
+Fase D,S11,H4,"{""filt"": false, ""max_bars"": 12}",65,1.062,0.0297,0.27,239,-0.0652,No demostrada
+Fase D,S11,H4,"{""filt"": true, ""max_bars"": 12}",23,2.015,0.2452,1.46,92,-0.0646,Pendiente de datos
+Fase D,S12,M15,"{""vwap_start"": 0}",536,0.779,-0.1479,-2.92,625,-0.1296,Descartada
+Fase D,S12,M15,"{""vwap_start"": 7}",906,0.783,-0.1347,-3.43,981,-0.1339,Descartada
+Fase E (eventos),A1_zrev_1.5,H1,ALL k=0.5,833,,-0.0691,-2.71,1391,-0.0232,Descartada
+Fase E (eventos),A1_zrev_1.5,H1,KER_HI k=0.5,701,,-0.0596,-2.18,1191,-0.0255,Descartada
+Fase E (eventos),A1_zrev_1.5,H1,KER_LO k=0.5,374,,-0.0457,-1.19,620,-0.0733,Descartada
+Fase E (eventos),A1_zrev_1.5,H4,ALL k=3.0,356,,-0.0518,-0.77,592,0.0495,No demostrada
+Fase E (eventos),A1_zrev_1.5,H4,KER_HI k=3.0,297,,-0.0383,-0.53,510,0.0649,No demostrada
+Fase E (eventos),A1_zrev_1.5,H4,KER_LO k=0.5,113,,-0.002,-0.03,164,-0.0282,Descartada
+Fase E (eventos),A1_zrev_2.0,H1,ALL k=0.5,456,,-0.034,-1.01,745,0.0223,Descartada
+Fase E (eventos),A1_zrev_2.0,H1,KER_HI k=0.5,426,,-0.0469,-1.34,687,0.0126,Descartada
+Fase E (eventos),A1_zrev_2.0,H1,KER_LO k=0.5,88,,-0.0455,-0.59,153,0.0335,Descartada
+Fase E (eventos),A1_zrev_2.0,H1,SES_ASIA k=3.0,98,,-0.1785,-1.27,133,0.1769,No demostrada
+Fase E (eventos),A1_zrev_2.0,H1,SES_LON k=2.0,109,,-0.1092,-0.86,185,0.0137,Descartada
+Fase E (eventos),A1_zrev_2.0,H1,SES_NY k=3.0,186,,0.0982,0.9,337,-0.0415,Descartada
+Fase E (eventos),A1_zrev_2.0,H4,ALL k=3.0,172,,-0.0078,-0.09,284,0.1589,No demostrada
+Fase E (eventos),A1_zrev_2.0,H4,KER_HI k=3.0,160,,0.0138,0.15,265,0.1732,No demostrada
+Fase E (eventos),A1_zrev_2.5,H1,ALL k=0.5,219,,-0.0285,-0.58,381,0.0366,Descartada
+Fase E (eventos),A1_zrev_2.5,H1,KER_HI k=0.5,216,,-0.022,-0.45,364,0.0232,Descartada
+Fase E (eventos),A1_zrev_2.5,H4,ALL k=3.0,79,,-0.1281,-1.01,101,0.108,No demostrada
+Fase E (eventos),A1_zrev_2.5,H4,KER_HI k=3.0,76,,-0.1413,-1.14,98,0.0789,Descartada
+Fase E (eventos),A1_zrev_3.0,H1,ALL k=0.5,108,,0.0,0.0,173,-0.0809,Descartada
+Fase E (eventos),A1_zrev_3.0,H1,KER_HI k=0.5,106,,-0.0094,-0.14,166,-0.1054,Descartada
+Fase E (eventos),A2_rsi2_counter_10,H1,ALL k=2.0,1165,,-0.0025,-0.06,1890,0.0048,Descartada
+Fase E (eventos),A2_rsi2_counter_10,H1,KER_HI k=2.0,874,,0.0008,0.02,1454,0.0269,Descartada
+Fase E (eventos),A2_rsi2_counter_10,H1,KER_LO k=3.0,603,,0.0155,0.24,924,-0.0472,Descartada
+Fase E (eventos),A2_rsi2_counter_10,H4,ALL k=3.0,432,,0.0259,0.42,731,-0.0355,Descartada
+Fase E (eventos),A2_rsi2_counter_10,H4,KER_HI k=2.0,297,,-0.0038,-0.06,504,0.018,Descartada
+Fase E (eventos),A2_rsi2_counter_10,H4,KER_LO k=3.0,186,,0.0845,0.84,300,-0.1194,Descartada
+Fase E (eventos),A2_rsi2_counter_5,H1,ALL k=3.0,747,,0.0304,0.54,1191,0.0038,Descartada
+Fase E (eventos),A2_rsi2_counter_5,H1,KER_HI k=0.5,606,,-0.0025,-0.09,998,-0.0129,Descartada
+Fase E (eventos),A2_rsi2_counter_5,H1,KER_LO k=2.0,265,,-0.0748,-0.92,374,0.0475,Descartada
+Fase E (eventos),A2_rsi2_counter_5,H4,ALL k=3.0,226,,-0.0214,-0.27,426,0.0172,Descartada
+Fase E (eventos),A2_rsi2_counter_5,H4,KER_HI k=3.0,176,,-0.071,-0.81,330,0.0771,Descartada
+Fase E (eventos),A2_rsi2_counter_5,H4,KER_LO k=3.0,70,,0.1794,1.16,125,0.0083,No demostrada
+Fase E (eventos),A2_rsi2_trend_10,H1,ALL k=3.0,474,,-0.0027,-0.04,762,-0.0141,Descartada
+Fase E (eventos),A2_rsi2_trend_10,H1,KER_HI k=3.0,272,,0.0336,0.36,460,-0.0458,Descartada
+Fase E (eventos),A2_rsi2_trend_10,H1,KER_LO k=3.0,303,,-0.0939,-1.1,454,-0.0345,Descartada
+Fase E (eventos),A2_rsi2_trend_10,H4,ALL k=0.5,151,,0.0327,0.59,246,-0.0596,Descartada
+Fase E (eventos),A2_rsi2_trend_10,H4,KER_HI k=0.5,79,,0.0438,0.58,129,0.0661,Descartada
+Fase E (eventos),A2_rsi2_trend_10,H4,KER_LO k=3.0,86,,0.0292,0.21,138,-0.0838,Descartada
+Fase E (eventos),A2_rsi2_trend_5,H1,ALL k=3.0,223,,-0.0321,-0.32,390,-0.0779,Descartada
+Fase E (eventos),A2_rsi2_trend_5,H1,KER_HI k=3.0,144,,0.0965,0.72,282,-0.1196,Descartada
+Fase E (eventos),A2_rsi2_trend_5,H1,KER_LO k=2.0,112,,-0.1913,-1.61,168,0.032,Descartada
+Fase E (eventos),A2_rsi2_trend_5,H4,ALL k=0.5,58,,0.0716,0.81,126,-0.0108,Descartada
+Fase E (eventos),A3_keltner_fade,H1,ALL k=0.5,502,,-0.0358,-1.12,936,-0.0471,Descartada
+Fase E (eventos),A3_keltner_fade,H1,KER_HI k=0.5,485,,-0.033,-1.01,895,-0.0336,Descartada
+Fase E (eventos),A3_keltner_fade,H1,KER_LO k=0.5,38,,-0.1711,-1.4,134,-0.1828,Descartada
+Fase E (eventos),A3_keltner_fade,H4,ALL k=2.0,185,,0.0161,0.18,365,0.0498,No demostrada
+Fase E (eventos),A3_keltner_fade,H4,KER_HI k=2.0,177,,0.0397,0.44,352,0.0586,No demostrada
+Fase E (eventos),A4_bollinger_rsi_fade,H1,ALL k=0.5,229,,0.0153,0.33,384,-0.0234,Descartada
+Fase E (eventos),A4_bollinger_rsi_fade,H1,KER_HI k=0.5,229,,0.0153,0.33,383,-0.017,Descartada
+Fase E (eventos),A4_bollinger_rsi_fade,H4,ALL k=0.5,72,,0.0577,0.7,115,-0.1282,Descartada
+Fase E (eventos),A4_bollinger_rsi_fade,H4,KER_HI k=0.5,72,,0.0577,0.7,115,-0.1282,Descartada
+Fase E (eventos),B1_donchian_cont_20,H1,ALL k=3.0,595,,-0.1186,-1.94,1010,-0.0667,Descartada
+Fase E (eventos),B1_donchian_cont_20,H1,KER_HI k=3.0,516,,-0.106,-1.61,879,-0.049,Descartada
+Fase E (eventos),B1_donchian_cont_20,H1,KER_LO k=0.5,113,,-0.1543,-2.09,216,-0.1263,Descartada
+Fase E (eventos),B1_donchian_cont_20,H1,SES_ASIA k=1.0,143,,-0.0464,-0.56,220,-0.2182,Descartada
+Fase E (eventos),B1_donchian_cont_20,H1,SES_LON k=3.0,168,,-0.1321,-1.1,333,-0.0209,Descartada
+Fase E (eventos),B1_donchian_cont_20,H1,SES_NY k=1.5,237,,-0.2088,-2.69,452,-0.0903,Descartada
+Fase E (eventos),B1_donchian_cont_20,H4,ALL k=0.5,183,,-0.0176,-0.34,323,-0.0771,Descartada
+Fase E (eventos),B1_donchian_cont_20,H4,KER_HI k=0.5,154,,-0.0177,-0.31,280,-0.0522,Descartada
+Fase E (eventos),B1_donchian_cont_55,H1,ALL k=3.0,324,,-0.0933,-1.1,623,-0.1005,Descartada
+Fase E (eventos),B1_donchian_cont_55,H1,KER_HI k=3.0,289,,-0.0638,-0.7,567,-0.1246,Descartada
+Fase E (eventos),B1_donchian_cont_55,H1,KER_LO k=3.0,44,,-0.2615,-1.26,82,0.0775,No demostrada
+Fase E (eventos),B1_donchian_cont_55,H1,SES_ASIA k=0.5,73,,-0.0342,-0.4,148,-0.2399,Descartada
+Fase E (eventos),B1_donchian_cont_55,H1,SES_LON k=1.0,83,,-0.0361,-0.33,181,-0.105,Descartada
+Fase E (eventos),B1_donchian_cont_55,H1,SES_NY k=3.0,129,,-0.2778,-2.31,270,-0.131,Descartada
+Fase E (eventos),B1_donchian_cont_55,H4,ALL k=0.5,99,,0.0404,0.58,191,-0.0473,Descartada
+Fase E (eventos),B1_donchian_cont_55,H4,KER_HI k=0.5,91,,0.0329,0.45,170,-0.0162,Descartada
+Fase E (eventos),B2_mom_20,H1,ALL k=2.0,581,,-0.0647,-1.17,978,-0.1516,Descartada
+Fase E (eventos),B2_mom_20,H1,KER_HI k=1.5,300,,-0.1853,-2.79,513,-0.1766,Descartada
+Fase E (eventos),B2_mom_20,H1,KER_LO k=3.0,415,,0.0247,0.33,678,-0.0361,Descartada
+Fase E (eventos),B2_mom_20,H4,ALL k=3.0,185,,0.1647,1.63,330,-0.083,Descartada
+Fase E (eventos),B2_mom_20,H4,KER_HI k=1.0,94,,-0.0307,-0.31,166,-0.1516,Descartada
+Fase E (eventos),B2_mom_20,H4,KER_LO k=2.0,105,,0.1271,1.07,191,-0.0947,Descartada
+Fase E (eventos),B2_mom_60,H1,ALL k=1.0,323,,-0.1305,-2.36,559,-0.0088,Descartada
+Fase E (eventos),B2_mom_60,H1,KER_HI k=3.0,205,,-0.0195,-0.18,330,-0.0822,Descartada
+Fase E (eventos),B2_mom_60,H1,KER_LO k=1.0,199,,-0.1771,-2.53,351,0.0048,Descartada
+Fase E (eventos),B2_mom_60,H4,ALL k=0.5,118,,-0.1097,-1.61,151,-0.0619,Descartada
+Fase E (eventos),B2_mom_60,H4,KER_HI k=0.5,68,,-0.0947,-1.05,81,-0.0976,Descartada
+Fase E (eventos),B2_mom_60,H4,KER_LO k=3.0,65,,-0.2809,-2.4,88,0.0603,Descartada
+Fase E (eventos),B3_pullback_ker,H1,ALL k=1.0,82,,0.0,0.0,136,-0.0321,Descartada
+Fase E (eventos),B3_pullback_ker,H1,KER_HI k=1.0,82,,0.0,0.0,136,-0.0321,Descartada
+Fase E (eventos),B4_squeeze_breakout,H1,ALL k=2.0,270,,-0.0876,-1.07,465,-0.081,Descartada
+Fase E (eventos),B4_squeeze_breakout,H1,KER_HI k=2.0,225,,-0.0048,-0.05,403,-0.0678,Descartada
+Fase E (eventos),B4_squeeze_breakout,H1,KER_LO k=1.5,84,,-0.323,-2.59,152,-0.0679,Descartada
+Fase E (eventos),B4_squeeze_breakout,H4,ALL k=3.0,69,,0.0989,0.59,115,-0.1112,Descartada
+Fase E (eventos),B4_squeeze_breakout,H4,KER_HI k=3.0,54,,-0.0346,-0.2,100,-0.1845,Descartada
+Fase E (eventos),C1_breakout_fail_20,H1,ALL k=1.0,302,,-0.0748,-1.31,539,0.0179,Descartada
+Fase E (eventos),C1_breakout_fail_20,H1,KER_HI k=1.0,184,,-0.1333,-1.83,290,0.0052,Descartada
+Fase E (eventos),C1_breakout_fail_20,H1,KER_LO k=1.0,126,,0.0057,0.07,271,0.0373,Descartada
+Fase E (eventos),C1_breakout_fail_20,H4,ALL k=1.5,70,,-0.1713,-1.33,130,0.0619,Descartada
+Fase E (eventos),C1_breakout_fail_20,H4,KER_HI k=3.0,38,,-0.0742,-0.46,85,0.1199,Descartada
+Fase E (eventos),C1_breakout_fail_55,H1,ALL k=2.0,153,,0.0078,0.07,330,0.1001,Descartada
+Fase E (eventos),C1_breakout_fail_55,H1,KER_HI k=1.0,98,,-0.0187,-0.19,195,0.0033,Descartada
+Fase E (eventos),C1_breakout_fail_55,H1,KER_LO k=2.0,59,,0.0642,0.37,144,0.0988,No demostrada
+Fase E (eventos),C1_breakout_fail_55,H4,ALL k=1.5,36,,0.0629,0.34,76,0.1517,Descartada
+Fase E (eventos),C2_pdhl_breakout,H1,ALL k=3.0,470,,-0.0691,-0.98,806,-0.098,Descartada
+Fase E (eventos),C2_pdhl_breakout,H1,KER_HI k=3.0,344,,-0.0897,-1.09,591,-0.1025,Descartada
+Fase E (eventos),C2_pdhl_breakout,H1,KER_LO k=2.0,167,,-0.1186,-1.16,281,-0.0603,Descartada
+Fase E (eventos),C2_pdhl_breakout,H1,SES_ASIA k=2.0,137,,-0.0667,-0.58,211,-0.1978,Descartada
+Fase E (eventos),C2_pdhl_breakout,H1,SES_LON k=2.0,131,,-0.1207,-1.04,251,-0.0941,Descartada
+Fase E (eventos),C2_pdhl_breakout,H1,SES_NY k=1.5,158,,-0.0589,-0.6,306,-0.0969,Descartada
+Fase E (eventos),C3_pdhl_sweep,H1,ALL k=3.0,502,,-0.0989,-1.53,867,-0.0414,Descartada
+Fase E (eventos),C3_pdhl_sweep,H1,KER_HI k=0.5,253,,-0.0246,-0.55,392,-0.041,Descartada
+Fase E (eventos),C3_pdhl_sweep,H1,KER_LO k=3.0,338,,-0.1293,-1.67,619,-0.0948,Descartada
+Fase E (eventos),C3_pdhl_sweep,H1,SES_ASIA k=0.5,149,,-0.0774,-1.29,244,-0.0471,Descartada
+Fase E (eventos),C3_pdhl_sweep,H1,SES_LON k=3.0,149,,-0.1183,-0.98,285,-0.1101,Descartada
+Fase E (eventos),C3_pdhl_sweep,H1,SES_NY k=3.0,183,,-0.1163,-1.12,324,0.0176,Descartada
+Fase E (eventos),E1_expansion_fade,H1,ALL k=3.0,777,,-0.0996,-1.83,1348,0.0033,Descartada
+Fase E (eventos),E1_expansion_fade,H1,KER_HI k=1.5,498,,-0.0647,-1.21,918,-0.0409,Descartada
+Fase E (eventos),E1_expansion_fade,H1,KER_LO k=3.0,444,,-0.1654,-2.33,817,-0.038,Descartada
+Fase E (eventos),E1_expansion_fade,H1,SES_ASIA k=3.0,179,,0.033,0.27,303,0.0974,No demostrada
+Fase E (eventos),E1_expansion_fade,H1,SES_LON k=1.5,351,,-0.1974,-3.18,687,-0.1242,Descartada
+Fase E (eventos),E1_expansion_fade,H1,SES_NY k=3.0,345,,-0.1844,-2.43,640,0.0105,Descartada
+Fase E (eventos),E1_expansion_fade,H4,ALL k=0.5,246,,-0.0708,-1.51,450,-0.0626,Descartada
+Fase E (eventos),E1_expansion_fade,H4,KER_HI k=0.5,158,,-0.0233,-0.41,251,-0.0555,Descartada
+Fase E (eventos),E1_expansion_fade,H4,KER_LO k=0.5,110,,-0.1016,-1.41,238,-0.0438,Descartada
+Fase E (eventos),E2_expansion_follow,H1,ALL k=2.0,777,,-0.0055,-0.11,1348,-0.057,Descartada
+Fase E (eventos),E2_expansion_follow,H1,KER_HI k=1.0,498,,-0.0854,-1.92,918,-0.0986,Descartada
+Fase E (eventos),E2_expansion_follow,H1,KER_LO k=3.0,444,,0.0222,0.3,817,0.0306,Descartada
+Fase E (eventos),E2_expansion_follow,H1,SES_ASIA k=1.0,179,,-0.0279,-0.37,303,-0.1567,Descartada
+Fase E (eventos),E2_expansion_follow,H1,SES_LON k=3.0,351,,-0.0311,-0.36,687,-0.0029,Descartada
+Fase E (eventos),E2_expansion_follow,H1,SES_NY k=3.0,345,,-0.1219,-1.56,640,-0.0104,Descartada
+Fase E (eventos),E2_expansion_follow,H4,ALL k=1.5,246,,0.0122,0.17,450,-0.0283,Descartada
+Fase E (eventos),E2_expansion_follow,H4,KER_HI k=1.5,158,,-0.036,-0.42,251,-0.0501,Descartada
+Fase E (eventos),E2_expansion_follow,H4,KER_LO k=3.0,110,,0.1203,0.99,238,-0.0416,Descartada
