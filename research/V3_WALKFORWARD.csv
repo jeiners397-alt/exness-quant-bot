@@ -1,0 +1,21 @@
+family,tf,test_year,chosen,train_expR,n_test,expR_test,net_usd_test
+A,M15,2024,"{""confirm"": ""1"", ""levels"": ""PD"", ""sl_mode"": ""struct""}",-0.0285,67,0.1392,133.27
+A,M15,2025,"{""confirm"": ""1"", ""levels"": ""PD"", ""sl_mode"": ""struct""}",0.0157,111,-0.1497,-239.1
+A,M15,2026,"{""confirm"": ""2"", ""levels"": ""ASIA"", ""sl_mode"": ""struct""}",-0.018,83,0.096,110.47
+A,H1,2020,"{""confirm"": ""2"", ""levels"": ""ASIA"", ""sl_mode"": ""struct""}",0.1005,101,-0.032,-54.37
+A,H1,2021,"{""confirm"": ""2"", ""levels"": ""ASIA"", ""sl_mode"": ""struct""}",0.057,113,-0.1812,-306.83
+A,H1,2022,"{""confirm"": ""1"", ""levels"": ""ASIA"", ""sl_mode"": ""struct""}",0.0046,297,-0.1204,-484.08
+A,H1,2023,"{""confirm"": ""1"", ""levels"": ""PD"", ""sl_mode"": ""struct""}",-0.0052,169,0.0331,86.02
+A,H1,2024,"{""confirm"": ""1"", ""levels"": ""PD"", ""sl_mode"": ""struct""}",0.0017,103,0.1358,195.31
+A,H1,2025,"{""confirm"": ""1"", ""levels"": ""PD"", ""sl_mode"": ""struct""}",0.0151,123,-0.1027,-185.44
+A,H1,2026,"{""confirm"": ""1"", ""levels"": ""PD"", ""sl_mode"": ""struct""}",0.0026,113,0.0818,132.5
+B,M15,2024,"{""ker_on"": true, ""mode"": ""squeeze"", ""sl_mode"": ""atr""}",0.1806,7,0.3528,37.94
+B,M15,2025,"{""ker_on"": true, ""mode"": ""squeeze"", ""sl_mode"": ""atr""}",0.2086,42,-0.088,-57.55
+B,M15,2026,"{""ker_on"": true, ""mode"": ""squeeze"", ""sl_mode"": ""atr""}",0.062,18,-0.144,-38.12
+B,H1,2020,"{""k"": 2.0, ""ker_on"": true, ""mode"": ""impulse"", ""sl_mode"": ""struct""}",0.062,127,0.0231,36.1
+B,H1,2021,"{""k"": 2.0, ""ker_on"": true, ""mode"": ""impulse"", ""sl_mode"": ""struct""}",0.0481,129,-0.0419,-89.82
+B,H1,2022,"{""k"": 2.0, ""ker_on"": true, ""mode"": ""impulse"", ""sl_mode"": ""struct""}",0.0241,128,0.0315,53.46
+B,H1,2023,"{""k"": 2.0, ""ker_on"": true, ""mode"": ""impulse"", ""sl_mode"": ""struct""}",0.0256,131,0.0383,64.33
+B,H1,2024,"{""k"": 2.0, ""ker_on"": true, ""mode"": ""impulse"", ""sl_mode"": ""struct""}",0.0279,126,-0.1555,-289.47
+B,H1,2025,"{""k"": 2.0, ""ker_on"": true, ""mode"": ""impulse"", ""sl_mode"": ""struct""}",0.0013,117,-0.0758,-118.62
+B,H1,2026,"{""k"": 2.0, ""ker_on"": true, ""mode"": ""impulse"", ""sl_mode"": ""struct""}",-0.0079,87,-0.0824,-97.69

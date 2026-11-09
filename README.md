@@ -15,10 +15,15 @@ Laboratorio reproducible para investigar estrategias sobre **EURUSDm (Exness, cu
 - `docs/PARITY_V2_L2_REPORT.md`: de 19/48 a 30/30 entradas coincidentes con el Tester (errores: calentamiento, compuertas de spread, ADX MT5 con EMA 2/(n+1), bug de max_bars del EA V2, reapertura de fin de semana, swap del viernes). Diferencia residual de neto 0,56 USD.
 - `mql5/REMIX_EURUSD_V2_1.mq5` + `mql5/sets/V2_1_S05_L2_H4.set` (V2 se conserva intacto). `docs/V2_1_TESTER_INSTRUCTIONS.md`, `scripts/compare_bar_diag.py`.
 
+## REMIX V3 (Fase V3)
+
+- `docs/REMIX_EURUSD_V3_REPORT.md`: familias A (False Breakout), B (Volatility Momentum), C (Macro News: pendiente de datos), D (reversión condicionada por régimen). **Ninguna con ventaja demostrada.**
+- `mql5/REMIX_EURUSD_V3.mq5` (0 errores/0 avisos; todo desactivado por defecto) y `mql5/sets/V3_*.set`; V1/V2/V2.1 intactos (hash verificado en tests).
+
 ## Contenido
 - `remix_lab/` motor de datos, indicadores, estrategias S01–S12, backtest (Bid/Ask, SL/TP, riesgo, costes), métricas, Monte Carlo, arnés de Fase D.
 - `mql5/REMIX_STRATEGY_RESEARCH_LAB_V1.mq5` EA de investigación (S01–S04), solo Strategy Tester.
-- `tests/` 84 pruebas (`python -m pytest -q`).
+- `tests/` 95 pruebas (`python -m pytest -q`).
 - `research/` catálogos (448 estrategias, 500 indicadores), diagnósticos de S01, resultados de Fases C y D.
 - `docs/` informes de fase (ver `REMIX_EURUSD_PHASE_D_REPORT.md`).
 - `scripts/` descarga de datos (solo lectura), compilación del EA, ejecuciones.

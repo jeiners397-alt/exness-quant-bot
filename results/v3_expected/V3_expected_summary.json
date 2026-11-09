@@ -1,0 +1,38 @@
+{
+ "A_H1_PD_struct": {
+  "n": 236,
+  "wr": 40.3,
+  "pf": 0.976,
+  "exp_R": -0.0144,
+  "net_usd": -35.69,
+  "maxdd_pct": 8.25,
+  "recovery": -0.142,
+  "top1_share": 0.016,
+  "exp_R_ex5": -0.0471,
+  "skipped": {}
+ },
+ "B_H1_impulse_k2_struct": {
+  "n": 317,
+  "wr": 42.9,
+  "pf": 0.943,
+  "exp_R": -0.029,
+  "net_usd": -108.15,
+  "maxdd_pct": 11.14,
+  "recovery": -0.308,
+  "top1_share": 0.013,
+  "exp_R_ex5": -0.0535,
+  "skipped": {}
+ },
+ "D_H4_regime": {
+  "n": 40,
+  "wr": 42.5,
+  "pf": 1.019,
+  "exp_R": -0.0092,
+  "net_usd": 4.24,
+  "maxdd_pct": 2.11,
+  "recovery": 0.067,
+  "top1_share": 0.107,
+  "exp_R_ex5": -0.2338,
+  "skipped": {}
+ }
+}

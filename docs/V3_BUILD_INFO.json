@@ -1,0 +1,17 @@
+{
+ "ea": "mql5/REMIX_EURUSD_V3.mq5",
+ "sha256_source": "0d16cdb6ee992a57503f9f713c3e17be6694f4a075da978427eb68b084d31fa8",
+ "compile": {
+  "errors": 0,
+  "warnings": 0
+ },
+ "v1": "1c327de0d8f1d8e70c47fde2c2d4ed85e023e2d91cf5f03085bbd7cba46c42d7",
+ "v2": "9908279f438ba7848e2f9503ba9244d49bb190ce0d9c27c212482f2b3056dc94",
+ "v2_1": "9a5be44f1d6b081c454f338298a3d28468720828f97ee47c99a5613878715df6",
+ "sets": [
+  "V3_A_H1_PD_struct",
+  "V3_B_H1_impulse_k2_struct",
+  "V3_D_H4_regime"
+ ],
+ "date": "2026-11-09"
+}

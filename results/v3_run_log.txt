@@ -1,0 +1,64 @@
+configuraciones: 36
+[   2s] A|M15|{"confirm": "1", "levels": "PD", "sl_mode": "struct"}            n=430 expR=-0.0393 pf=0.925 t=-0.72 p=0.327
+[   7s] A|M15|{"confirm": "1", "levels": "PD", "sl_mode": "atr"}               n=670 expR=-0.0712 pf=0.867 t=-1.66 p=0.673
+[   9s] A|M15|{"confirm": "2", "levels": "PD", "sl_mode": "struct"}            n=327 expR=-0.0998 pf=0.819 t=-1.69 p=0.723
+[  10s] A|M15|{"confirm": "2", "levels": "PD", "sl_mode": "atr"}               n=311 expR=-0.1292 pf=0.767 t=-2.12 p=0.881
+[  14s] A|M15|{"confirm": "1", "levels": "ASIA", "sl_mode": "struct"}          n=693 expR=-0.0296 pf=0.938 t=-0.67 p=0.168
+[  20s] A|M15|{"confirm": "1", "levels": "ASIA", "sl_mode": "atr"}             n=1135 expR=-0.0956 pf=0.824 t=-2.84 p=0.832
+[  22s] A|M15|{"confirm": "2", "levels": "ASIA", "sl_mode": "struct"}          n=547 expR=-0.0007 pf=0.992 t=-0.01 p=0.089
+[  25s] A|M15|{"confirm": "2", "levels": "ASIA", "sl_mode": "atr"}             n=561 expR=-0.0499 pf=0.904 t=-1.05 p=0.436
+[  29s] B|M15|{"k": 1.5, "ker_on": true, "mode": "impulse", "sl_mode": "atr"}  n=1014 expR=-0.0844 pf=0.849 t=-2.33 p=0.752
+[  34s] B|M15|{"k": 1.5, "ker_on": true, "mode": "impulse", "sl_mode": "struct n=1040 expR=-0.0602 pf=0.886 t=-1.71 p=0.505
+[  40s] B|M15|{"k": 1.5, "ker_on": false, "mode": "impulse", "sl_mode": "atr"} n=1703 expR=-0.0647 pf=0.882 t=-2.31 p=0.515
+[  47s] B|M15|{"k": 1.5, "ker_on": false, "mode": "impulse", "sl_mode": "struc n=1736 expR=-0.0467 pf=0.914 t=-1.71 p=0.327
+[  49s] B|M15|{"k": 2.0, "ker_on": true, "mode": "impulse", "sl_mode": "atr"}  n=529 expR=-0.1392 pf=0.781 t=-2.78 p=0.931
+[  52s] B|M15|{"k": 2.0, "ker_on": true, "mode": "impulse", "sl_mode": "struct n=606 expR=-0.083 pf=0.853 t=-1.82 p=0.743
+[  55s] B|M15|{"k": 2.0, "ker_on": false, "mode": "impulse", "sl_mode": "atr"} n=857 expR=-0.0524 pf=0.91 t=-1.31 p=0.347
+[  60s] B|M15|{"k": 2.0, "ker_on": false, "mode": "impulse", "sl_mode": "struc n=1012 expR=0.0085 pf=1.01 t=0.24 p=0.04
+[  61s] B|M15|{"ker_on": true, "mode": "squeeze", "sl_mode": "atr"}            n=103 expR=0.026 pf=1.041 t=0.22 p=0.208
+[  63s] B|M15|{"ker_on": false, "mode": "squeeze", "sl_mode": "atr"}           n=151 expR=0.0073 pf=1.006 t=0.07 p=0.228
+[  67s] A|H1|{"confirm": "1", "levels": "PD", "sl_mode": "struct"}             n=1271 expR=0.0096 pf=1.018 t=0.33 p=0.02
+[  73s] A|H1|{"confirm": "1", "levels": "PD", "sl_mode": "atr"}                n=1572 expR=-0.0416 pf=0.909 t=-1.6 p=0.267
+[  76s] A|H1|{"confirm": "2", "levels": "PD", "sl_mode": "struct"}             n=536 expR=-0.013 pf=0.972 t=-0.33 p=0.307
+[  78s] A|H1|{"confirm": "2", "levels": "PD", "sl_mode": "atr"}                n=646 expR=-0.0211 pf=0.944 t=-0.53 p=0.178
+[  85s] A|H1|{"confirm": "1", "levels": "ASIA", "sl_mode": "struct"}           n=1990 expR=-0.049 pf=0.911 t=-2.07 p=0.356
+[  95s] A|H1|{"confirm": "1", "levels": "ASIA", "sl_mode": "atr"}              n=2545 expR=-0.055 pf=0.899 t=-2.6 p=0.366
+[  98s] A|H1|{"confirm": "2", "levels": "ASIA", "sl_mode": "struct"}           n=863 expR=-0.0107 pf=0.974 t=-0.34 p=0.149
+[ 102s] A|H1|{"confirm": "2", "levels": "ASIA", "sl_mode": "atr"}              n=1069 expR=-0.0023 pf=0.988 t=-0.07 p=0.079
+[ 108s] B|H1|{"k": 1.5, "ker_on": true, "mode": "impulse", "sl_mode": "atr"}   n=1834 expR=-0.0437 pf=0.911 t=-1.78 p=0.366
+[ 114s] B|H1|{"k": 1.5, "ker_on": true, "mode": "impulse", "sl_mode": "struct" n=1628 expR=-0.0288 pf=0.933 t=-1.17 p=0.198
+[ 124s] B|H1|{"k": 1.5, "ker_on": false, "mode": "impulse", "sl_mode": "atr"}  n=3265 expR=-0.0433 pf=0.911 t=-2.33 p=0.228
+[ 133s] B|H1|{"k": 1.5, "ker_on": false, "mode": "impulse", "sl_mode": "struct n=2846 expR=-0.0415 pf=0.909 t=-2.21 p=0.366
+[ 137s] B|H1|{"k": 2.0, "ker_on": true, "mode": "impulse", "sl_mode": "atr"}   n=1245 expR=-0.0581 pf=0.889 t=-1.92 p=0.535
+[ 141s] B|H1|{"k": 2.0, "ker_on": true, "mode": "impulse", "sl_mode": "struct" n=1073 expR=-0.0139 pf=0.961 t=-0.47 p=0.168
+[ 147s] B|H1|{"k": 2.0, "ker_on": false, "mode": "impulse", "sl_mode": "atr"}  n=2094 expR=-0.0361 pf=0.927 t=-1.53 p=0.347
+[ 153s] B|H1|{"k": 2.0, "ker_on": false, "mode": "impulse", "sl_mode": "struct n=1819 expR=-0.0132 pf=0.963 t=-0.57 p=0.05
+[ 156s] B|H1|{"ker_on": true, "mode": "squeeze", "sl_mode": "atr"}             n=728 expR=-0.0563 pf=0.885 t=-1.4 p=0.525
+[ 160s] B|H1|{"ker_on": false, "mode": "squeeze", "sl_mode": "atr"}            n=959 expR=-0.0684 pf=0.865 t=-1.98 p=0.644
+family  tf  n_oos  expR_oos     t    pf  net_usd
+     A  H1   1019   -0.0425 -1.32 0.909  -616.89
+     A M15    261    0.0026  0.04 1.002     4.64
+     B  H1    845   -0.0344 -1.03 0.918  -441.70
+     B M15     67   -0.0570 -0.39 0.905   -57.73
+family  tf  test_year                                                             chosen  train_expR  n_test  expR_test  net_usd_test
+     A M15       2024              {"confirm": "1", "levels": "PD", "sl_mode": "struct"}     -0.0285      67     0.1392        133.27
+     A M15       2025              {"confirm": "1", "levels": "PD", "sl_mode": "struct"}      0.0157     111    -0.1497       -239.10
+     A M15       2026            {"confirm": "2", "levels": "ASIA", "sl_mode": "struct"}     -0.0180      83     0.0960        110.47
+     A  H1       2020            {"confirm": "2", "levels": "ASIA", "sl_mode": "struct"}      0.1005     101    -0.0320        -54.37
+     A  H1       2021            {"confirm": "2", "levels": "ASIA", "sl_mode": "struct"}      0.0570     113    -0.1812       -306.83
+     A  H1       2022            {"confirm": "1", "levels": "ASIA", "sl_mode": "struct"}      0.0046     297    -0.1204       -484.08
+     A  H1       2023              {"confirm": "1", "levels": "PD", "sl_mode": "struct"}     -0.0052     169     0.0331         86.02
+     A  H1       2024              {"confirm": "1", "levels": "PD", "sl_mode": "struct"}      0.0017     103     0.1358        195.31
+     A  H1       2025              {"confirm": "1", "levels": "PD", "sl_mode": "struct"}      0.0151     123    -0.1027       -185.44
+     A  H1       2026              {"confirm": "1", "levels": "PD", "sl_mode": "struct"}      0.0026     113     0.0818        132.50
+     B M15       2024              {"ker_on": true, "mode": "squeeze", "sl_mode": "atr"}      0.1806       7     0.3528         37.94
+     B M15       2025              {"ker_on": true, "mode": "squeeze", "sl_mode": "atr"}      0.2086      42    -0.0880        -57.55
+     B M15       2026              {"ker_on": true, "mode": "squeeze", "sl_mode": "atr"}      0.0620      18    -0.1440        -38.12
+     B  H1       2020 {"k": 2.0, "ker_on": true, "mode": "impulse", "sl_mode": "struct"}      0.0620     127     0.0231         36.10
+     B  H1       2021 {"k": 2.0, "ker_on": true, "mode": "impulse", "sl_mode": "struct"}      0.0481     129    -0.0419        -89.82
+     B  H1       2022 {"k": 2.0, "ker_on": true, "mode": "impulse", "sl_mode": "struct"}      0.0241     128     0.0315         53.46
+     B  H1       2023 {"k": 2.0, "ker_on": true, "mode": "impulse", "sl_mode": "struct"}      0.0256     131     0.0383         64.33
+     B  H1       2024 {"k": 2.0, "ker_on": true, "mode": "impulse", "sl_mode": "struct"}      0.0279     126    -0.1555       -289.47
+     B  H1       2025 {"k": 2.0, "ker_on": true, "mode": "impulse", "sl_mode": "struct"}      0.0013     117    -0.0758       -118.62
+     B  H1       2026 {"k": 2.0, "ker_on": true, "mode": "impulse", "sl_mode": "struct"}     -0.0079      87    -0.0824        -97.69
+{'n_configs': 36, 'cost_filter_R': 0.1, 'gates': {'frac_sl': 0.15, 'points': 30}, 'capital': 3000.0, 'risk': 0.5, 'elapsed_s': 161}

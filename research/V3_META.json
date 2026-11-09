@@ -1,0 +1,11 @@
+{
+ "n_configs": 36,
+ "cost_filter_R": 0.1,
+ "gates": {
+  "frac_sl": 0.15,
+  "points": 30
+ },
+ "capital": 3000.0,
+ "risk": 0.5,
+ "elapsed_s": 161
+}

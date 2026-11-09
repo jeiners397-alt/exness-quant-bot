@@ -1,0 +1,62 @@
+{
+ "n_bars_mt5": 2948,
+ "n_matched_to_python_series": 2948,
+ "atr14": {
+  "n": 2693,
+  "max_abs_diff": 4.285714355449499e-09,
+  "pct_within_tol": 100.0
+ },
+ "sma50_manual": {
+  "n": 2693,
+  "max_abs_diff": 2.220446049250313e-16,
+  "pct_within_tol": 100.0
+ },
+ "std50": {
+  "n": 2693,
+  "max_abs_diff": 4.999420849527425e-09,
+  "pct_within_tol": 100.0
+ },
+ "z50": {
+  "n": 2693,
+  "max_abs_diff": 4.999878874811792e-07,
+  "pct_within_tol": 100.0
+ },
+ "sma50_ima": {
+  "n": 2693,
+  "max_abs_diff": 2.220446049250313e-16
+ },
+ "adx14": {
+  "n": 2643,
+  "max_abs_diff_vs_formula_MT5_EMA": 3.215058024642339,
+  "median_abs_diff_vs_formula_MT5_EMA": 2.567345767090501e-07,
+  "max_abs_diff_vs_Wilder": 32.00247133999443,
+  "closest_implementation": "MT5_EMA"
+ },
+ "plus_di": {
+  "n": 2643,
+  "max_abs_diff_vs_formula_MT5_EMA": 4.99030027967251e-07,
+  "median_abs_diff_vs_formula_MT5_EMA": 2.499778872788738e-07,
+  "max_abs_diff_vs_Wilder": 18.467110144390134,
+  "closest_implementation": "MT5_EMA"
+ },
+ "minus_di": {
+  "n": 2643,
+  "max_abs_diff_vs_formula_MT5_EMA": 3.111111563682339,
+  "median_abs_diff_vs_formula_MT5_EMA": 2.5881580789643976e-07,
+  "max_abs_diff_vs_Wilder": 16.62321469926397,
+  "closest_implementation": "MT5_EMA"
+ },
+ "signals": {
+  "raw_z_signal_agree_pct": 97.28629579375848,
+  "n_raw_signals_mt5": 323,
+  "n_raw_signals_python": 403,
+  "n_after_adx_filter_python_mt5formula": 78,
+  "reasons": {
+   "NO_SIGNAL": 2370,
+   "ADX_FILTER": 295,
+   "IN_POSITION": 255,
+   "OPEN": 27,
+   "SKIP_SPREAD": 1
+  }
+ }
+}

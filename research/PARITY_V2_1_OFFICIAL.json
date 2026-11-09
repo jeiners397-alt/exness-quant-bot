@@ -1,0 +1,33 @@
+{
+ "n_mt5": 27,
+ "n_py": 27,
+ "matched": 27,
+ "only_mt5": 0,
+ "only_py": 0,
+ "dir_equal": 27,
+ "lots_equal": 27,
+ "entry_exact": 27,
+ "reason_equal": 27,
+ "exit_bucket_equal": 27,
+ "net_mt5": 27.32,
+ "net_py": 27.3,
+ "swap_mt5": -6.26,
+ "swap_py": -6.27,
+ "best_trade_share_of_net_pct": 90.5,
+ "best_trade": {
+  "entry": "2025-01-02 16:00:00",
+  "net": 24.72
+ },
+ "net_without_best": 2.6,
+ "net_without_best5": -73.4,
+ "by_year_net": {
+  "count": {
+   "2025": 14,
+   "2026": 13
+  },
+  "sum": {
+   "2025": 26.01,
+   "2026": 1.31
+  }
+ }
+}
