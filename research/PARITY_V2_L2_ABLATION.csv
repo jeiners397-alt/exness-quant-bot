@@ -1,0 +1,8 @@
+paso,n_py,n_mt5,matched,only_py,only_mt5,primera_divergencia,net_usd_py,swap_py,skipped
+"0 Python original (serie recortada a 2025, sin compuertas, ADX Wilder)",48,30,19,29,11,2025-01-02 00:00:00,82.15,-8.85,{}
+1 + warm-up previo a 2025 (serie completa),50,30,20,30,10,2025-01-01 20:00:00,96.48,-9.41,{}
+2 + compuertas spread 0.15xSL y 30 pts en la barra de entrada,50,30,20,30,10,2025-01-01 20:00:00,96.48,-9.41,{}
+3 + ADX con la formula MT5 (EMA 2/(n+1) de cocientes),27,30,25,2,5,2025-01-01 20:00:00,27.07,-6.61,{}
+4 + reentrada en la misma barra tras salida a la apertura,27,30,25,2,5,2025-01-01 20:00:00,27.07,-6.61,{}
+5 + max_bars calendario (comportamiento del EA V2),30,30,27,3,3,2025-01-01 20:00:00,-35.37,-5.94,{}
+6 + modelo de sesion: spread del primer tick (M15) en compuertas/cierres y mercado cerrado antes de las 22:00 (ver informe),30,30,30,0,0,ninguna,-32.83,-5.66,"{""spread_points"": 2}"

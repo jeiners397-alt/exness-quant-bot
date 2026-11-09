@@ -123,7 +123,10 @@ def test_short_pays_spread_on_exit():
 def test_swap_triple_wednesday():
     from remix_lab.backtest import _swap_nights
     assert _swap_nights(pd.Timestamp("2025-01-08 10:00"), pd.Timestamp("2025-01-09 10:00")) == 3   # mie->jue
-    assert _swap_nights(pd.Timestamp("2025-01-10 10:00"), pd.Timestamp("2025-01-13 10:00")) == 0   # vie->lun
+    # CORREGIDO (Fase paridad): el Tester cobra 1x la noche vie->sab y 0 sab/dom (evidencia: swap -0.11 en 2025-11-21 vie 16:00 -> lun)
+    assert _swap_nights(pd.Timestamp("2025-01-10 10:00"), pd.Timestamp("2025-01-13 10:00")) == 1   # vie->lun
+    assert _swap_nights(pd.Timestamp("2025-01-02 16:00"), pd.Timestamp("2025-01-05 22:06")) == 2   # jue 16:00 -> dom 22:06 (MT5: 2 noches, swap -0.22 con 0.02 lotes)
+    assert _swap_nights(pd.Timestamp("2025-11-04 20:00"), pd.Timestamp("2025-11-07 20:00")) == 5   # mar,mie x3,jue (MT5: -0.84 con 0.03 lotes)
 
 
 # ---------------- metricas / MC / holdout

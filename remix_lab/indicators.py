@@ -152,3 +152,32 @@ def session_vwap_proxy(df: pd.DataFrame, start_hour: int = 0) -> pd.Series:
     cum_v = v.groupby(day).cumsum()
     out = cum_pv / cum_v
     return out.where(t.dt.hour >= start_hour)
+
+
+def adx_mt5(df: pd.DataFrame, n: int = 14):
+    """ADX/+DI/-DI con la formula de la implementacion de referencia de MetaQuotes (MQL5\\Indicators\\Examples\\ADX.mq5, verificada en el terminal):
+    - DM y TR por barra: +DM/-DM exclusivos, TR = max(|H-L|,|H-Cprev|,|L-Cprev|); PD = 100*+DM/TR, ND = 100*-DM/TR (se suavizan los cocientes, NO DM y TR por separado);
+    - suavizado = EMA con alpha = 2/(n+1) (MovingAverages.mqh::ExponentialMA), NO el 1/n de Wilder; semilla 0 en la barra 0;
+    - ADX = EMA(n) de DX = 100*|PDI-NDI|/(PDI+NDI).
+    El iADX nativo de MT5 se asume equivalente; se contrasta con el export por barra del EA V2.1 (tests/compare_bar_diag)."""
+    h, l, c = (df[k].to_numpy(float) for k in ("high", "low", "close"))
+    m = len(df)
+    pr = 2.0 / (n + 1.0)
+    pdi = np.zeros(m); ndi = np.zeros(m); adx_ = np.zeros(m)
+    for i in range(1, m):
+        pos, neg = h[i] - h[i - 1], l[i - 1] - l[i]
+        pos, neg = max(pos, 0.0), max(neg, 0.0)
+        if pos > neg:
+            neg = 0.0
+        elif pos < neg:
+            pos = 0.0
+        else:
+            pos = neg = 0.0
+        tr = max(abs(h[i] - l[i]), abs(h[i] - c[i - 1]), abs(l[i] - c[i - 1]))
+        pd_, nd_ = (100.0 * pos / tr, 100.0 * neg / tr) if tr != 0.0 else (0.0, 0.0)
+        pdi[i] = pd_ * pr + pdi[i - 1] * (1 - pr)
+        ndi[i] = nd_ * pr + ndi[i - 1] * (1 - pr)
+        s = pdi[i] + ndi[i]
+        dx = 100.0 * abs((pdi[i] - ndi[i]) / s) if s != 0.0 else 0.0
+        adx_[i] = dx * pr + adx_[i - 1] * (1 - pr)
+    return pd.Series(adx_, index=df.index), pd.Series(pdi, index=df.index), pd.Series(ndi, index=df.index)

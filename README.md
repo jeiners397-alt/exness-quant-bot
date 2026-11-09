@@ -10,10 +10,15 @@ Laboratorio reproducible para investigar estrategias sobre **EURUSDm (Exness, cu
 - `mql5/sets/` configuraciones .set, `docs/V2_TESTER_INSTRUCTIONS.md` pasos para su Strategy Tester, `results/v2_expected/` operaciones esperadas de Python.
 - Informe: `docs/REMIX_EURUSD_V2_RESEARCH_REPORT.md`. **Ninguna estrategia está aprobada para producción.**
 
+## Paridad Python-MT5 (V2 / L2)
+
+- `docs/PARITY_V2_L2_REPORT.md`: de 19/48 a 30/30 entradas coincidentes con el Tester (errores: calentamiento, compuertas de spread, ADX MT5 con EMA 2/(n+1), bug de max_bars del EA V2, reapertura de fin de semana, swap del viernes). Diferencia residual de neto 0,56 USD.
+- `mql5/REMIX_EURUSD_V2_1.mq5` + `mql5/sets/V2_1_S05_L2_H4.set` (V2 se conserva intacto). `docs/V2_1_TESTER_INSTRUCTIONS.md`, `scripts/compare_bar_diag.py`.
+
 ## Contenido
 - `remix_lab/` motor de datos, indicadores, estrategias S01–S12, backtest (Bid/Ask, SL/TP, riesgo, costes), métricas, Monte Carlo, arnés de Fase D.
 - `mql5/REMIX_STRATEGY_RESEARCH_LAB_V1.mq5` EA de investigación (S01–S04), solo Strategy Tester.
-- `tests/` 69 pruebas (`python -m pytest -q`).
+- `tests/` 84 pruebas (`python -m pytest -q`).
 - `research/` catálogos (448 estrategias, 500 indicadores), diagnósticos de S01, resultados de Fases C y D.
 - `docs/` informes de fase (ver `REMIX_EURUSD_PHASE_D_REPORT.md`).
 - `scripts/` descarga de datos (solo lectura), compilación del EA, ejecuciones.

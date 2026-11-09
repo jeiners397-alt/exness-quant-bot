@@ -1,0 +1,106 @@
+{
+ "ablation": [
+  {
+   "paso": "0 Python original (serie recortada a 2025, sin compuertas, ADX Wilder)",
+   "n_py": 48,
+   "n_mt5": 30,
+   "matched": 19,
+   "only_py": 29,
+   "only_mt5": 11,
+   "primera_divergencia": "2025-01-02 00:00:00",
+   "net_usd_py": 82.15,
+   "swap_py": -8.85,
+   "skipped": "{}"
+  },
+  {
+   "paso": "1 + warm-up previo a 2025 (serie completa)",
+   "n_py": 50,
+   "n_mt5": 30,
+   "matched": 20,
+   "only_py": 30,
+   "only_mt5": 10,
+   "primera_divergencia": "2025-01-01 20:00:00",
+   "net_usd_py": 96.48,
+   "swap_py": -9.41,
+   "skipped": "{}"
+  },
+  {
+   "paso": "2 + compuertas spread 0.15xSL y 30 pts en la barra de entrada",
+   "n_py": 50,
+   "n_mt5": 30,
+   "matched": 20,
+   "only_py": 30,
+   "only_mt5": 10,
+   "primera_divergencia": "2025-01-01 20:00:00",
+   "net_usd_py": 96.48,
+   "swap_py": -9.41,
+   "skipped": "{}"
+  },
+  {
+   "paso": "3 + ADX con la formula MT5 (EMA 2/(n+1) de cocientes)",
+   "n_py": 27,
+   "n_mt5": 30,
+   "matched": 25,
+   "only_py": 2,
+   "only_mt5": 5,
+   "primera_divergencia": "2025-01-01 20:00:00",
+   "net_usd_py": 27.07,
+   "swap_py": -6.61,
+   "skipped": "{}"
+  },
+  {
+   "paso": "4 + reentrada en la misma barra tras salida a la apertura",
+   "n_py": 27,
+   "n_mt5": 30,
+   "matched": 25,
+   "only_py": 2,
+   "only_mt5": 5,
+   "primera_divergencia": "2025-01-01 20:00:00",
+   "net_usd_py": 27.07,
+   "swap_py": -6.61,
+   "skipped": "{}"
+  },
+  {
+   "paso": "5 + max_bars calendario (comportamiento del EA V2)",
+   "n_py": 30,
+   "n_mt5": 30,
+   "matched": 27,
+   "only_py": 3,
+   "only_mt5": 3,
+   "primera_divergencia": "2025-01-01 20:00:00",
+   "net_usd_py": -35.37,
+   "swap_py": -5.94,
+   "skipped": "{}"
+  },
+  {
+   "paso": "6 + modelo de sesion: spread del primer tick (M15) en compuertas/cierres y mercado cerrado antes de las 22:00 (ver informe)",
+   "n_py": 30,
+   "n_mt5": 30,
+   "matched": 30,
+   "only_py": 0,
+   "only_mt5": 0,
+   "primera_divergencia": "ninguna",
+   "net_usd_py": -32.83,
+   "swap_py": -5.66,
+   "skipped": "{\"spread_points\": 2}"
+  }
+ ],
+ "matched_trades_comparison": {
+  "n_matched": 30,
+  "dir_equal": 30,
+  "entry_price_diff_pts_median": 0.0,
+  "entry_price_exact": 30,
+  "sl_dist_diff_pts_median": 0.29,
+  "sl_dist_exact_1pt": 30,
+  "tp_dist_diff_pts_median": 0.28,
+  "lots_equal": 30,
+  "reason_equal": 30,
+  "exit_time_equal": 30,
+  "net_mt5_matched": -33.39,
+  "net_py_matched": -32.83,
+  "swap_mt5_matched": -5.65,
+  "swap_py_matched": -5.66,
+  "net_mt5_all": -33.39,
+  "swap_mt5_all": -5.65
+ }
+}

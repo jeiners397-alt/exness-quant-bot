@@ -29,6 +29,10 @@ Archivo de prueba creado por Claude (puede borrarse): `_CLAUDE_WRITE_TEST_2026-1
 - **No se subió nada de la Fase D a Drive** (el conector solo crea archivos con contenido inline; sincronización con Drive para escritorio pendiente). No se declara respaldo.
 - Hash del pre-registro prospectivo: ver `research/PROSPECTIVE_FREEZE_2026-11-09.json` (SHA-256 en `BACKUP_QUEUE.csv`); su integridad depende de no modificarlo.
 
+## Actualización Fase E / V2 (2026-11-09)
+- **GitHub (no es respaldo en Drive):** rama `remix-eurusd-v2` del repositorio público `jeiners397-alt/exness-quant-bot`, commit `3ef3a6a` (sobre `89c2920`); rama base `remix-eurusd-v2-base` (=89c2920) para el pull request. `main` (d82ab95) y `remix-forex-v1-fase0` (91fdef8) intactas. Auditoría de secretos previa al commit: 0 hallazgos; excluidos datos pesados, ticks, `.xlsx`, `.ex5`, `.mcp*`, logs.
+- **Drive:** sin cambios; nada de la Fase E subido. Cola: 318 artefactos (4 verificados, 152 pendientes, 162 datasets grandes solo hash).
+
 ## Pendientes (ver `BACKUP_QUEUE.csv`)
 Todo lo demás: código Python/MQL5, pruebas, configuración, catálogos CSV, manifiesto, resultados y datos. Causa: límite del conector descrito arriba. Los datasets (`data/raw/*.csv`, ~20 MB) quedan como `PENDING_DATASET_GRANDE`: solo hash y manifiesto, sin subida automática.
 

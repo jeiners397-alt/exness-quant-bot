@@ -1,0 +1,19 @@
+{
+ "n": 27,
+ "wr": 51.9,
+ "pf": 1.179,
+ "exp_R": 0.0842,
+ "net_usd": 27.3,
+ "maxdd_pct": 1.66,
+ "recovery": 0.545,
+ "payoff": 1.098,
+ "cost_R": 0.0344,
+ "gross_R": 0.1186,
+ "skipped": {
+  "spread_points": 1
+ },
+ "semantics": "V2.1: max_bars en barras reales; gates 0.15xSL y 30 pts; ADX MT5; reentrada; modelo de sesion",
+ "period": "2025-01-01..2026-10-31",
+ "capital": 3000,
+ "risk_pct": 0.5
+}

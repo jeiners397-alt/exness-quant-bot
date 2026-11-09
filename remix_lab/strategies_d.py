@@ -1,4 +1,4 @@
-"""Fase D — S05..S12 (EURUSDm) e inversion de senales. Todas las senales se calculan al CIERRE de la barra i y se ejecutan en la apertura de i+1
+﻿"""Fase D — S05..S12 (EURUSDm) e inversion de senales. Todas las senales se calculan al CIERRE de la barra i y se ejecutan en la apertura de i+1
 (motor `run_backtest`). Parametros canonicos fijados a priori (manual); ninguno optimizado. max_spread_frac=1.0 por defecto en las nuevas:
 el filtro de coste ex-ante se aplica aparte (harness.cost_filter) para poder medirlo.
 """
@@ -55,7 +55,7 @@ def _a(df, n=14):
 
 
 # ------------------------------------------------------------------ S05 Z-score
-S05_DEF = dict(sma_n=50, z_th=2.0, trend_filter=False, atr_n=14, sl_atr=2.0, max_bars=48, adx_max=25.0)
+S05_DEF = dict(sma_n=50, z_th=2.0, trend_filter=False, atr_n=14, sl_atr=2.0, max_bars=48, adx_max=25.0, adx_impl="mt5")   # adx_impl: "mt5" (formula del iADX de referencia) | "wilder" (Fase D, reproduce resultados antiguos)
 
 
 def gen_s05(df, p):
@@ -64,7 +64,7 @@ def gen_s05(df, p):
     z = ind.zscore(c, p["sma_n"]).to_numpy(); m = ind.sma(c, p["sma_n"]).to_numpy()
     d = np.where(z <= -p["z_th"], 1, np.where(z >= p["z_th"], -1, 0))
     if p["trend_filter"]:                       # filtro "de tendencia": solo operar reversion cuando NO hay tendencia fuerte (ADX < adx_max)
-        a, _, _ = ind.adx(df, 14); d = np.where(a.to_numpy() < p["adx_max"], d, 0)
+        a, _, _ = (ind.adx_mt5 if p["adx_impl"] == "mt5" else ind.adx)(df, 14); d = np.where(a.to_numpy() < p["adx_max"], d, 0)
     atr_ = _a(df, p["atr_n"])
     return _sig(df, d, atr_ * p["sl_atr"], np.abs(m - c.to_numpy()), max_bars=p["max_bars"])   # TP = retorno a la media (distancia al cierre de senal)
 
@@ -115,7 +115,7 @@ def gen_s07(df, p):
 
 
 # ------------------------------------------------------------------ S08 Keltner reversion
-S08_DEF = dict(ema_n=20, k=2.0, atr_n=14, sl_atr=1.5, confirm=False, regime=False, adx_max=25.0, max_bars=24)
+S08_DEF = dict(ema_n=20, k=2.0, atr_n=14, sl_atr=1.5, confirm=False, regime=False, adx_max=25.0, max_bars=24, adx_impl="mt5")
 
 
 def gen_s08(df, p):
@@ -129,7 +129,7 @@ def gen_s08(df, p):
         long_, short_ = cc < lo, cc > up
     d = np.where(long_, 1, np.where(short_, -1, 0))
     if p["regime"]:
-        a, _, _ = ind.adx(df, 14); d = np.where(a.to_numpy() < p["adx_max"], d, 0)
+        a, _, _ = (ind.adx_mt5 if p["adx_impl"] == "mt5" else ind.adx)(df, 14); d = np.where(a.to_numpy() < p["adx_max"], d, 0)
     return _sig(df, d, atr_s.to_numpy() * p["sl_atr"], np.abs(mid.to_numpy() - cc), max_bars=p["max_bars"])
 
 
@@ -222,3 +222,4 @@ def transform(sig: Signals, mode: str, geometry: str = "mirror") -> Signals:
     # sin exit flags ni max_bars en inversiones de S02-S04 (no los usan); para otras se anulan las reglas de salida por indicador
     return Signals(nd, sl, tp, sig.time_exit_hour, sig.max_bars, None if mode in ("inv", "long_inv", "short_inv") else sig.exit_long,
                    None if mode in ("inv", "long_inv", "short_inv") else sig.exit_short)
+

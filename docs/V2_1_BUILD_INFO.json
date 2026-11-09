@@ -1,0 +1,12 @@
+{
+ "ea": "mql5/REMIX_EURUSD_V2_1.mq5",
+ "sha256_source": "9a5be44f1d6b081c454f338298a3d28468720828f97ee47c99a5613878715df6",
+ "compile": {
+  "errors": 0,
+  "warnings": 0
+ },
+ "v2_source_untouched_sha256": "9908279f438ba7848e2f9503ba9244d49bb190ce0d9c27c212482f2b3056dc94",
+ "v1_ea_untouched_sha256": "1c327de0d8f1d8e70c47fde2c2d4ed85e023e2d91cf5f03085bbd7cba46c42d7",
+ "set": "mql5/sets/V2_1_S05_L2_H4.set",
+ "date": "2026-11-09"
+}
