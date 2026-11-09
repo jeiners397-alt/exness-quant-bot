@@ -1,0 +1,45 @@
+{
+ "symbol": "XAUUSDm",
+ "events": 1982,
+ "admitted": 1697,
+ "admitted_market": 1269,
+ "admitted_pending": 428,
+ "rejected": 219,
+ "rejected_by_reason": {
+  "MARGIN_BUDGET": 132,
+  "RISK_LIMIT": 87
+ },
+ "max_margin_after_over_budget": 0.9995130227638596,
+ "n_admitted_exceeding_budget": 0,
+ "max_margin_pct_of_equity_at_log": 4.9978,
+ "lots_min": 0.01,
+ "lots_max": 0.07,
+ "lots_distinct": [
+  0.01,
+  0.02,
+  0.03,
+  0.04,
+  0.05,
+  0.06,
+  0.07
+ ],
+ "broker_volmin": 0.01,
+ "broker_volstep": 0.01,
+ "lots_below_volmin": 0,
+ "lots_off_step": 0,
+ "max_simultaneous_positions": 10,
+ "max_pending": 11,
+ "risk_pct_max": 0.5001,
+ "risk_pct_mean": 0.3804030642309958,
+ "sl_modes": {
+  "ATR": 588,
+  "REGIME": 575,
+  "STRUCT": 534
+ },
+ "sl_dist_by_mode": {
+  "ATR": 6.391762,
+  "REGIME": 6.50591,
+  "STRUCT": 6.519565
+ },
+ "rejected_while_budget_available": 0
+}

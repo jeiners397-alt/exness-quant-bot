@@ -1,0 +1,13 @@
+{
+ "trades_mt5": 237,
+ "trades_py": 236,
+ "matched_entries": 236,
+ "only_mt5": 1,
+ "only_py": 0,
+ "same_lots": 229,
+ "same_exit_time": 82,
+ "entry_price_maxdiff": 2.220446049250313e-16,
+ "net_mt5": -55.71,
+ "net_py": -35.69,
+ "net_diff_matched": -6.9
+}

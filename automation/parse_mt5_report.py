@@ -37,6 +37,21 @@ LABELS = {   # clave -> etiquetas (EN / ES) tal como aparecen en el informe
 }
 
 
+ES = {   # etiquetas del informe en español de Exness (build 6249); van primero para tener prioridad
+    "total_net_profit": ["Beneficio Neto"], "gross_profit": ["Beneficio Bruto"], "gross_loss": ["Pérdidas Brutas"],
+    "profit_factor": ["Factor de Beneficio"], "expected_payoff": ["Beneficio Esperado"], "recovery_factor": ["Factor de Recuperación"],
+    "total_trades": ["Total de operaciones ejecutadas"], "total_deals": ["Total de transacciones"], "margin_level": ["Nivel de margen"],
+    "short_trades_won": ["Posiciones cortas (% rentables)"], "long_trades_won": ["Posiciones largas (% rentables)"],
+    "profit_trades": ["Posiciones rentables (% del total)"], "loss_trades": ["Posiciones no rentables (% del total)"],
+    "largest_profit": ["La transacción rentable"], "largest_loss": ["La transacción no rentable"],
+    "avg_profit": ["Promedio de transacción rentable"], "avg_loss": ["Promedio de transacción no rentable"],
+    "max_consec_wins": ["El número máximo de ganancias consecutivas ($)"], "max_consec_losses": ["El número máximo de pérdidas consecutivas ($)"],
+}
+for _k, _v in ES.items():
+    LABELS[_k] = _v + LABELS.get(_k, [])
+LABELS["total_trades"] = [l for l in LABELS["total_trades"] if l != "Total de transacciones"]
+
+
 def read_report(path: Path) -> str:
     b = Path(path).read_bytes()
     if b[:2] in (b"\xff\xfe", b"\xfe\xff"):
@@ -99,7 +114,7 @@ def parse_stats(txt: str) -> dict:
 def parse_deals(txt: str) -> list[dict]:
     """Tabla de transacciones (Deals). Devuelve filas con las columnas del informe."""
     rows = [_cells(r) for r in re.findall(r"<tr[^>]*>(.*?)</tr>", txt, re.S | re.I)]
-    hdr_i = next((i for i, c in enumerate(rows) if c and c[0] in ("Time", "Hora", "Fecha") and any(x in c for x in ("Deal", "Trato", "Transacción", "Transaccion"))), None)
+    hdr_i = next((i for i, c in enumerate(rows) if c and c[0] in ("Time", "Hora", "Fecha", "Fecha/Hora") and any(x in c for x in ("Deal", "Trato", "Transacción", "Transaccion"))), None)
     if hdr_i is None:
         return []
     hdr = rows[hdr_i]
@@ -127,7 +142,7 @@ def pair_trades(deals: list[dict]) -> list[dict]:
             open_.setdefault("q", []).append(d)
         elif direction in ("out", "salida") and open_.get("q"):
             e = open_["q"].pop(0)
-            out.append(dict(open_time=g(e, "time", "hora"), close_time=g(d, "time", "hora"), symbol=g(d, "symbol", "símbolo", "simbolo"),
+            out.append(dict(open_time=g(e, "time", "hora", "fecha/hora"), close_time=g(d, "time", "hora", "fecha/hora"), symbol=g(d, "symbol", "símbolo", "simbolo"),
                             type=g(e, "type", "tipo"), lots=_num(g(e, "volume", "volumen")), price_open=_num(g(e, "price", "precio")),
                             price_close=_num(g(d, "price", "precio")), commission=_num(g(d, "commission", "comisión", "comision")),
                             swap=_num(g(d, "swap")), profit=_num(g(d, "profit", "beneficio")), balance=_num(g(d, "balance", "saldo")),

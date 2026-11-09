@@ -1,0 +1,50 @@
+{
+ "symbol": "US30m",
+ "events": 1977,
+ "admitted": 1027,
+ "admitted_market": 779,
+ "admitted_pending": 248,
+ "rejected": 908,
+ "rejected_by_reason": {
+  "MARGIN_BUDGET": 900,
+  "RISK_LIMIT": 8
+ },
+ "max_margin_after_over_budget": 0.9999324321921486,
+ "n_admitted_exceeding_budget": 0,
+ "max_margin_pct_of_equity_at_log": 5.0018,
+ "lots_min": 0.05,
+ "lots_max": 0.84,
+ "lots_distinct": [
+  0.05,
+  0.06,
+  0.07,
+  0.08,
+  0.09,
+  0.1,
+  0.11,
+  0.12,
+  0.13,
+  0.14,
+  0.15,
+  0.16
+ ],
+ "broker_volmin": 0.05,
+ "broker_volstep": 0.01,
+ "lots_below_volmin": 0,
+ "lots_off_step": 0,
+ "max_simultaneous_positions": 10,
+ "max_pending": 13,
+ "risk_pct_max": 0.5002,
+ "risk_pct_mean": 0.41403427458617337,
+ "sl_modes": {
+  "ATR": 354,
+  "REGIME": 338,
+  "STRUCT": 335
+ },
+ "sl_dist_by_mode": {
+  "ATR": 71.642373,
+  "REGIME": 77.636229,
+  "STRUCT": 86.149128
+ },
+ "rejected_while_budget_available": 0
+}
