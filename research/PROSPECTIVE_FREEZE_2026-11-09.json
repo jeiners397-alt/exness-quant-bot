@@ -1,0 +1,59 @@
+{
+ "fecha_congelacion": "2026-11-09",
+ "evaluacion_desde": "2026-11-01 (datos posteriores a oct-2026; no han intervenido en ninguna seleccion)",
+ "regla": "UNA sola evaluacion por configuracion cuando haya N minimo; prohibido reoptimizar con esos datos; los parametros no pueden cambiar tras este archivo.",
+ "criterio_exito_prospectivo": {
+  "n_min": 100,
+  "exp_R_neta_mayor_0": true,
+  "pf_min": 1.15,
+  "ic95_bloques_inferior_mayor_0": true,
+  "coste_stress_exp_R_mayor_0": true
+ },
+ "nota_tamano": "Las pistas H4 generan ~14-51 operaciones/ano: alcanzar n=100 exigiria 3-5 anos de datos nuevos con un solo simbolo; evaluar antes solo como informativo.",
+ "configuraciones": {
+  "L1": {
+   "tf": "H1",
+   "base": "S03 canonico (EMA20/50/200, ADX14>25, SL1.5ATR, TP3ATR)",
+   "transform": "long_inv",
+   "geometry": "mirror"
+  },
+  "L2": {
+   "tf": "H4",
+   "strategy": "S05",
+   "params": {
+    "sma_n": 50,
+    "z_th": 2.0,
+    "trend_filter": true,
+    "adx_max": 25.0,
+    "atr_n": 14,
+    "sl_atr": 2.0,
+    "max_bars": 18
+   }
+  },
+  "L3": {
+   "tf": "H4",
+   "strategy": "S06",
+   "params": {
+    "rsi_lo": 5,
+    "rsi_hi": 95,
+    "sma_n": 100,
+    "sl_atr": 2.0,
+    "tp_atr": 5.0,
+    "max_bars": 20
+   }
+  },
+  "L4": {
+   "tf": "H4",
+   "strategy": "S08",
+   "params": {
+    "ema_n": 20,
+    "k": 2.0,
+    "sl_atr": 1.5,
+    "confirm": false,
+    "regime": true,
+    "adx_max": 25.0,
+    "max_bars": 12
+   }
+  }
+ }
+}

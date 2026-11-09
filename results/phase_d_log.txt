@@ -1,0 +1,214 @@
+datos: {"H1_excluded_before_2018": {"bars": 6074, "reason": "cobertura incompleta (2014-2016 ~300 barras/ano) y spread=0 en 2014-2017: datos invalidos"}, "H1_2018_2024": {"bars": 43539, "spread_zero_replaced_by_median": 16}, "M15_pre2025": {"bars": 53880, "spread_zero_replaced_by_median": 4}} {'EXPL': {'M15': 45594, 'H1': 11400, 'H4': 2880, 'D1': 475}, 'RETRO': {'M15': 53880, 'H1': 43539, 'H4': 11009, 'D1': 1816}}
+[   16s] INV S02 EXPL M15 A_orig: n=1799 expR=-0.0792 pf=0.872 t=-2.77 ctrl_p=0.168
+[   34s] INV S02 EXPL M15 B_inv: n=1931 expR=-0.0744 pf=0.89 t=-2.69 ctrl_p=0.198
+[   52s] INV S02 EXPL M15 B_inv_swap: n=1825 expR=-0.0513 pf=0.872 t=-2.64 ctrl_p=0.178
+[   64s] INV S02 EXPL M15 C_long: n=1045 expR=-0.0852 pf=0.872 t=-2.26 ctrl_p=0.069
+[   78s] INV S02 EXPL M15 D_short: n=991 expR=-0.0816 pf=0.854 t=-2.12 ctrl_p=0.614
+[   92s] INV S02 EXPL M15 E_long_inv: n=1181 expR=-0.0926 pf=0.838 t=-2.64 ctrl_p=0.703
+[  107s] INV S02 EXPL M15 E_long_inv_swap: n=1057 expR=-0.045 pf=0.883 t=-1.77 ctrl_p=0.337
+[  120s] INV S02 EXPL M15 F_short_inv: n=1168 expR=-0.0784 pf=0.893 t=-2.19 ctrl_p=0.04
+[  133s] INV S02 EXPL M15 F_short_inv_swap: n=1025 expR=-0.0493 pf=0.882 t=-1.89 ctrl_p=0.01
+[  138s] INV S02 EXPL H1 A_orig: n=490 expR=-0.0765 pf=0.883 t=-1.39 ctrl_p=0.535
+[  143s] INV S02 EXPL H1 B_inv: n=538 expR=-0.0259 pf=0.949 t=-0.49 ctrl_p=0.277
+[  149s] INV S02 EXPL H1 B_inv_swap: n=479 expR=0.0072 pf=1.021 t=0.19 ctrl_p=0.109
+[  153s] INV S02 EXPL H1 C_long: n=256 expR=-0.0412 pf=0.933 t=-0.53 ctrl_p=0.149
+[  157s] INV S02 EXPL H1 D_short: n=269 expR=-0.0889 pf=0.879 t=-1.21 ctrl_p=0.901
+[  161s] INV S02 EXPL H1 E_long_inv: n=303 expR=-0.0886 pf=0.858 t=-1.28 ctrl_p=0.851
+[  166s] INV S02 EXPL H1 E_long_inv_swap: n=250 expR=-0.0405 pf=0.9 t=-0.78 ctrl_p=0.812
+[  169s] INV S02 EXPL H1 F_short_inv: n=301 expR=0.0181 pf=1.022 t=0.26 ctrl_p=0.03
+[  173s] INV S02 EXPL H1 F_short_inv_swap: n=270 expR=0.0195 pf=1.026 t=0.39 ctrl_p=0.02
+[  178s] INV S03 EXPL M15 A_orig: n=345 expR=-0.1057 pf=0.85 t=-1.4 ctrl_p=0.436
+[  183s] INV S03 EXPL M15 B_inv: n=341 expR=-0.1348 pf=0.804 t=-1.8 ctrl_p=0.673
+[  187s] INV S03 EXPL M15 B_inv_swap: n=335 expR=-0.0436 pf=0.878 t=-1.08 ctrl_p=0.396
+[  188s] INV S03 EXPL M15 C_long: n=172 expR=-0.1132 pf=0.848 t=-1.03 ctrl_p=0.317
+[  189s] INV S03 EXPL M15 D_short: n=173 expR=-0.0983 pf=0.855 t=-0.94 ctrl_p=0.663
+[  190s] INV S03 EXPL M15 E_long_inv: n=167 expR=-0.1557 pf=0.774 t=-1.49 ctrl_p=0.911
+[  191s] INV S03 EXPL M15 E_long_inv_swap: n=162 expR=-0.0556 pf=0.838 t=-0.97 ctrl_p=0.624
+[  194s] INV S03 EXPL M15 F_short_inv: n=174 expR=-0.1147 pf=0.835 t=-1.07 ctrl_p=0.277
+[  197s] INV S03 EXPL M15 F_short_inv_swap: n=173 expR=-0.0324 pf=0.899 t=-0.57 ctrl_p=0.099
+[  199s] INV S03 EXPL H1 A_orig: n=101 expR=-0.2048 pf=0.712 t=-1.55 ctrl_p=0.851
+[  201s] INV S03 EXPL H1 B_inv: n=103 expR=0.0989 pf=1.156 t=0.69 ctrl_p=0.119
+[  202s] INV S03 EXPL H1 B_inv_swap: n=102 expR=0.0269 pf=1.093 t=0.39 ctrl_p=0.158
+[  204s] INV S03 EXPL H1 C_long: n=53 expR=-0.1639 pf=0.741 t=-0.88 ctrl_p=0.663
+[  205s] INV S03 EXPL H1 D_short: n=48 expR=-0.25 pf=0.668 t=-1.32 ctrl_p=0.941
+[  206s] INV S03 EXPL H1 E_long_inv: n=53 expR=0.2453 pf=1.43 t=1.2 ctrl_p=0.139
+[  208s] INV S03 EXPL H1 E_long_inv_swap: n=54 expR=0.0833 pf=1.372 t=0.9 ctrl_p=0.139
+[  209s] INV S03 EXPL H1 F_short_inv: n=50 expR=-0.0563 pf=0.901 t=-0.28 ctrl_p=0.307
+[  210s] INV S03 EXPL H1 F_short_inv_swap: n=48 expR=-0.0365 pf=0.905 t=-0.35 ctrl_p=0.366
+[  226s] INV S04 EXPL M15 A_orig: n=1177 expR=-0.105 pf=0.837 t=-2.98 ctrl_p=0.208
+[  242s] INV S04 EXPL M15 B_inv: n=1287 expR=-0.0528 pf=0.915 t=-1.56 ctrl_p=0.04
+[  257s] INV S04 EXPL M15 B_inv_swap: n=1175 expR=-0.0464 pf=0.892 t=-1.92 ctrl_p=0.099
+[  266s] INV S04 EXPL M15 C_long: n=649 expR=-0.1631 pf=0.767 t=-3.46 ctrl_p=0.673
+[  277s] INV S04 EXPL M15 D_short: n=606 expR=-0.0599 pf=0.894 t=-1.22 ctrl_p=0.198
+[  288s] INV S04 EXPL M15 E_long_inv: n=705 expR=-0.0193 pf=0.963 t=-0.42 ctrl_p=0.059
+[  299s] INV S04 EXPL M15 E_long_inv_swap: n=648 expR=-0.0021 pf=0.992 t=-0.06 ctrl_p=0.04
+[  307s] INV S04 EXPL M15 F_short_inv: n=701 expR=-0.1052 pf=0.845 t=-2.32 ctrl_p=0.089
+[  315s] INV S04 EXPL M15 F_short_inv_swap: n=618 expR=-0.0798 pf=0.823 t=-2.39 ctrl_p=0.188
+[  320s] INV S04 EXPL H1 A_orig: n=336 expR=-0.0637 pf=0.904 t=-0.95 ctrl_p=0.535
+[  325s] INV S04 EXPL H1 B_inv: n=339 expR=0.0316 pf=1.053 t=0.47 ctrl_p=0.069
+[  331s] INV S04 EXPL H1 B_inv_swap: n=335 expR=-0.0598 pf=0.869 t=-1.32 ctrl_p=0.713
+[  334s] INV S04 EXPL H1 C_long: n=169 expR=-0.0407 pf=0.933 t=-0.42 ctrl_p=0.168
+[  338s] INV S04 EXPL H1 D_short: n=189 expR=-0.0769 pf=0.874 t=-0.87 ctrl_p=0.792
+[  342s] INV S04 EXPL H1 E_long_inv: n=184 expR=-0.0761 pf=0.863 t=-0.85 ctrl_p=0.802
+[  345s] INV S04 EXPL H1 E_long_inv_swap: n=169 expR=-0.0828 pf=0.809 t=-1.3 ctrl_p=0.931
+[  349s] INV S04 EXPL H1 F_short_inv: n=206 expR=0.0656 pf=1.098 t=0.76 ctrl_p=0.02
+[  352s] INV S04 EXPL H1 F_short_inv_swap: n=190 expR=-0.0449 pf=0.896 t=-0.75 ctrl_p=0.327
+[  372s] INV S02 RETRO M15 A_orig: n=1888 expR=-0.1199 pf=0.807 t=-4.34 ctrl_p=0.574
+[  393s] INV S02 RETRO M15 B_inv: n=2072 expR=-0.0643 pf=0.904 t=-2.41 ctrl_p=0.05
+[  413s] INV S02 RETRO M15 B_inv_swap: n=1914 expR=-0.05 pf=0.877 t=-2.65 ctrl_p=0.079
+[  427s] INV S02 RETRO M15 C_long: n=1155 expR=-0.129 pf=0.809 t=-3.66 ctrl_p=0.861
+[  443s] INV S02 RETRO M15 D_short: n=1036 expR=-0.1101 pf=0.805 t=-2.95 ctrl_p=0.238
+[  461s] INV S02 RETRO M15 E_long_inv: n=1353 expR=-0.0503 pf=0.915 t=-1.52 ctrl_p=0.01
+[  480s] INV S02 RETRO M15 E_long_inv_swap: n=1154 expR=-0.0612 pf=0.85 t=-2.52 ctrl_p=0.02
+[  495s] INV S02 RETRO M15 F_short_inv: n=1193 expR=-0.0802 pf=0.874 t=-2.29 ctrl_p=0.248
+[  509s] INV S02 RETRO M15 F_short_inv_swap: n=1057 expR=-0.0369 pf=0.903 t=-1.46 ctrl_p=0.119
+[  531s] INV S02 RETRO H1 A_orig: n=1984 expR=-0.0382 pf=0.933 t=-1.39 ctrl_p=0.248
+[  553s] INV S02 RETRO H1 B_inv: n=2260 expR=-0.057 pf=0.876 t=-2.23 ctrl_p=0.535
+[  574s] INV S02 RETRO H1 B_inv_swap: n=1988 expR=-0.044 pf=0.891 t=-2.38 ctrl_p=0.604
+[  589s] INV S02 RETRO H1 C_long: n=1024 expR=-0.0657 pf=0.899 t=-1.73 ctrl_p=0.277
+[  605s] INV S02 RETRO H1 D_short: n=1080 expR=-0.0298 pf=0.953 t=-0.8 ctrl_p=0.386
+[  621s] INV S02 RETRO H1 E_long_inv: n=1244 expR=-0.0014 pf=0.987 t=-0.04 ctrl_p=0.119
+[  637s] INV S02 RETRO H1 E_long_inv_swap: n=1045 expR=-0.0271 pf=0.915 t=-1.07 ctrl_p=0.574
+[  652s] INV S02 RETRO H1 F_short_inv: n=1267 expR=-0.0962 pf=0.811 t=-2.84 ctrl_p=0.653
+[  666s] INV S02 RETRO H1 F_short_inv_swap: n=1076 expR=-0.0411 pf=0.895 t=-1.63 ctrl_p=0.208
+[  670s] INV S03 RETRO M15 A_orig: n=330 expR=-0.2364 pf=0.683 t=-3.24 ctrl_p=0.911
+[  675s] INV S03 RETRO M15 B_inv: n=329 expR=0.0181 pf=1.018 t=0.23 ctrl_p=0.03
+[  680s] INV S03 RETRO M15 B_inv_swap: n=328 expR=0.0045 pf=1.004 t=0.12 ctrl_p=0.059
+[  682s] INV S03 RETRO M15 C_long: n=152 expR=-0.0232 pf=0.965 t=-0.2 ctrl_p=0.307
+[  685s] INV S03 RETRO M15 D_short: n=179 expR=-0.4218 pf=0.473 t=-4.63 ctrl_p=1.0
+[  688s] INV S03 RETRO M15 E_long_inv: n=155 expR=-0.0396 pf=0.933 t=-0.35 ctrl_p=0.149
+[  691s] INV S03 RETRO M15 E_long_inv_swap: n=153 expR=-0.0886 pf=0.768 t=-1.49 ctrl_p=0.564
+[  694s] INV S03 RETRO M15 F_short_inv: n=175 expR=0.0805 pf=1.114 t=0.73 ctrl_p=0.01
+[  697s] INV S03 RETRO M15 F_short_inv_swap: n=176 expR=0.0883 pf=1.31 t=1.76 ctrl_p=0.02
+[  703s] INV S03 RETRO H1 A_orig: n=380 expR=-0.1465 pf=0.783 t=-2.1 ctrl_p=0.832
+[  709s] INV S03 RETRO H1 B_inv: n=385 expR=0.0055 pf=0.996 t=0.08 ctrl_p=0.069
+[  714s] INV S03 RETRO H1 B_inv_swap: n=375 expR=0.0 pf=0.984 t=0.0 ctrl_p=0.089
+[  717s] INV S03 RETRO H1 C_long: n=149 expR=-0.1521 pf=0.775 t=-1.36 ctrl_p=0.703
+[  721s] INV S03 RETRO H1 D_short: n=231 expR=-0.1429 pf=0.786 t=-1.6 ctrl_p=0.851
+[  724s] INV S03 RETRO H1 E_long_inv: n=148 expR=0.1136 pf=1.156 t=0.95 ctrl_p=0.089
+[  726s] INV S03 RETRO H1 E_long_inv_swap: n=147 expR=-0.0002 pf=1.022 t=-0.0 ctrl_p=0.327
+[  730s] INV S03 RETRO H1 F_short_inv: n=237 expR=-0.062 pf=0.903 t=-0.68 ctrl_p=0.248
+[  733s] INV S03 RETRO H1 F_short_inv_swap: n=228 expR=0.0002 pf=0.977 t=0.0 ctrl_p=0.069
+[  748s] INV S04 RETRO M15 A_orig: n=1306 expR=-0.141 pf=0.77 t=-4.29 ctrl_p=0.485
+[  766s] INV S04 RETRO M15 B_inv: n=1394 expR=-0.037 pf=0.944 t=-1.14 ctrl_p=0.01
+[  782s] INV S04 RETRO M15 B_inv_swap: n=1315 expR=-0.0172 pf=0.956 t=-0.76 ctrl_p=0.01
+[  793s] INV S04 RETRO M15 C_long: n=723 expR=-0.1082 pf=0.828 t=-2.43 ctrl_p=0.297
+[  803s] INV S04 RETRO M15 D_short: n=630 expR=-0.1874 pf=0.704 t=-4.01 ctrl_p=0.832
+[  815s] INV S04 RETRO M15 E_long_inv: n=801 expR=-0.0857 pf=0.866 t=-2.01 ctrl_p=0.03
+[  827s] INV S04 RETRO M15 E_long_inv_swap: n=726 expR=-0.0335 pf=0.919 t=-1.1 ctrl_p=0.01
+[  836s] INV S04 RETRO M15 F_short_inv: n=698 expR=-0.0221 pf=0.959 t=-0.48 ctrl_p=0.01
+[  846s] INV S04 RETRO M15 F_short_inv_swap: n=641 expR=-0.011 pf=0.972 t=-0.34 ctrl_p=0.02
+[  864s] INV S04 RETRO H1 A_orig: n=1492 expR=-0.062 pf=0.89 t=-1.97 ctrl_p=0.465
+[  883s] INV S04 RETRO H1 B_inv: n=1582 expR=-0.06 pf=0.897 t=-1.97 ctrl_p=0.426
+[  890s] INV S04 RETRO H1 B_inv_swap: n=1484 expR=-0.0243 pf=0.939 t=-1.14 ctrl_p=0.139
+[  894s] INV S04 RETRO H1 C_long: n=772 expR=-0.0945 pf=0.84 t=-2.17 ctrl_p=0.614
+[  898s] INV S04 RETRO H1 D_short: n=815 expR=-0.0123 pf=0.975 t=-0.29 ctrl_p=0.178
+[  902s] INV S04 RETRO H1 E_long_inv: n=856 expR=-0.0129 pf=0.974 t=-0.31 ctrl_p=0.188
+[  906s] INV S04 RETRO H1 E_long_inv_swap: n=775 expR=-0.0086 pf=0.987 t=-0.29 ctrl_p=0.208
+[  910s] INV S04 RETRO H1 F_short_inv: n=890 expR=-0.0881 pf=0.843 t=-2.18 ctrl_p=0.594
+[  913s] INV S04 RETRO H1 F_short_inv_swap: n=819 expR=-0.0443 pf=0.881 t=-1.54 ctrl_p=0.337
+[  916s] NEW S05 EXPL H1 {"max_bars": 48, "trend_filter": false, "z_th": 2.0}: n=415 expR=-0.0005 pf=1.001 t=-0.01 ctrl_p=0.168
+[  921s] NEW S05 EXPL H1 {"max_bars": 48, "trend_filter": true, "z_th": 2.0}: n=213 expR=-0.0856 pf=0.821 t=-1.06 ctrl_p=0.733
+[  926s] NEW S05 EXPL H1 {"max_bars": 48, "trend_filter": false, "z_th": 2.5}: n=245 expR=-0.0377 pf=0.881 t=-0.45 ctrl_p=0.396
+[  930s] NEW S05 EXPL H1 {"max_bars": 48, "trend_filter": true, "z_th": 2.5}: n=126 expR=-0.0591 pf=0.867 t=-0.53 ctrl_p=0.525
+[  933s] NEW S05 EXPL H4 {"max_bars": 18, "trend_filter": false, "z_th": 2.0}: n=95 expR=-0.0835 pf=0.813 t=-0.82 ctrl_p=0.703
+[  935s] NEW S05 EXPL H4 {"max_bars": 18, "trend_filter": true, "z_th": 2.0}: n=45 expR=0.0743 pf=1.194 t=0.53 ctrl_p=0.158
+[  937s] NEW S05 EXPL H4 {"max_bars": 18, "trend_filter": false, "z_th": 2.5}: n=57 expR=-0.1319 pf=0.701 t=-0.98 ctrl_p=0.832
+[  938s] NEW S05 EXPL H4 {"max_bars": 18, "trend_filter": true, "z_th": 2.5}: n=28 expR=0.1158 pf=1.205 t=0.57 ctrl_p=None
+[  944s] NEW S06 EXPL H1 {"rsi_hi": 90, "rsi_lo": 10}: n=476 expR=0.0148 pf=1.046 t=0.47 ctrl_p=0.079
+[  948s] NEW S06 EXPL H1 {"rsi_hi": 95, "rsi_lo": 5}: n=225 expR=-0.0075 pf=0.955 t=-0.17 ctrl_p=0.297
+[  951s] NEW S06 EXPL H4 {"rsi_hi": 90, "rsi_lo": 10}: n=123 expR=0.0363 pf=1.166 t=0.63 ctrl_p=0.218
+[  953s] NEW S06 EXPL H4 {"rsi_hi": 95, "rsi_lo": 5}: n=52 expR=0.0964 pf=1.552 t=1.26 ctrl_p=0.307
+[  959s] NEW S07 EXPL M15 {"mode": "breakout", "retest_lb": 12}: n=452 expR=-0.0626 pf=0.892 t=-1.16 ctrl_p=0.465
+[  966s] NEW S07 EXPL M15 {"mode": "sweep", "retest_lb": 12}: n=432 expR=-0.0822 pf=0.851 t=-1.52 ctrl_p=0.495
+[  973s] NEW S07 EXPL M15 {"mode": "retest", "retest_lb": 12}: n=399 expR=-0.0871 pf=0.854 t=-1.55 ctrl_p=0.614
+[  977s] NEW S07 EXPL H1 {"mode": "breakout", "retest_lb": 4}: n=296 expR=-0.0433 pf=0.909 t=-0.71 ctrl_p=0.436
+[  981s] NEW S07 EXPL H1 {"mode": "sweep", "retest_lb": 4}: n=248 expR=-0.0401 pf=0.903 t=-0.63 ctrl_p=0.356
+[  984s] NEW S07 EXPL H1 {"mode": "retest", "retest_lb": 4}: n=216 expR=-0.1266 pf=0.747 t=-1.89 ctrl_p=0.881
+[  993s] NEW S08 EXPL H1 {"confirm": false, "max_bars": 24, "regime": false}: n=628 expR=-0.045 pf=0.918 t=-0.89 ctrl_p=0.327
+[  998s] NEW S08 EXPL H1 {"confirm": false, "max_bars": 24, "regime": true}: n=300 expR=-0.0651 pf=0.888 t=-0.89 ctrl_p=0.485
+[ 1003s] NEW S08 EXPL H1 {"confirm": true, "max_bars": 24, "regime": false}: n=460 expR=-0.0542 pf=0.877 t=-1.18 ctrl_p=0.426
+[ 1006s] NEW S08 EXPL H1 {"confirm": true, "max_bars": 24, "regime": true}: n=166 expR=-0.0994 pf=0.796 t=-1.32 ctrl_p=0.594
+[ 1009s] NEW S08 EXPL H4 {"confirm": false, "max_bars": 12, "regime": false}: n=141 expR=-0.0471 pf=0.92 t=-0.51 ctrl_p=0.436
+[ 1011s] NEW S08 EXPL H4 {"confirm": false, "max_bars": 12, "regime": true}: n=60 expR=0.1223 pf=1.359 t=0.84 ctrl_p=0.109
+[ 1013s] NEW S08 EXPL H4 {"confirm": true, "max_bars": 12, "regime": false}: n=109 expR=-0.0258 pf=0.944 t=-0.28 ctrl_p=0.436
+[ 1015s] NEW S08 EXPL H4 {"confirm": true, "max_bars": 12, "regime": true}: n=38 expR=-0.0443 pf=0.904 t=-0.28 ctrl_p=0.525
+[ 1017s] NEW S09 EXPL H4 {"exit_mode": "atr", "mom_n": 20}: n=79 expR=0.1931 pf=1.302 t=1.16 ctrl_p=0.05
+[ 1020s] NEW S09 EXPL H4 {"exit_mode": "trend", "mom_n": 20}: n=97 expR=-0.0013 pf=0.923 t=-0.01 ctrl_p=0.406
+[ 1022s] NEW S09 EXPL H4 {"exit_mode": "atr", "mom_n": 60}: n=49 expR=-0.1299 pf=0.925 t=-0.66 ctrl_p=0.733
+[ 1025s] NEW S09 EXPL H4 {"exit_mode": "trend", "mom_n": 60}: n=99 expR=0.0206 pf=1.064 t=0.19 ctrl_p=0.426
+[ 1026s] NEW S09 EXPL D1 {"exit_mode": "atr", "mom_n": 20}: n=9 expR=-0.034 pf=0.948 t=-0.07 ctrl_p=None
+[ 1026s] NEW S09 EXPL D1 {"exit_mode": "trend", "mom_n": 20}: n=3 expR=0.5357 pf=2.183 t=0.46 ctrl_p=None
+[ 1026s] NEW S09 EXPL D1 {"exit_mode": "atr", "mom_n": 60}: n=11 expR=-0.2032 pf=0.641 t=-0.48 ctrl_p=None
+[ 1026s] NEW S09 EXPL D1 {"exit_mode": "trend", "mom_n": 60}: n=4 expR=-0.0804 pf=0.829 t=-0.15 ctrl_p=None
+[ 1029s] NEW S10 EXPL H1 {"confirm": "cross", "htf": false}: n=269 expR=-0.0191 pf=0.97 t=-0.22 ctrl_p=0.257
+[ 1033s] NEW S10 EXPL H1 {"confirm": "cross", "htf": true}: n=166 expR=-0.0489 pf=0.921 t=-0.45 ctrl_p=0.416
+[ 1038s] NEW S10 EXPL H1 {"confirm": "structure", "htf": false}: n=369 expR=-0.1183 pf=0.819 t=-1.63 ctrl_p=0.762
+[ 1040s] NEW S10 EXPL H1 {"confirm": "structure", "htf": true}: n=218 expR=-0.1132 pf=0.826 t=-1.2 ctrl_p=0.703
+[ 1041s] NEW S10 EXPL H4 {"confirm": "cross", "htf": false}: n=67 expR=-0.3773 pf=0.499 t=-2.52 ctrl_p=0.98
+[ 1041s] NEW S10 EXPL H4 {"confirm": "structure", "htf": false}: n=99 expR=-0.154 pf=0.776 t=-1.13 ctrl_p=0.723
+[ 1043s] NEW S11 EXPL H1 {"filt": false, "max_bars": 24}: n=281 expR=0.0017 pf=0.992 t=0.03 ctrl_p=0.188
+[ 1045s] NEW S11 EXPL H1 {"filt": true, "max_bars": 24}: n=115 expR=0.0074 pf=1.002 t=0.07 ctrl_p=0.257
+[ 1047s] NEW S11 EXPL H4 {"filt": false, "max_bars": 12}: n=65 expR=0.0297 pf=1.062 t=0.27 ctrl_p=0.307
+[ 1048s] NEW S11 EXPL H4 {"filt": true, "max_bars": 12}: n=23 expR=0.2452 pf=2.015 t=1.46 ctrl_p=None
+[ 1053s] NEW S12 EXPL M15 {"vwap_start": 0}: n=536 expR=-0.1479 pf=0.779 t=-2.92 ctrl_p=0.198
+[ 1062s] NEW S12 EXPL M15 {"vwap_start": 7}: n=906 expR=-0.1347 pf=0.783 t=-3.43 ctrl_p=0.089
+[ 1086s] NEW S05 RETRO H1 {"max_bars": 48, "trend_filter": false, "z_th": 2.0}: n=1615 expR=-0.0774 pf=0.841 t=-2.41 ctrl_p=0.792
+[ 1100s] NEW S05 RETRO H1 {"max_bars": 48, "trend_filter": true, "z_th": 2.0}: n=904 expR=-0.0471 pf=0.913 t=-1.16 ctrl_p=0.446
+[ 1105s] NEW S05 RETRO H1 {"max_bars": 48, "trend_filter": false, "z_th": 2.5}: n=979 expR=-0.0666 pf=0.867 t=-1.59 ctrl_p=0.733
+[ 1108s] NEW S05 RETRO H1 {"max_bars": 48, "trend_filter": true, "z_th": 2.5}: n=538 expR=-0.0528 pf=0.897 t=-0.97 ctrl_p=0.564
+[ 1111s] NEW S05 RETRO H4 {"max_bars": 18, "trend_filter": false, "z_th": 2.0}: n=373 expR=0.028 pf=1.053 t=0.49 ctrl_p=0.139
+[ 1113s] NEW S05 RETRO H4 {"max_bars": 18, "trend_filter": true, "z_th": 2.0}: n=175 expR=0.1009 pf=1.218 t=1.26 ctrl_p=0.02
+[ 1118s] NEW S05 RETRO H4 {"max_bars": 18, "trend_filter": false, "z_th": 2.5}: n=167 expR=0.0325 pf=1.073 t=0.36 ctrl_p=0.109
+[ 1120s] NEW S05 RETRO H4 {"max_bars": 18, "trend_filter": true, "z_th": 2.5}: n=80 expR=-0.0342 pf=0.92 t=-0.29 ctrl_p=0.505
+[ 1137s] NEW S06 RETRO H1 {"rsi_hi": 90, "rsi_lo": 10}: n=1832 expR=-0.0101 pf=0.966 t=-0.58 ctrl_p=0.059
+[ 1150s] NEW S06 RETRO H1 {"rsi_hi": 95, "rsi_lo": 5}: n=938 expR=-0.0146 pf=0.949 t=-0.58 ctrl_p=0.149
+[ 1158s] NEW S06 RETRO H4 {"rsi_hi": 90, "rsi_lo": 10}: n=435 expR=-0.0005 pf=0.991 t=-0.02 ctrl_p=0.396
+[ 1162s] NEW S06 RETRO H4 {"rsi_hi": 95, "rsi_lo": 5}: n=232 expR=0.0077 pf=1.043 t=0.17 ctrl_p=0.327
+[ 1169s] NEW S07 RETRO M15 {"mode": "breakout", "retest_lb": 12}: n=619 expR=-0.1287 pf=0.777 t=-2.85 ctrl_p=0.723
+[ 1176s] NEW S07 RETRO M15 {"mode": "sweep", "retest_lb": 12}: n=592 expR=-0.0749 pf=0.875 t=-1.59 ctrl_p=0.386
+[ 1185s] NEW S07 RETRO M15 {"mode": "retest", "retest_lb": 12}: n=533 expR=-0.106 pf=0.821 t=-2.19 ctrl_p=0.733
+[ 1196s] NEW S07 RETRO H1 {"mode": "breakout", "retest_lb": 4}: n=1319 expR=-0.0697 pf=0.866 t=-2.42 ctrl_p=0.634
+[ 1208s] NEW S07 RETRO H1 {"mode": "sweep", "retest_lb": 4}: n=1223 expR=-0.0472 pf=0.894 t=-1.58 ctrl_p=0.317
+[ 1219s] NEW S07 RETRO H1 {"mode": "retest", "retest_lb": 4}: n=1016 expR=-0.0953 pf=0.819 t=-2.96 ctrl_p=0.891
+[ 1245s] NEW S08 RETRO H1 {"confirm": false, "max_bars": 24, "regime": false}: n=2588 expR=-0.059 pf=0.881 t=-2.34 ctrl_p=0.139
+[ 1250s] NEW S08 RETRO H1 {"confirm": false, "max_bars": 24, "regime": true}: n=1202 expR=-0.0665 pf=0.885 t=-1.83 ctrl_p=0.208
+[ 1264s] NEW S08 RETRO H1 {"confirm": true, "max_bars": 24, "regime": false}: n=1931 expR=-0.0868 pf=0.809 t=-3.92 ctrl_p=0.564
+[ 1271s] NEW S08 RETRO H1 {"confirm": true, "max_bars": 24, "regime": true}: n=692 expR=-0.0969 pf=0.795 t=-2.69 ctrl_p=0.535
+[ 1282s] NEW S08 RETRO H4 {"confirm": false, "max_bars": 12, "regime": false}: n=593 expR=-0.0102 pf=0.964 t=-0.22 ctrl_p=0.267
+[ 1287s] NEW S08 RETRO H4 {"confirm": false, "max_bars": 12, "regime": true}: n=251 expR=0.0375 pf=1.035 t=0.52 ctrl_p=0.089
+[ 1292s] NEW S08 RETRO H4 {"confirm": true, "max_bars": 12, "regime": false}: n=490 expR=-0.0454 pf=0.875 t=-1.04 ctrl_p=0.505
+[ 1295s] NEW S08 RETRO H4 {"confirm": true, "max_bars": 12, "regime": true}: n=148 expR=0.0142 pf=1.015 t=0.18 ctrl_p=0.158
+[ 1302s] NEW S09 RETRO H4 {"exit_mode": "atr", "mom_n": 20}: n=322 expR=-0.1191 pf=0.843 t=-1.56 ctrl_p=0.752
+[ 1309s] NEW S09 RETRO H4 {"exit_mode": "trend", "mom_n": 20}: n=345 expR=-0.0661 pf=0.777 t=-1.15 ctrl_p=0.475
+[ 1316s] NEW S09 RETRO H4 {"exit_mode": "atr", "mom_n": 60}: n=227 expR=-0.1301 pf=0.835 t=-1.43 ctrl_p=0.842
+[ 1324s] NEW S09 RETRO H4 {"exit_mode": "trend", "mom_n": 60}: n=359 expR=-0.0477 pf=0.805 t=-0.83 ctrl_p=0.376
+[ 1327s] NEW S09 RETRO D1 {"exit_mode": "atr", "mom_n": 20}: n=35 expR=0.1675 pf=1.35 t=0.66 ctrl_p=0.099
+[ 1327s] NEW S09 RETRO D1 {"exit_mode": "trend", "mom_n": 20}: n=10 expR=-0.0918 pf=0.743 t=-0.34 ctrl_p=None
+[ 1329s] NEW S09 RETRO D1 {"exit_mode": "atr", "mom_n": 60}: n=30 expR=0.0655 pf=1.121 t=0.24 ctrl_p=0.139
+[ 1329s] NEW S09 RETRO D1 {"exit_mode": "trend", "mom_n": 60}: n=10 expR=-0.352 pf=0.16 t=-2.33 ctrl_p=None
+[ 1345s] NEW S10 RETRO H1 {"confirm": "cross", "htf": false}: n=1119 expR=-0.088 pf=0.87 t=-2.13 ctrl_p=0.515
+[ 1355s] NEW S10 RETRO H1 {"confirm": "cross", "htf": true}: n=752 expR=-0.1167 pf=0.838 t=-2.33 ctrl_p=0.772
+[ 1375s] NEW S10 RETRO H1 {"confirm": "structure", "htf": false}: n=1421 expR=-0.0356 pf=0.93 t=-0.96 ctrl_p=0.05
+[ 1391s] NEW S10 RETRO H1 {"confirm": "structure", "htf": true}: n=948 expR=-0.0703 pf=0.9 t=-1.56 ctrl_p=0.376
+[ 1396s] NEW S10 RETRO H4 {"confirm": "cross", "htf": false}: n=236 expR=0.0425 pf=1.058 t=0.46 ctrl_p=0.198
+[ 1403s] NEW S10 RETRO H4 {"confirm": "structure", "htf": false}: n=361 expR=-0.0523 pf=0.888 t=-0.71 ctrl_p=0.564
+[ 1415s] NEW S11 RETRO H1 {"filt": false, "max_bars": 24}: n=1109 expR=-0.1021 pf=0.801 t=-2.99 ctrl_p=0.931
+[ 1423s] NEW S11 RETRO H1 {"filt": true, "max_bars": 24}: n=434 expR=-0.1318 pf=0.76 t=-2.41 ctrl_p=0.97
+[ 1429s] NEW S11 RETRO H4 {"filt": false, "max_bars": 12}: n=239 expR=-0.0652 pf=0.845 t=-1.04 ctrl_p=0.733
+[ 1432s] NEW S11 RETRO H4 {"filt": true, "max_bars": 12}: n=92 expR=-0.0646 pf=0.848 t=-0.63 ctrl_p=0.604
+[ 1438s] NEW S12 RETRO M15 {"vwap_start": 0}: n=625 expR=-0.1296 pf=0.802 t=-2.76 ctrl_p=0.129
+[ 1448s] NEW S12 RETRO M15 {"vwap_start": 7}: n=981 expR=-0.1339 pf=0.793 t=-3.56 ctrl_p=0.05
+cost S02 EXPL M15 -0.0946 -0.0731 -0.0997
+cost S02 EXPL H1 -0.0653 -0.094 -0.0722
+cost S03 EXPL M15 -0.158 -0.0536 -0.1343
+cost S03 EXPL H1 -0.2048 -0.0117 -0.2103
+cost S04 EXPL M15 -0.1422 -0.2625 -0.0843
+cost S04 EXPL H1 -0.0584 -0.0607 -0.0609
+cost S02 RETRO M15 -0.1633 -0.1462 -0.101
+cost S02 RETRO H1 -0.0385 -0.0482 -0.0298
+cost S03 RETRO M15 -0.3133 -0.5774 -0.2686
+cost S03 RETRO H1 -0.1498 -0.0502 -0.1636
+cost S04 RETRO M15 -0.2354 -0.171 -0.0425
+cost S04 RETRO H1 -0.0632 -0.0714 -0.0538
+FIN 200 ejecuciones 1472 s

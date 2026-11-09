@@ -1,0 +1,202 @@
+# Fuente C (SPOT EDGE S1) CATALOGO_INDICADORES_200.json  id|nombre   (status original de todos: PENDING_VERIFICATION)
+# Copia original: Drive id 1nGYV4I3CSGRNTv8lSjRwSxX6Buyf8UqS
+1|Lorentzian Classification (LuxAlgo)
+2|Nadaraya-Watson Kernel Regression
+3|Z-Score Distance from VWAP
+4|Hurst Exponent Indicator
+5|Kalman Filter Price Smoother
+6|Autoregressive Integrated Moving Average (ARIMA) Forecast
+7|Empirical Mode Decomposition (EMD)
+8|Detrended Synthetic Price (DSP)
+9|Polynomial Regression Channels
+10|Shannon Entropy Indicator
+11|Fourier Transform Cycle Detector
+12|Linear Momentum Slope (Quant)
+13|Variance Ratio Test Indicator
+14|GARCH (1,1) Volatility Estimator
+15|Sine Wave Oscillator (Ehlers)
+16|Cyber Cycle Indicator (John Ehlers)
+17|SuperSmoother Filter (Ehlers)
+18|Roofing Filter (Ehlers)
+19|MESA Adaptive Moving Average (MAMA)
+20|FAMA (Following Adaptive Moving Average)
+21|Fast Fourier Transform (FFT) Predictor
+22|Correlative Volume Delta
+23|Beta relative to BTC
+24|Pearson Correlation Coefficient Overlay
+25|Jensen's Alpha Indicator
+26|Sharpe Ratio Dynamic Indicator
+27|Sortino Ratio Indicator
+28|Treynor Ratio Index
+29|Kaufman Efficiency Ratio (ER)
+30|Fractal Dimension Index (FDI)
+31|VIX Style Volatility for BTC/USDT
+32|Skewness & Kurtosis Monitor
+33|Markov Chain State Switching
+34|Mean Reversion Z-Score Signal
+35|Half-Life of Mean Reversion
+36|Co-integration Spread Monitor
+37|Augmented Dickey-Fuller (ADF) Test Indicator
+38|Spearman Rank Correlation
+39|Information Ratio Monitor
+40|Information Entropy Trend Index
+41|Volume Profile Visible Range (VPVR)
+42|Anchored Volume Profile (AVP)
+43|Point of Control (POC) Dynamic
+44|High Volume Nodes (HVN) Area
+45|Low Volume Nodes (LVN) Area
+46|VWAP Anchored to Halving / Tops
+47|Developing VWAP & Standard Bands
+48|Cumulative Volume Delta (CVD) Spot
+49|Spot vs. Futures Delta Divergence
+50|On-Balance Volume (OBV) Advanced
+51|Chaikin Money Flow (CMF) 200
+52|Accumulation/Distribution Line (A/D)
+53|Money Flow Index (MFI) Multi-timeframe
+54|Volume Flow Indicator (VFI)
+55|Volume Oscilator (Libero)
+56|Weis Wave Volume Spot
+57|Taker Buy Ratio Spot (Binance)
+58|Volume Climax Detector
+59|Large Orders Tracker / Whale Spikes
+60|Order Block Volume Delta
+61|Klinger Volume Oscillator (KVO)
+62|Volume Weighted MACD
+63|Volume Zone Oscillator (VZO)
+64|Negative Volume Index (NVI)
+65|Positive Volume Index (PVI)
+66|Trade Size Distribution Monitor
+67|Ease of Movement (EOM) Smoothed
+68|Market Facilitation Index (BW MFI)
+69|Net Buyer Volume (Binance Spot)
+70|Volume Rate of Change (VROC)
+71|Smart Money Index (SMI)
+72|Percentage Volume Oscillator (PVO)
+73|Volume Weighted RSI (VWRSI)
+74|Intraday Intensity Index
+75|Liquidity Pool Grab Signals
+76|Spot Inflow/Outflow Simulation Indicator
+77|VIX of Volume
+78|Anchor Order Flow Delta
+79|Volume Spread Analysis (VSA) Auto Alerts
+80|Volume Density Map Overlay
+81|Hull Moving Average (HMA) Suite
+82|Arnaud Legoux Moving Average (ALMA)
+83|Kaufman Adaptive Moving Average (KAMA)
+84|Tillson T3 Moving Average
+85|Zero Lag Exponential Moving Average (ZLEMA)
+86|McGinley Dynamic Indicator
+87|Supertrend Multi-Timeframe
+88|Ichimoku Cloud Kumo Twist Tracker
+89|Guppy Multiple Moving Average (GMMA)
+90|EMA Ribbon 8 Lines
+91|ADX & DI Dynamic Filters
+92|Vortex Indicator (VI) Advanced
+93|Aroon Oscillator Trend Strength
+94|Parabolic SAR Advanced
+95|Donchian Channels Trend Ribbon
+96|Keltner Channels Volatility Bands
+97|Choppiness Index (CHOP)
+98|Linear Regression Slope Trendmeter
+99|Coral Trend Indicator
+100|SSL Hybrid Script
+101|HalfTrend Indicator
+102|Alpha Trend Indicator
+103|Trend Magic Indicator
+104|Squeeze Momentum Deluxe
+105|UT Bot Alerts Strategy Indicator
+106|Rangos de Regresion Cuadratica
+107|Rainbow Moving Average Spectrum
+108|Z-Score Trend Filter
+109|Triple Exponential Average (TRIX)
+110|DEMA / TEMA Cross Overlay
+111|Smoothed Moving Average (SMMA)
+112|Variable Index Dynamic Average (VIDYA)
+113|Wilder's Smoothing Average
+114|Heikin Ashi Smoothed Trend
+115|Kagi Chart Trend Overlay
+116|Renko Bricks Trend Filter
+117|Three Line Break Indicator
+118|Point & Figure Auto Charting
+119|Detrended Price Oscillator (DPO)
+120|Mass Index Reversal Signal
+121|Relative Strength Index (RSI) Multi-Length
+122|Stochastic RSI (StochRSI) Advanced
+123|MACD Leader Indicator
+124|Connors RSI (CRSI)
+125|QQE (Quantitative Qualitative Estimation) MOD
+126|Schaff Trend Cycle (STC)
+127|WaveTrend Indicator (LazyBear)
+128|Commodity Channel Index (CCI) Woodies
+129|Williams %R Momentum Bands
+130|Awesome Oscillator (AO) Twin Peaks
+131|Accelerator Oscillator (AC)
+132|True Strength Index (TSI) Dual Line
+133|Center of Gravity Oscillator (Ehlers)
+134|Fisher Transform Gaussian
+135|Ultimate Oscillator (Larry Williams)
+136|Chande Momentum Oscillator (CMO)
+137|Rate of Change (ROC) Percentage
+138|Disparity Index (Distance to EMA)
+139|Stochastic Momentum Index (SMI)
+140|Dynamic Momentum Index (DMI)
+141|Balance of Power (BOP)
+142|Pretty Good Oscillator (PGO)
+143|RSI Divergence Auto Scanner
+144|MACD Custom Heatmap Oscillator
+145|Relative Volatility Index (RVI)
+146|SMI Ergodic Indicator
+147|Linear Momentum Tracker
+148|True MACD (Zero Lag)
+149|PPO (Percentage Price Oscillator)
+150|KST (Know Sure Thing) Oscillator
+151|Coppock Curve Macro Bottom Finder
+152|Elder Force Index (EFI) 13 EMA
+153|Elder Ray Index (Bull/Bear Power)
+154|Momentum Pinball Indicator
+155|RSI Trend Magic Overlay
+156|Dynamic Trend Intensity Index (TII)
+157|Stochastic Fast/Slow Overlay
+158|Oscilador de Desviacion Normalizada
+159|Detrended Momentum Index
+160|Multi-Timeframe RSI Heatmap Matrix
+161|Smart Money Concepts (SMC) Suite (LuxAlgo)
+162|Fair Value Gap (FVG) / Imbalance Detector
+163|High/Low Liquidity Pools
+164|Auto Order Blocks with Volume
+165|Breaker Block Detector
+166|Mitigation Block Finder
+167|Optimal Trade Entry (OTE) Auto Fib
+168|Previous Day/Week High & Low (PDH/PDL/PWH/PWL)
+169|Session High/Low Overlay
+170|Auto Fibonacci Retracement & Extension
+171|Auto Pivot Points (Classic, Camarilla, Woodie)
+172|DeMark Sequential (TD Sequential)
+173|Bill Williams Fractals
+174|Auto Harmonic Pattern Recognition
+175|Auto Head and Shoulders Finder
+176|Double Top / Bottom Pattern Detector
+177|Triangle Pattern Recognition
+178|Rising / Falling Wedge Detector
+179|Flag & Pennant Pattern Auto
+180|Andrew's Pitchfork Auto Tool
+181|Schiff Pitchfork Adjustable
+182|Gann Fan Auto Angles
+183|Gann Square Matrix
+184|Multi-Timeframe Market Structure Overlay
+185|Range Identifier (Consolidation Zones)
+186|Volume Profile Developing POC Line
+187|Absorption Candle Detector
+188|Effort vs Result Indicator (VSA)
+189|Supply & Demand Zones (LuxAlgo)
+190|Wyckoff Phase Classifier
+191|Trendlines with Alerts (Auto)
+192|Fibonacci Auto Channels
+193|Session Volume Profile (SVP)
+194|Fixed Range Volume Profile (FRVP)
+195|Liquidation Pressure Estimator (Spot Impact)
+196|Open Interest Overlay for Spot Analysis
+197|Order Book Depth Imbalance Indicator
+198|Vela Heikin Ashi Zone Oscillator
+199|Market Cipher A Clone (EMA Ribbons + Signals)
+200|Multi-Timeframe Trend Dashboard

@@ -1,0 +1,23 @@
+{
+ "n_runs": 200,
+ "data_notes": {
+  "H1_excluded_before_2018": {
+   "bars": 6074,
+   "reason": "cobertura incompleta (2014-2016 ~300 barras/ano) y spread=0 en 2014-2017: datos invalidos"
+  },
+  "H1_2018_2024": {
+   "bars": 43539,
+   "spread_zero_replaced_by_median": 16
+  },
+  "M15_pre2025": {
+   "bars": 53880,
+   "spread_zero_replaced_by_median": 4
+  }
+ },
+ "controls_per_run": 100,
+ "capital": 3000.0,
+ "risk_pct": 0.5,
+ "policy": "strict",
+ "seed": 12345,
+ "elapsed_s": 1472
+}

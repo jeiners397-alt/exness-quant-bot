@@ -1,0 +1,50 @@
+# Fuente C extras: 03_EXTRAS_36_HIPOTESIS.csv (Drive id 1_GHnuAI5A0V0v_cYP-RqIuxbcP8zdFuh) y 04_NUEVAS_12_WEB.csv (id 1u1wet3I0A2x9qWvy9xPMd6SPlT14oQUw)
+# id|nombre|familia|datos_fuente   (prioridad/ranking de la fuente NO se usa como evidencia)
+EXTRA_036|Top-gainer pre-signal ensemble|top_gainers|features 1m/15m/1h/1d
+EXTRA_002|Multi-day compression watchlist T0|breakout|OHLCV 1d,15m,1m live
+EXTRA_027|Micro pullback on strong daily mover|top_gainers|1m/15m OHLCV, 24h rolling
+EXTRA_028|Early gap-free day breakout|top_gainers|1m/15m OHLCV y 1d
+EXTRA_001|Volatility contraction -> Donchian break|breakout|OHLCV 1h/4h/1d
+EXTRA_015|Squeeze + OBV slope|breakout|OHLCV 1h/4h
+EXTRA_023|ATR expansion from min vol percentile|breakout|OHLCV 1h/4h
+EXTRA_024|Previous day high at UTC rollover|breakout|OHLCV 1h/1m; dia UTC
+EXTRA_025|Inside-bar multi-day coil|breakout|OHLCV 1d/4h
+EXTRA_034|Range expansion with confirmation delay audit|breakout|OHLCV 1m/5m/15m
+EXTRA_003|Donchian 55 daily long-only|trend|OHLCV 1d
+EXTRA_004|Donchian 20 4h with BTC filter|trend|OHLCV 4h BTC 1d
+EXTRA_017|Kaufman Efficiency trend filter|trend|OHLCV 1h/4h
+EXTRA_030|Three timeframes alignment + trend entry|trend|OHLCV 15m/1h/4h/1d
+EXTRA_005|Pullback EMA50 4h in weekly uptrend|pullback|OHLCV 4h/1d
+EXTRA_032|SMA200 bounce in established bull regime|pullback|OHLCV 1d/4h
+EXTRA_016|Choppiness compression reversal|regime|OHLCV 4h
+EXTRA_006|Breakout and next support retest|structure|OHLCV 1h/4h
+EXTRA_007|Higher-lows ascending-triangle breakout|structure|OHLCV 4h
+EXTRA_012|BTC-relative strength continuation|relative_strength|OHLCV 1d/4h BTC y alt
+EXTRA_013|Cross-sectional momentum with liquidity|momentum|spot USD(T) OHLCV 1d todos los elegibles
+EXTRA_014|BTC risk-off cash switch|regime|BTCUSDT spot 1d
+EXTRA_018|Anchored VWAP breakout|volume|OHLCV 1m/15m y volumen real
+EXTRA_019|Taker buy pressure + resistance|order_flow|OHLCV 1m con taker_buy_quote_volume
+EXTRA_020|AggTrade CVD divergence reclaim|order_flow|aggTrades historicos spot
+EXTRA_021|Live L2 depth imbalance vs fakeout|order_book_live_only|depth L2 en vivo y bookTicker
+EXTRA_022|Liquidity void / low-volume breakout|volume_profile|trades historicos u OHLCV aproximado
+EXTRA_026|Order-flow absorption at support|order_flow|aggTrades 1m y OHLCV 15m
+EXTRA_031|Relative volume burst vs historically low liquidity|microstructure|OHLCV 1m/15m y spread 24h
+EXTRA_035|Weekly high breakout with BTC breadth|breadth|OHLCV 1d todos los pares spot
+EXTRA_008|Weekly-low sweep reclaim|reversal|OHLCV 1h/4h/1d
+EXTRA_009|Daily low capitulation reclaim|reversal|OHLCV 1m/15m 1d
+EXTRA_010|Double bottom confirmed neck break|reversal|OHLCV 1h/4h
+EXTRA_011|Volume climax exhausted selling -> higher low|reversal|OHLCV 15m/1h
+EXTRA_029|Reclaim after failed breakdown|reversal|OHLCV 1h/4h
+EXTRA_033|Rolling quantile reversal in positive trend|reversal|OHLCV 4h/1d
+WEB_001|Time-series momentum + filtro BTC|momentum|OHLCV+BTC
+WEB_002|T0 pre-breakout multi-day consolidation|breakout|1D+4H+1m
+WEB_003|Volatility contraction BB-Keltner + RVOL|breakout|4H
+WEB_004|Relative strength / momentum con control de volatilidad|relative_strength|1D+BTC
+WEB_005|EMA50/EMA200 daily + reclaim 4H|pullback|1D+4H
+WEB_006|Previous-day-low sweep reclaim|reversal|1H+4H
+WEB_007|Donchian55/20 trend following|trend|1D
+WEB_008|BTC-to-alt lead lag con liquidez|relative_strength|1m+15m+BTC
+WEB_009|Opening range breakout cripto 00UTC|breakout|15m
+WEB_010|VWAP anchored + higher lows + CMF|volume|1H+4H
+WEB_011|Range false-break recovery + spread gate|reversal|1H+book actual
+WEB_012|BTC regime + sector breadth + strength|breadth|1D+4H

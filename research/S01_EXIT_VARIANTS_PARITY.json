@@ -1,0 +1,78 @@
+{
+ "parity": {
+  "reason_agreement": 335,
+  "of": 335,
+  "pct": 100.0,
+  "confusion(official->sim)": {
+   "SL": {
+    "SL": 136,
+    "TIME": 0,
+    "TP": 0
+   },
+   "TIME": {
+    "SL": 0,
+    "TIME": 117,
+    "TP": 0
+   },
+   "TP": {
+    "SL": 0,
+    "TIME": 0,
+    "TP": 82
+   }
+  },
+  "R_diff_mean": -0.0022,
+  "R_diff_abs_median": 0.0,
+  "sumR_official": 9.86,
+  "sumR_sim": 9.12,
+  "exp_R_official": 0.0294,
+  "exp_R_sim": 0.0272
+ },
+ "n_variants_tested": 10,
+ "resolution": "M15 bars conservative",
+ "slip10": [
+  {
+   "vid": "V0",
+   "exp_R_slip10pts": 0.0073
+  },
+  {
+   "vid": "V1a",
+   "exp_R_slip10pts": -0.0833
+  },
+  {
+   "vid": "V1b",
+   "exp_R_slip10pts": -0.0072
+  },
+  {
+   "vid": "V2a",
+   "exp_R_slip10pts": -0.0397
+  },
+  {
+   "vid": "V2b",
+   "exp_R_slip10pts": -0.018
+  },
+  {
+   "vid": "V3",
+   "exp_R_slip10pts": -0.0119
+  },
+  {
+   "vid": "V4a",
+   "exp_R_slip10pts": -0.0064
+  },
+  {
+   "vid": "V4b",
+   "exp_R_slip10pts": -0.0037
+  },
+  {
+   "vid": "V4c",
+   "exp_R_slip10pts": -0.0617
+  },
+  {
+   "vid": "V4d",
+   "exp_R_slip10pts": 0.0269
+  },
+  {
+   "vid": "V5",
+   "exp_R_slip10pts": 0.0005
+  }
+ ]
+}

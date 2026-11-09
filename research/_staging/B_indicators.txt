@@ -1,0 +1,204 @@
+# Fuente B ESTADO_INDICADORES_200.csv  id|nombre|categoria|status|riesgo
+# status: SB=SERIE_BASE_RELACIONADA_EN_MOTOR LIB=LIBRERIA_OPCIONAL_SIN_PARIDAD_GARANTIZADA Z24=IMPLEMENTADO_Z24_FORMULA_PUBLICA NOP=FUENTE_O_ALGORITMO_NO_PUBLICADO REQ=REQUIERE_IMPLEMENTACION EXT=REQUIERE_DATOS_EXTERNOS
+# riesgo: E=ESTANDAR V=VERIFICAR P=REPINTADO_O_CONFIRMACION_TARDIA
+# DEFECTO DE DATOS DETECTADO: columna funcion_ta_opcional desplazada en filas 54-70 (p.ej. Connors RSI->macd, PPO->connors, TSI->ppo); no usar esa columna.
+1|EMA (Exponential Moving Average)|tendencia|SB|E
+2|SMA (Simple Moving Average)|tendencia|SB|E
+3|WMA (Weighted Moving Average)|tendencia|LIB|E
+4|HMA (Hull Moving Average)|tendencia|LIB|E
+5|ALMA (Arnaud Legoux Moving Average)|tendencia|LIB|E
+6|KAMA (Kaufman Adaptive Moving Average)|tendencia|LIB|E
+7|VWMA (Volume Weighted Moving Average)|tendencia|LIB|E
+8|DEMA (Double EMA)|tendencia|LIB|E
+9|TEMA (Triple EMA)|tendencia|LIB|E
+10|SMMA (Smoothed Moving Average)|tendencia|LIB|E
+11|EMA Ribbon (Red de EMAs)|tendencia|Z24|E
+12|Supertrend|tendencia|LIB|E
+13|Supertrend Pro|tendencia|NOP|V
+14|Ichimoku Cloud (Kumo)|tendencia|LIB|E
+15|Parabolic SAR|tendencia|LIB|E
+16|ADX (Average Directional Index)|tendencia|LIB|E
+17|DMI (Directional Movement Index)|tendencia|LIB|E
+18|Aroon Indicator|tendencia|LIB|E
+19|Aroon Oscillator|tendencia|LIB|E
+20|Vortex Indicator (VI)|tendencia|LIB|E
+21|ZigZag|tendencia|Z24|P
+22|Guppy Multiple Moving Average (GMMA)|tendencia|REQ|E
+23|McGinley Dynamic|tendencia|REQ|E
+24|Linear Regression Trendline|tendencia|LIB|E
+25|Donchian Channels|tendencia|SB|E
+26|Keltner Channels|tendencia|LIB|E
+27|Tillson T3 Moving Average|tendencia|LIB|E
+28|ZLEMA (Zero Lag EMA)|tendencia|LIB|E
+29|Rainbow Moving Averages|tendencia|REQ|E
+30|Choppiness Index|tendencia|LIB|E
+31|RSI (Relative Strength Index)|momento|SB|E
+32|Stochastic RSI (StochRSI)|momento|SB|E
+33|Stochastic Oscillator|momento|SB|E
+34|MACD (Moving Average Convergence Divergence)|momento|SB|E
+35|MACD Histogram|momento|SB|E
+36|CCI (Commodity Channel Index)|momento|LIB|E
+37|Williams %R|momento|LIB|E
+38|ROC (Rate of Change)|momento|SB|E
+39|Momentum Indicator (MOM)|momento|LIB|E
+40|Ultimate Oscillator|momento|LIB|E
+41|TRIX (Triple Exponential Average)|momento|LIB|E
+42|Detrended Price Oscillator (DPO)|momento|LIB|E
+43|Chande Momentum Oscillator (CMO)|momento|LIB|E
+44|Awesome Oscillator (AO)|momento|LIB|E
+45|Accelerator Oscillator (AC)|momento|LIB|E
+46|Know Sure Thing (KST)|momento|LIB|E
+47|Coppock Curve|momento|LIB|E
+48|Fisher Transform|momento|LIB|E
+49|Relative Volatility Index (RVI)|momento|LIB|E
+50|Squeeze Momentum Indicator (LazyBear)|momento|LIB|E
+51|Waddah Attar Explosion|momento|NOP|V
+52|RSI Divergence Detector|momento|NOP|P
+53|MACD Leader|momento|NOP|V
+54|Connors RSI|momento|LIB|E
+55|PPO (Percentage Price Oscillator)|momento|LIB|E
+56|True Strength Index (TSI)|momento|LIB|E
+57|Center of Gravity (CG)|momento|LIB|E
+58|Schaff Trend Cycle (STC)|momento|NOP|V
+59|QQE (Quantitative Qualitative Estimation)|momento|NOP|V
+60|WaveTrend Indicator (LazyBear)|momento|NOP|V
+61|Klinger Volume Oscillator|momento|LIB|E
+62|Elder's Force Index|momento|LIB|E
+63|Bull Bear Power (Elder Ray)|momento|REQ|E
+64|Disparity Index|momento|LIB|E
+65|Stochastic Momentum Index (SMI)|momento|LIB|E
+66|Dynamic Momentum Index (DMI)|momento|LIB|E
+67|Balance of Power (BOP)|momento|LIB|E
+68|RSI Trend Magic|momento|NOP|V
+69|Pretty Good Oscillator (PGO)|momento|LIB|E
+70|Mass Index|momento|LIB|E
+71|Volume|volumen|NOP|V
+72|Volume Profiling (VPVR / Visible Range)|volumen|Z24|V
+73|Fixed Range Volume Profile (FRVP)|volumen|Z24|V
+74|Session Volume Profile (SVP)|volumen|NOP|V
+75|Point of Control (POC)|volumen|Z24|V
+76|VWAP (Volume Weighted Average Price)|volumen|SB|E
+77|Anchored VWAP|volumen|Z24|E
+78|OBV (On-Balance Volume)|volumen|SB|E
+79|Chaikin Money Flow (CMF)|volumen|SB|E
+80|Accumulation/Distribution (A/D Line)|volumen|LIB|E
+81|Volume Flow Indicator (VFI)|volumen|LIB|E
+82|Volume Oscillator|volumen|LIB|E
+83|Volume Rate of Change (VROC)|volumen|LIB|E
+84|Ease of Movement (EOM)|volumen|LIB|E
+85|Money Flow Index (MFI)|volumen|LIB|E
+86|Net Volume|volumen|EXT|E
+87|Volume Delta (Buy/Sell Volume)|volumen|EXT|E
+88|Cumulative Volume Delta (CVD)|volumen|EXT|E
+89|Open Interest (OI) Binance|volumen|EXT|E
+90|OI Delta|volumen|EXT|E
+91|Long/Short Ratio Indicator|volumen|EXT|E
+92|Funding Rate Indicator|volumen|EXT|E
+93|Taker Buy/Sell Ratio|volumen|EXT|E
+94|Liquidation Heatmap Overlay|volumen|EXT|E
+95|Order Book Heatmap / Depth|volumen|EXT|E
+96|PVI (Positive Volume Index)|volumen|LIB|E
+97|NVI (Negative Volume Index)|volumen|LIB|E
+98|Trade Size Distribution|volumen|EXT|E
+99|Weis Wave Volume|volumen|REQ|E
+100|Market Facilitation Index (MFI BW)|volumen|LIB|E
+101|Volume Climax Indicator|volumen|REQ|E
+102|Volume Weighted MACD|volumen|LIB|E
+103|Trends with Volume (LuxAlgo)|volumen|NOP|V
+104|Volume Zone Oscillator (VZO)|volumen|LIB|E
+105|Volume Weighted RSI|volumen|LIB|E
+106|Bollinger Bands (BB)|volatilidad|SB|E
+107|Bollinger Bands %B|volatilidad|SB|E
+108|Bollinger Band Width (BBW)|volatilidad|SB|E
+109|ATR (Average True Range)|volatilidad|SB|E
+110|ATR Trailing Stop|volatilidad|SB|E
+111|Normalized ATR (NATR)|volatilidad|LIB|E
+112|Standard Deviation (StdDev)|volatilidad|LIB|E
+113|Chaikin Volatility|volatilidad|Z24|E
+114|Historical Volatility (HV)|volatilidad|LIB|E
+115|Donchian Width|volatilidad|LIB|E
+116|Keltner Width|volatilidad|LIB|E
+117|Implied Volatility Index|volatilidad|REQ|E
+118|Volatility Switch|volatilidad|REQ|E
+119|Relative Volatility Index (RVI)|volatilidad|REQ|E
+120|Ulcer Index (UI)|volatilidad|LIB|E
+121|Choppiness Bands|volatilidad|REQ|E
+122|Envelope Bands|volatilidad|LIB|E
+123|Starc Bands|volatilidad|LIB|E
+124|BETA Indicator|volatilidad|SB|E
+125|Extreme Volatility Index|volatilidad|NOP|V
+126|Volatility Quality Index (VQI)|volatilidad|LIB|E
+127|Fractal Chaos Bands|volatilidad|REQ|E
+128|RVI Oscillator|volatilidad|REQ|E
+129|Garch Volatility|volatilidad|REQ|E
+130|Volatilidad Intradia Normalizada|volatilidad|REQ|E
+131|Linear Regression Slope|volatilidad|LIB|E
+132|Price Action Range Expansion|volatilidad|REQ|E
+133|Mean Absolute Deviation (MAD)|volatilidad|LIB|E
+134|ATR Bands|volatilidad|LIB|E
+135|Volatility Ratio|volatilidad|SB|E
+136|Market Structure Break (MSB)|estructura|REQ|E
+137|Change of Character (CHoCH)|estructura|REQ|E
+138|Fair Value Gap (FVG / Imbalance)|estructura|REQ|E
+139|Order Blocks (OB Indicator)|estructura|REQ|E
+140|Liquidity Pools / Equal Highs & Lows|estructura|REQ|P
+141|Fibonacci Retracement Auto|estructura|Z24|P
+142|Fibonacci Extension Auto|estructura|Z24|E
+143|Auto Pivot Points Standard|estructura|LIB|E
+144|Camarilla Pivots|estructura|Z24|E
+145|Woodie Pivots|estructura|Z24|E
+146|DeMark Pivots (TD Sequential)|estructura|REQ|E
+147|Fibonacci Auto Channels|estructura|REQ|P
+148|Supply and Demand Zones (LuxAlgo)|estructura|NOP|V
+149|Session High / Low Overlay|estructura|REQ|E
+150|Previous Day High / Low (PDH/PDL)|estructura|SB|P
+151|Fractals (Bill Williams)|estructura|LIB|P
+152|Trendlines with Alerts (Auto)|estructura|REQ|P
+153|Pitchfork (Andrew's Pitchfork)|estructura|REQ|P
+154|Schiff Pitchfork|estructura|REQ|P
+155|Gann Fan Auto|estructura|REQ|P
+156|Gann Square|estructura|REQ|P
+157|Harmonic Pattern Auto Detector|estructura|NOP|P
+158|Head and Shoulders Auto|estructura|REQ|P
+159|Double Top / Double Bottom Detector|estructura|REQ|P
+160|Triangle Pattern Recognition|estructura|REQ|P
+161|Wedge Pattern Auto|estructura|REQ|P
+162|Flag and Pennant Auto|estructura|REQ|P
+163|Multi-Timeframe Structure Overlay|estructura|LIB|E
+164|Breaker Blocks Detector|estructura|REQ|P
+165|Mitigation Blocks|estructura|REQ|P
+166|Optimal Trade Entry (OTE)|estructura|REQ|P
+167|Range Filter (Market Cipher Sim)|estructura|NOP|V
+168|Vela Heikin Ashi Smoothed|estructura|LIB|E
+169|Kagi Chart Overlay|estructura|REQ|P
+170|Renko Chart Converter|estructura|REQ|P
+171|Market Cipher B (Clone / WaveTrend)|comunidad|NOP|V
+172|VuManChu Cipher B|comunidad|NOP|V
+173|CM Ultimate RSI (ChrisMoody)|comunidad|NOP|V
+174|HalfTrend|comunidad|REQ|P
+175|UT Bot Alerts (QuantNomad)|comunidad|NOP|V
+176|Trend Trader Strategy Indicator|comunidad|REQ|E
+177|Machine Learning: KNN Strategy (Lorentzian Classification)|comunidad|NOP|P
+178|Nadaraya-Watson Envelope (LuxAlgo)|comunidad|NOP|P
+179|Squeeze Momentum Deluxe|comunidad|NOP|V
+180|Alpha Trend|comunidad|NOP|V
+181|Cipher A Clone|comunidad|NOP|V
+182|Trend Meter|comunidad|NOP|V
+183|Crypto Screener Script|comunidad|NOP|V
+184|Turtle Trade Channel|comunidad|LIB|E
+185|MCDX+ (Smart Money Tracker)|comunidad|NOP|V
+186|Range Identifier (TradingRookie)|comunidad|NOP|V
+187|Pi Cycle Bitcoin Top Indicator|comunidad|NOP|V
+188|SSL Hybrid|comunidad|LIB|E
+189|Coral Trend Indicator|comunidad|NOP|V
+190|MACD Custom Heatmap|comunidad|NOP|V
+191|Open Interest + Volume Cluster|comunidad|EXT|E
+192|Binance Smart Signal|comunidad|EXT|E
+193|Liquidation Pressure Index|comunidad|EXT|E
+194|VFI with Divergences|comunidad|NOP|V
+195|SMI Ergodic Indicator|comunidad|LIB|E
+196|ATR Volatility Stop by Everget|comunidad|NOP|V
+197|Trend Mystery Algo|comunidad|NOP|V
+198|Linear Momentum Tracker|comunidad|NOP|V
+199|Crypto Volatility Index (CVI) Overlay|comunidad|EXT|E
+200|Multi-Timeframe RSI Heatmap|comunidad|LIB|E

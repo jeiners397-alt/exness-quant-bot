@@ -1,0 +1,42 @@
+{
+  "EURUSDm": {
+    "symbol": "EURUSDm",
+    "digits": 5,
+    "point": 1e-05,
+    "contract_size": 100000.0,
+    "tick_size": 1e-05,
+    "tick_value": 1.0,
+    "value_per_price_unit_per_lot": 99999.99999999999,
+    "volume_min": 0.01,
+    "volume_step": 0.01,
+    "volume_max": 200.0,
+    "stops_level": 0,
+    "spread_now_points": 8,
+    "swap_mode": 1,
+    "swap_long": -5.6,
+    "swap_short": 0.0,
+    "swap_rollover3days": 3,
+    "currency_profit": "USD",
+    "currency_base": "EUR"
+  },
+  "XAUUSDm": {
+    "symbol": "XAUUSDm",
+    "digits": 3,
+    "point": 0.001,
+    "contract_size": 100.0,
+    "tick_size": 0.001,
+    "tick_value": 0.1,
+    "value_per_price_unit_per_lot": 100.0,
+    "volume_min": 0.01,
+    "volume_step": 0.01,
+    "volume_max": 200.0,
+    "stops_level": 0,
+    "spread_now_points": 240,
+    "swap_mode": 1,
+    "swap_long": -493.4,
+    "swap_short": 0.0,
+    "swap_rollover3days": 3,
+    "currency_profit": "USD",
+    "currency_base": "XAU"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "run_id": "T001_S01_EURUSDm_M15_strict",
+  "started_utc": "2026-11-09T07:15:11.893730+00:00",
+  "args": {
+    "run_id": "T001_S01_EURUSDm_M15_strict",
+    "strategy": 1,
+    "symbol": "EURUSDm",
+    "tf": "M15",
+    "d_from": "2025.01.01",
+    "d_to": "2025.03.31",
+    "model": 4,
+    "sizing": 0,
+    "wait": 420
+  },
+  "inputs": {
+    "Strategy_ID": 1,
+    "RiskPercent": 0.5,
+    "SizingPolicy": 0,
+    "ExportDeals": "true"
+  },
+  "ea_sha256": "1c327de0d8f1d8e70c47fde2c2d4ed85e023e2d91cf5f03085bbd7cba46c42d7"
+}

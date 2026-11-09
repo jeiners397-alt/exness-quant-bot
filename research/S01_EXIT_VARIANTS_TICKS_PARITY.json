@@ -1,0 +1,16 @@
+{
+ "parity_V0_tick": {
+  "n": 153,
+  "reason_agree": 153,
+  "exit_time_diff_s_median": 0.351,
+  "exit_time_diff_s_p95_abs": 1.148200000000002,
+  "exit_time_exact_pm2s": 147,
+  "R_diff_mean": -0.0001,
+  "R_diff_abs_median": 0.0,
+  "R_diff_abs_max": 0.016,
+  "sumR_official": 11.45,
+  "sumR_tick_V0": 11.42,
+  "sumR_bar_V0": 10.67
+ },
+ "n_variants": 10
+}

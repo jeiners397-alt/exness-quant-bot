@@ -1,0 +1,14 @@
+{
+ "strategies": {
+  "pairs": 57,
+  "identical": 23,
+  "entries_involved": 99,
+  "total": 452
+ },
+ "indicators": {
+  "pairs": 128,
+  "identical": 89,
+  "entries_involved": 193,
+  "total": 500
+ }
+}

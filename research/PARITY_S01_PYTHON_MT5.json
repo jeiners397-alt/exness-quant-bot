@@ -1,0 +1,48 @@
+{
+ "n_mt5": 335,
+ "n_py": 335,
+ "both": 335,
+ "only_mt5": 0,
+ "only_py": 0,
+ "dir_agree": 335,
+ "entry_px_diff_pts_median": 0.0,
+ "entry_px_diff_pts_abs_p95": 0.0,
+ "entry_px_exact": 335,
+ "sl_dist_mt5_vs_py_pts_median": 0.0,
+ "tp_dist_mt5_vs_py_pts_median": 0.5,
+ "lots_equal_python_chain": 335,
+ "lots_equal_formula_with_mt5_balance": 335,
+ "lots_diff_formula_max_abs": 0.0,
+ "reason_agree": 335,
+ "reason_crosstab": {
+  "SL": {
+   "SL": 136,
+   "TIME": 0,
+   "TP": 0
+  },
+  "TIME": {
+   "SL": 0,
+   "TIME": 117,
+   "TP": 0
+  },
+  "TP": {
+   "SL": 0,
+   "TIME": 0,
+   "TP": 82
+  }
+ },
+ "exit_time_diff_min_median": -2.35,
+ "exit_time_diff_min_abs_p95": 13.0,
+ "R_mt5_sum": 9.86,
+ "R_py_sum": 9.12,
+ "R_diff_abs_median": 0.0,
+ "R_diff_abs_p95": 0.012,
+ "pnl_mt5": 140.5,
+ "pnl_py_chain": 129.38,
+ "exp_R_mt5_all": 0.0294,
+ "exp_R_py_all": 0.0272,
+ "py_skipped": {},
+ "mt5_not_in_py_dates": [],
+ "py_not_in_mt5_dates": [],
+ "n_R_diff_gt_0.25_or_reason_diff": 1
+}

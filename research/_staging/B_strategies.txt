@@ -1,0 +1,102 @@
+# Fuente B (REVERSE EDGE Z24) ESTADO_ESTRATEGIAS_100.csv  id|nombre|status(P=PROXY_EXPERIMENTAL_NO_IDENTICO,R=REGLA_CAUSAL_OPERATIVA_V1,N=NO_EVALUABLE_AUN)|nota_datos_fuente
+# Transcripcion compacta: se omiten winrate/rendimiento (NO VERIFICADOS). Copia original: Drive id 1SOw-luWae8euXNu0LDYYnTx2MjeUK4IS (+2 versiones en otras carpetas)
+1|Order Blocks + Fair Value Gap (ICT)|P|
+2|Volume Profile POC + Divergencia RSI|N|historia precisa volume profile y divergencias
+3|CVD Absorption + Liquidation Barrido|N|CVD y liquidaciones historicas
+4|Anchored VWAP Bounce + Order Flow|N|order flow agresor y anclajes explicitos
+5|Supertrend 4H + Retest EMA 20|P|
+6|Squeeze Momentum + Volume Breakout|P|
+7|Divergencia Oculta RSI + Trendline Break|P|divergencia oculta y trendline definidos
+8|Scalping Session Open (NY/London)|P|
+9|RSI Multi-Timeframe Matrix (15m + 1H + 4H)|P|
+10|Liquidation Heatmap Reversals|N|historia liquidation heatmap
+11|Wyckoff Accumulation/Distribution Spring|P|
+12|EMA Cross 50/200 (Golden Cross) + Pullback|P|
+13|ATR Expansion Breakout|R|
+14|Macd Histogram Flip + Divergencia CVD|N|CVD historico
+15|Ichimoku Kumo Breakout + Chikou Span|R|
+16|Donchian Channel Breakout (Turtle Trading)|P|regla 20 velas 15m, no 20 dias
+17|BB Squeeze + ADX > 25|R|
+18|Optimal Trade Entry (OTE) Fib 0.618-0.786|P|
+19|Funding Rate Extreme Contrarian|R|funding rate (perpetuos cripto)
+20|Lorentzian Classification Machine Learning|N|modelo y entrenamiento Lorentziano
+21|StochRSI Crossover en Zonas Extremas|P|
+22|Waddah Attar Explosion Breakout|P|
+23|Vortex Cross + Volume Confirmation|R|
+24|HalfTrend + Range Filter Alignment|P|script abierto, no Pine oficial
+25|Previous Day High/Low Sweep & Reverse|P|
+26|Keltner Channel Reversion to the Mean|R|
+27|Smart Money Long/Short Skew Trading|N|long/short historico Binance 180d
+28|WaveTrend Oscilador + Divergencias|N|pivotes confirmados
+29|UT Bot Alerts Scalping 5m|P|parametros Pine
+30|Camarilla Pivots H3/L3 Reversal|P|
+31|Breaker Block Re-test|N|reglas breaker
+32|Heikin Ashi Smoothed Trend Following|P|
+33|Chaikin Money Flow (CMF) Cross Zero|R|
+34|Nadaraya-Watson Kernel Regressions|P|sin repintado
+35|Taker Volume Imbalance Strategy|R|taker buy/sell volume (Binance)
+36|SSL Hybrid Trend Channel|P|
+37|Open Interest Building + Price Consolidation|N|open interest historico
+38|Parabolic SAR Swing Continuation|P|SAR diario no 1m
+39|DMI / ADX Trend Riding (>30 ADX)|R|
+40|QQE MOD + Hull Moving Average|P|QQE clasico no MOD
+41|Patron Armonico Gartley/Bat Automatizado|N|script armonico y ancla
+42|MCDX+ Smart Money Tracker Bars|N|senales propietarias
+43|RSI 14 Re-entry (30/70 Level Crossing)|R|
+44|Linear Regression Channel Bounce|P|
+45|Williams %R Extreme Divergence|P|
+46|Chande Momentum Oscillator (CMO) Cross|R|
+47|Elder Force Index 13-EMA Zero Line|R|
+48|CCI Oversold Rebound (-100 Line)|R|
+49|Aroon Up/Down Crossover|R|
+50|Awesome Oscillator Zero Line Cross|R|
+51|Bollinger Bands Counter-Trend Bounce|R|
+52|Schaff Trend Cycle (STC) Signal|P|
+53|KST Oscillator Signal Line Cross|R|
+54|MACD Classic Signal Crossover (Sin filtros)|R|
+55|Donchian Breakout 5-period (Micro Scalping)|R|
+56|Fibonacci Auto Retracement 0.5 Rebound|P|
+57|On-Balance Volume (OBV) Trendline Break|P|
+58|TRIX Zero Line Crossover|R|
+59|Pivot Points Daily Touch Bounce|P|
+60|Envelope Channel Touch Trading|R|
+61|Detrended Price Oscillator (DPO) Cycles|P|
+62|Coppock Curve Buying Signals|P|
+63|Bull Bear Power (Elder Ray) Zero Cross|P|
+64|Fisher Transform Extremes Reversal|P|
+65|Kumo Twist Speculation (Ichimoku)|P|
+66|Price Action Double Bottom (Sin confirmacion)|P|
+67|RSI Divergencia Simple sin volumen|P|
+68|Disparity Index Extreme Reversal|R|
+69|ATR Trailing Stop Reversal Only|P|
+70|Stochastic Classic (14,3,3) Crossover|R|
+71|Momentum Oscillator Threshold Cross|R|
+72|Rate of Change (ROC) Zero Cross|R|
+73|Ultimate Oscillator Crosses|R|
+74|ZigZag High/Low Breakout Classic|P|ZigZag repinta
+75|RVI Crossover (Relative Volatility)|P|
+76|Mass Index Bulge Strategy|P|Mass Index no senala direccion
+77|True Strength Index (TSI) Cross|R|
+78|Money Flow Index (MFI) 20/80 Reversals|R|
+79|Woodie Pivots Scalping|P|
+80|Triple EMA (TEMA) Crossover 9/21|R|
+81|DeMark (TD Sequential) Setup 9 Buy|P|
+82|PPO Oscillator Crosses|R|
+83|Aroon Oscillator Zero Crossing|R|
+84|Center of Gravity (CG) Signal Cross|P|
+85|Klinger Volume Oscillator Signal Cross|P|
+86|SMA 5/20 Golden Cross Scalping|R|
+87|Chaikin Volatility Breakout|P|
+88|Fractals (Bill Williams) Breakout|P|
+89|Gann Fan Angle Touch|P|
+90|Cruce de Medias Moviles Exponenciales 9/12 en 1m|P|simulacion en 15m, no 1m
+91|Martingala sobre RSI (Doblar posicion)|N|martingala es gestion, no estrategia direccional
+92|Grid Trading sin Stop Loss|N|grid es gestion, no estrategia direccional
+93|Comprar en Sobrecargas de Volumen Extremo|P|
+94|Venta en corto en mercados en descubrimiento de precio|P|
+95|Estrategia Catch the Falling Knife|P|
+96|Trading de Noticias por Ejecucion Manual|N|calendario noticias en ms y latencia
+97|Seguimiento de Signals de Telegram / Discord|N|logs historicos telegram
+98|Apalancamiento 125x en Altcoins de Baja Cap|N|apalancamiento, no senal
+99|Estrategia Hedging Arbitrario 100% Apalancado|N|cobertura bilateral, no senal direccional
+100|Trading Aleatorio / Apuestas sin Stop Loss|P|CONTROL_ALEATORIO_SEMILLA_DETERMINISTA

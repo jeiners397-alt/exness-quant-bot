@@ -1,0 +1,10 @@
+{
+ "n_runs_phase3": 31,
+ "n_trials_total_incl_S01_exit_variants": 41,
+ "t_null_max_approx": 2.73,
+ "capital": 3000.0,
+ "risk_pct": 0.5,
+ "policy": "strict",
+ "period": "2025-01-01..2026-10-31 (exploratorio)",
+ "controls": 200
+}

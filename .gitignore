@@ -1,0 +1,17 @@
+# Secretos y configuraciones privadas: NUNCA se versionan ni se respaldan
+.env
+.env.*
+.mcp.json
+.mcp.json.*
+.claude/
+*.pem
+*.key
+credentials*
+token*
+# Datos grandes y artefactos locales
+data/raw/
+__pycache__/
+.pytest_cache/
+*.pyc
+# Informes del tester que contienen datos de cuenta
+results/tester/**/*.htm

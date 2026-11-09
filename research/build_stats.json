@@ -1,0 +1,402 @@
+{
+  "strategies_raw": 448,
+  "indicators_raw": 500,
+  "lab_strategies": 4,
+  "by_source_strat": {
+    "A_REMIX": 100,
+    "B_FUTURES_Z24": 100,
+    "C_SPOT_S1": 200,
+    "C_EXTRA": 36,
+    "C_WEB": 12
+  },
+  "by_source_ind": {
+    "A_REMIX": 100,
+    "B_FUTURES_Z24": 200,
+    "C_SPOT_S1": 200
+  },
+  "strat_concepts_unique": 152,
+  "ind_concepts_unique": 185,
+  "strat_cross_source_groups": 29,
+  "ind_cross_source_groups": 117,
+  "class_strat": {
+    "REQUIERE_DATOS_EXTERNOS": 50,
+    "IMPLEMENTABLE_CON_CONDICIONES": 101,
+    "NO_EVALUABLE_ACTUALMENTE": 17,
+    "IMPLEMENTABLE_CON_DATOS_MT5": 254,
+    "CONTROL_NEGATIVO_O_RIESGO_INCOMPATIBLE": 26
+  },
+  "class_ind": {
+    "IMPLEMENTABLE_CON_CONDICIONES": 287,
+    "REQUIERE_DATOS_EXTERNOS": 54,
+    "NO_EVALUABLE_ACTUALMENTE": 6,
+    "IMPLEMENTABLE_CON_DATOS_MT5": 152,
+    "CONTROL_NEGATIVO_O_RIESGO_INCOMPATIBLE": 1
+  },
+  "class_strat_by_source": {
+    "A_REMIX": {
+      "REQUIERE_DATOS_EXTERNOS": 34,
+      "IMPLEMENTABLE_CON_CONDICIONES": 16,
+      "NO_EVALUABLE_ACTUALMENTE": 6,
+      "IMPLEMENTABLE_CON_DATOS_MT5": 42,
+      "CONTROL_NEGATIVO_O_RIESGO_INCOMPATIBLE": 2
+    },
+    "B_FUTURES_Z24": {
+      "IMPLEMENTABLE_CON_CONDICIONES": 16,
+      "NO_EVALUABLE_ACTUALMENTE": 7,
+      "REQUIERE_DATOS_EXTERNOS": 8,
+      "IMPLEMENTABLE_CON_DATOS_MT5": 62,
+      "CONTROL_NEGATIVO_O_RIESGO_INCOMPATIBLE": 7
+    },
+    "C_SPOT_S1": {
+      "IMPLEMENTABLE_CON_CONDICIONES": 50,
+      "NO_EVALUABLE_ACTUALMENTE": 4,
+      "REQUIERE_DATOS_EXTERNOS": 4,
+      "IMPLEMENTABLE_CON_DATOS_MT5": 125,
+      "CONTROL_NEGATIVO_O_RIESGO_INCOMPATIBLE": 17
+    },
+    "C_EXTRA": {
+      "IMPLEMENTABLE_CON_CONDICIONES": 14,
+      "IMPLEMENTABLE_CON_DATOS_MT5": 18,
+      "REQUIERE_DATOS_EXTERNOS": 4
+    },
+    "C_WEB": {
+      "IMPLEMENTABLE_CON_CONDICIONES": 5,
+      "IMPLEMENTABLE_CON_DATOS_MT5": 7
+    },
+    "LAB_USER_SPEC": {
+      "IMPLEMENTABLE_CON_DATOS_MT5": 4
+    }
+  },
+  "class_ind_by_source": {
+    "A_REMIX": {
+      "IMPLEMENTABLE_CON_CONDICIONES": 20,
+      "REQUIERE_DATOS_EXTERNOS": 24,
+      "NO_EVALUABLE_ACTUALMENTE": 6,
+      "IMPLEMENTABLE_CON_DATOS_MT5": 49,
+      "CONTROL_NEGATIVO_O_RIESGO_INCOMPATIBLE": 1
+    },
+    "B_FUTURES_Z24": {
+      "IMPLEMENTABLE_CON_DATOS_MT5": 103,
+      "IMPLEMENTABLE_CON_CONDICIONES": 81,
+      "REQUIERE_DATOS_EXTERNOS": 16
+    },
+    "C_SPOT_S1": {
+      "IMPLEMENTABLE_CON_CONDICIONES": 186,
+      "REQUIERE_DATOS_EXTERNOS": 14
+    }
+  },
+  "top_cross_source_strat_groups": [
+    [
+      "OSC_ZERO_CROSS",
+      79,
+      [
+        "EXTRA",
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "PATTERN_DETECTION",
+      23,
+      [
+        "EXTRA",
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "CVD_ORDERFLOW",
+      18,
+      [
+        "EXTRA",
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "MOMENTUM_RELATIVE_STRENGTH",
+      18,
+      [
+        "EXTRA",
+        "REMIX",
+        "SPOT",
+        "WEB"
+      ]
+    ],
+    [
+      "MEAN_REVERSION_BANDS",
+      17,
+      [
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "SQUEEZE_BREAKOUT",
+      17,
+      [
+        "EXTRA",
+        "FUT",
+        "LAB",
+        "REMIX",
+        "SPOT",
+        "WEB"
+      ]
+    ],
+    [
+      "ORDERBLOCK_FVG_ICT",
+      13,
+      [
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "EMA_ADX_TREND",
+      13,
+      [
+        "EXTRA",
+        "FUT",
+        "LAB",
+        "SPOT",
+        "WEB"
+      ]
+    ],
+    [
+      "PREV_DAY_SWEEP",
+      12,
+      [
+        "EXTRA",
+        "FUT",
+        "REMIX",
+        "SPOT",
+        "WEB"
+      ]
+    ],
+    [
+      "VOLUME_PROFILE_POC",
+      11,
+      [
+        "EXTRA",
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "PIVOTS",
+      11,
+      [
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "DONCHIAN_BREAKOUT",
+      11,
+      [
+        "EXTRA",
+        "FUT",
+        "LAB",
+        "REMIX",
+        "SPOT",
+        "WEB"
+      ]
+    ],
+    [
+      "MANAGEMENT_NOT_SIGNAL",
+      10,
+      [
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "HALFTREND_RANGEFILTER",
+      9,
+      [
+        "FUT",
+        "SPOT"
+      ]
+    ],
+    [
+      "SESSION_OPENING_RANGE",
+      8,
+      [
+        "EXTRA",
+        "FUT",
+        "LAB",
+        "REMIX",
+        "SPOT",
+        "WEB"
+      ]
+    ],
+    [
+      "RSI_DIVERGENCE",
+      8,
+      [
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "ANCHORED_VWAP",
+      6,
+      [
+        "EXTRA",
+        "REMIX",
+        "SPOT",
+        "WEB"
+      ]
+    ],
+    [
+      "ICHIMOKU",
+      5,
+      [
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "RSI_LEVELS",
+      5,
+      [
+        "FUT",
+        "SPOT"
+      ]
+    ],
+    [
+      "RANDOM_CONTROL",
+      5,
+      [
+        "FUT",
+        "SPOT"
+      ]
+    ],
+    [
+      "SUPERTREND",
+      4,
+      [
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "HEIKIN_TREND",
+      4,
+      [
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ],
+    [
+      "ATR_EXPANSION_BREAKOUT",
+      4,
+      [
+        "EXTRA",
+        "FUT",
+        "SPOT"
+      ]
+    ],
+    [
+      "FIBONACCI_OTE",
+      4,
+      [
+        "FUT",
+        "SPOT"
+      ]
+    ],
+    [
+      "ML_KNN",
+      3,
+      [
+        "FUT",
+        "REMIX",
+        "SPOT"
+      ]
+    ]
+  ],
+  "ind_equiv": [
+    [
+      "SMMA_RMA_WILDER",
+      [
+        "FUT_I010",
+        "SPOT_I111",
+        "SPOT_I113"
+      ]
+    ]
+  ],
+  "ind_top_groups": [
+    [
+      "VOLUME_PROFILE",
+      14
+    ],
+    [
+      "CVD_DELTA",
+      14
+    ],
+    [
+      "MACD",
+      10
+    ],
+    [
+      "CLASSIC_PATTERNS",
+      10
+    ],
+    [
+      "FIBONACCI",
+      9
+    ],
+    [
+      "MA_RIBBON",
+      9
+    ],
+    [
+      "ORDER_BLOCK",
+      8
+    ],
+    [
+      "ATR",
+      8
+    ],
+    [
+      "HURST_ENTROPY_FRACTAL",
+      8
+    ],
+    [
+      "PERF_RATIOS",
+      8
+    ],
+    [
+      "VWAP",
+      7
+    ],
+    [
+      "MARKET_STRUCTURE_SMC",
+      6
+    ],
+    [
+      "ZSCORE_MEANREV",
+      6
+    ],
+    [
+      "KALMAN_ARIMA_FFT",
+      6
+    ],
+    [
+      "PIVOTS",
+      6
+    ]
+  ]
+}
