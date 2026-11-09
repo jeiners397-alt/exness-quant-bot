@@ -1,0 +1,11 @@
+exp_id,hypothesis,family,markets,timeframes,status,decision,new_hypothesis_justification,evidence_file,notes
+H001,S01 L2 mean reversion EURUSD M15,reversion,EURUSDm,M15,DONE,NO_EDGE,,docs/INFORME_FASE_C_2026-11-09.md,t=0.52
+H002,S02-S04 EURUSD M15/H1,multi,EURUSDm,M15|H1,DONE,NO_EDGE,,docs/INFORME_FASES_1-5_EURUSD_2026-11-09.md,costes
+H003,Phase D S05-S12 (100 configs),multi,EURUSDm,H1|H4|D1,DONE,NO_EDGE,,docs/REMIX_EURUSD_PHASE_D_REPORT.md,
+H004,V3 A False Breakout,liquidity_sweep,EURUSDm,M15|H1,DONE,NO_EDGE,,docs/REMIX_EURUSD_V3_REPORT.md,
+H005,V3 B Volatility Momentum,momentum,EURUSDm,M15|H1,DONE,DISCARDED,,docs/REMIX_EURUSD_V3_REPORT.md,
+H006,V3 D regimen H4 (KER/CHOP),regime,EURUSDm,H4,DONE,WEAK_LEAD,,docs/REMIX_EURUSD_V3_REPORT.md,t=1.27
+H007,Macro news (C),news,EURUSDm,M5|M15,BLOCKED,PENDING_DATA,,remix_lab/news.py,sin calendario verificable
+H101,"Sweep+BOS en M15 multiactivo (XAUUSD,GBPUSD,USDJPY) con contexto H1",liquidity_sweep,GBPUSDm|USDJPYm|XAUUSDm,M15,PLANNED,,mercados distintos de EURUSD no probados,,
+H102,Breakout-retest de consolidacion Londres->NY (M15/M5),breakout_retest,EURUSDm|GBPUSDm,M15|M5,PLANNED,,familia no probada,,
+H103,Estacionalidad intradia por hora (event-study) en 8 mercados,seasonality,multi,M15,PLANNED,,no probada fuera de EURUSD,,

@@ -1,0 +1,15 @@
+symbol,budget,positions_admitted,margin_used,pct_equity,within_5pct,stop_reason,total_risk_money
+BTCUSDTm,150.0,10,149.0554,4.9685,True,minimo valido 0.01 lotes excede el margen disponible (0.94),149.1
+ETHUSDm,150.0,10,149.5986,4.9866,True,minimo valido 0.1 lotes excede el margen disponible (0.40),149.6
+AUDUSDm,150.0,11,149.3662,4.9789,True,minimo valido 0.01 lotes excede el margen disponible (0.63),149.36
+EURUSDm,150.0,11,148.0195,4.934,True,minimo valido 0.01 lotes excede el margen disponible (1.98),148.06
+GBPUSDm,150.0,11,147.7223,4.9241,True,minimo valido 0.01 lotes excede el margen disponible (2.28),147.73
+USDJPYm,150.0,11,150.0,5.0,True,minimo valido 0.01 lotes excede el margen disponible (0.00),150.0
+US30_x10m,150.0,14,146.741,4.8914,True,minimo valido 0.01 lotes excede el margen disponible (3.26),146.72
+US30m,150.0,10,146.741,4.8914,True,minimo valido 0.05 lotes excede el margen disponible (3.26),146.7
+US500_x100m,150.0,0,0.0,0.0,True,minimo valido 0.01 lotes excede el riesgo permitido (0.5% de 3000),0
+US500m,150.0,10,149.5033,4.9834,True,minimo valido 0.14 lotes excede el margen disponible (0.50),149.5
+USTEC_x100m,150.0,0,0.0,0.0,True,minimo valido 0.01 lotes excede el riesgo permitido (0.5% de 3000),0
+USTECm,150.0,11,149.9105,4.997,True,minimo valido 0.05 lotes excede el margen disponible (0.09),149.92
+XAGUSDm,150.0,14,148.246,4.9415,True,minimo valido 0.01 lotes excede el margen disponible (1.75),148.26
+XAUUSD247m,150.0,7,143.99,4.7997,True,minimo valido 0.01 lotes excede el margen disponible (6.01),57.61
