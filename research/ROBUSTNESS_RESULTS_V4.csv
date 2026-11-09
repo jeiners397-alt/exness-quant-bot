@@ -1,0 +1,5 @@
+run_id,trades,net,net_without_best,net_without_top5,best_trade_share_of_gross_profit,quarters_positive,quarters_total,py_matched_entries,py_trades,py_net,py_same_lots
+RUN_20261109_EURUSDm_H1_V3_A_PD_STRUCT_001,237,-55.71,-78.01,-165.13,0.0156,4,8,236,236,-35.69,229
+RUN_20261109_EURUSDm_M15_V4_DIAG_MULTI_001,1238,-324.71,-350.63,-452.59,0.0034,1,2,,,,
+RUN_20261109_US30m_M15_V4_DIAG_MULTI_003,1014,-172.74,-194.6,-279.08,0.0036,1,2,,,,
+RUN_20261109_XAUUSDm_M15_V4_DIAG_MULTI_002,1689,-820.38,-844.16,-937.76,0.0024,0,2,,,,

@@ -1,8 +1,8 @@
 ﻿# Estado del respaldo en Google Drive (V4)
-Actualizado: 2026-11-09T20:26:18.104032+00:00
+Actualizado: 2026-11-09T22:33:55.866168+00:00
 
-- Subidos y verificados con ID real: **7**
-- Pendientes: **32**
+- Subidos y verificados con ID real: **11**
+- Pendientes: **37**
 
 ## Subidos
 - AUTONOMOUS_LAB_V4_REPORT.md -> https://drive.google.com/file/d/13lws1o9rxeAgHUUP_5BPLDPpokWOAK1g/view (id 13lws1o9rxeAgHUUP_5BPLDPpokWOAK1g, sha256 348e41cf898c...)
@@ -12,6 +12,10 @@ Actualizado: 2026-11-09T20:26:18.104032+00:00
 - V4_AUTONOMOUS_LAB_V4_REPORT_2026-11-09_v2_ciclo_completo.md -> https://drive.google.com/file/d/1CxNfP7rmS17RmhzzMFnf7qBGs4Ppht1H/view (id 1CxNfP7rmS17RmhzzMFnf7qBGs4Ppht1H, sha256 COPIA_DE_TEX...)
 - V4_MT5_AUTOMATION_VERIFICATION_2026-11-09_v2_ciclo_completo.md -> https://drive.google.com/file/d/1gSwkb70pHBuM3ReIS1rCkhBREYuhgTGb/view (id 1gSwkb70pHBuM3ReIS1rCkhBREYuhgTGb, sha256 COPIA_DE_TEX...)
 - V4_MULTI_POSITION_TEST_REPORT_2026-11-09.md -> https://drive.google.com/file/d/1pYrOuTca4ysCBbBP6N2ZE0FKHCuKgvhu/view (id 1pYrOuTca4ysCBbBP6N2ZE0FKHCuKgvhu, sha256 COPIA_DE_TEX...)
+- V5_MULTI_MARKET_STRATEGY_MATRIX_COMPACT_2026-11-09.csv -> https://drive.google.com/file/d/15QwC1FOltgFy_M-u5_Cfn7_Cw2kIvNoQ/view (id 15QwC1FOltgFy_M-u5_Cfn7_Cw2kIvNoQ, sha256 COPIA_DE_TEX...)
+- V5_MULTI_MARKET_DISCOVERY_REPORT_2026-11-09.md -> https://drive.google.com/file/d/1XhajY4NLcckWFye1M8YxkwvnOjY-EDZO/view (id 1XhajY4NLcckWFye1M8YxkwvnOjY-EDZO, sha256 COPIA_DE_TEX...)
+- V5_RESEARCH_FAILURE_ANALYSIS_2026-11-09.md -> https://drive.google.com/file/d/1RI0HZY4xBY6rNRpIiecW5MSp6UCDDT15/view (id 1RI0HZY4xBY6rNRpIiecW5MSp6UCDDT15, sha256 COPIA_DE_TEX...)
+- V5_MT5_MARKET_SCANNER_VERIFICATION_2026-11-09.md -> https://drive.google.com/file/d/106r0oFbfGkKbTHQdMI3t4w2UKQafoCWH/view (id 106r0oFbfGkKbTHQdMI3t4w2UKQafoCWH, sha256 COPIA_DE_TEX...)
 
 ## Pendientes (NO respaldados)
 - MARGIN_ALLOCATION_MODEL.md (2528 B) -> carpeta 05
@@ -46,4 +50,9 @@ Actualizado: 2026-11-09T20:26:18.104032+00:00
 - V4_DIAG_XAUUSDm.json (900 B) -> carpeta 04
 - V4_DIAG_US30m.json (945 B) -> carpeta 04
 - STRATEGY_RANKING.csv (532 B) -> carpeta 04
+- MULTI_MARKET_STRATEGY_MATRIX.csv (29287 B) -> carpeta 04
+- EVENT_STUDY_RESULTS.csv (13362 B) -> carpeta 04
+- EXNESS_MARKET_UNIVERSE.csv (90651 B) -> carpeta 04
+- ROBUSTNESS_RESULTS.csv (16048 B) -> carpeta 04
+- STRATEGY_RANKING.csv (12169 B) -> carpeta 04
 

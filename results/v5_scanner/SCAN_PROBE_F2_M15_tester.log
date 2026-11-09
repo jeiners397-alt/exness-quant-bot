@@ -1,0 +1,734 @@
+25 17:37:40   deal #2015 sell 0.11 US30m at 45393.9 done (based on order #2027)
+HM	0	15:23:13.503	Core 01	2025.08.25 17:37:40   deal performed [#2015 sell 0.11 US30m at 45393.9]
+EL	0	15:23:13.503	Core 01	2025.08.25 17:37:40   order performed sell 0.11 at 45393.9 [#2027 sell 0.11 US30m at 45393.9]
+EP	0	15:23:13.503	Core 01	2025.08.25 18:15:00   market buy 0.11 US30m sl: 45362.3 tp: 45476.3 (45406.9 / 45407.9 / 45406.9)
+RS	0	15:23:13.503	Core 01	2025.08.25 18:15:00   deal #2016 buy 0.11 US30m at 45407.9 done (based on order #2028)
+LM	0	15:23:13.503	Core 01	2025.08.25 18:15:00   deal performed [#2016 buy 0.11 US30m at 45407.9]
+MK	0	15:23:13.503	Core 01	2025.08.25 18:15:00   order performed buy 0.11 at 45407.9 [#2028 buy 0.11 US30m at 45407.9]
+PF	0	15:23:13.503	Core 01	2025.08.25 18:15:00   CTrade::OrderSend: market buy 0.11 US30m sl: 45362.3 tp: 45476.3 [done at 45407.9]
+HG	0	15:23:13.503	Core 01	2025.08.25 18:45:40   stop loss triggered #2028 buy 0.11 US30m 45407.9 sl: 45362.3 tp: 45476.3 [#2029 sell 0.11 US30m at 45362.3]
+CI	0	15:23:13.503	Core 01	2025.08.25 18:45:40   deal #2017 sell 0.11 US30m at 45362.3 done (based on order #2029)
+LD	0	15:23:13.503	Core 01	2025.08.25 18:45:40   deal performed [#2017 sell 0.11 US30m at 45362.3]
+IE	0	15:23:13.503	Core 01	2025.08.25 18:45:40   order performed sell 0.11 at 45362.3 [#2029 sell 0.11 US30m at 45362.3]
+CH	0	15:23:13.503	Core 01	2025.08.25 19:00:00   market buy 0.1 US30m sl: 45314.4 tp: 45451.1 (45368.1 / 45369.1 / 45368.1)
+LK	0	15:23:13.503	Core 01	2025.08.25 19:00:00   deal #2018 buy 0.1 US30m at 45369.1 done (based on order #2030)
+CQ	0	15:23:13.503	Core 01	2025.08.25 19:00:00   deal performed [#2018 buy 0.1 US30m at 45369.1]
+KL	0	15:23:13.503	Core 01	2025.08.25 19:00:00   order performed buy 0.1 at 45369.1 [#2030 buy 0.1 US30m at 45369.1]
+LL	0	15:23:13.503	Core 01	2025.08.25 19:00:00   CTrade::OrderSend: market buy 0.10 US30m sl: 45314.4 tp: 45451.1 [done at 45369.1]
+RQ	0	15:23:13.503	Core 01	2025.08.25 19:59:40   stop loss triggered #2030 buy 0.1 US30m 45369.1 sl: 45314.4 tp: 45451.1 [#2031 sell 0.1 US30m at 45314.4]
+MP	0	15:23:13.503	Core 01	2025.08.25 19:59:40   deal #2019 sell 0.1 US30m at 45314.4 done (based on order #2031)
+OM	0	15:23:13.503	Core 01	2025.08.25 19:59:40   deal performed [#2019 sell 0.1 US30m at 45314.4]
+DO	0	15:23:13.503	Core 01	2025.08.25 19:59:40   order performed sell 0.1 at 45314.4 [#2031 sell 0.1 US30m at 45314.4]
+CJ	0	15:23:13.503	Core 01	2025.08.25 20:30:00   buy limit 0.1 US30m at 45318.7 sl: 45258.6 tp: 45408.9 (45347.8 / 45348.8 / 45347.8)
+QE	0	15:23:13.503	Core 01	2025.08.25 20:30:00   CTrade::OrderSend: buy limit 0.10 US30m at 45318.7 sl: 45258.6 tp: 45408.9 [done]
+OM	0	15:23:13.503	Core 01	2025.08.26 00:03:40   order [#2032 buy limit 0.1 US30m at 45318.7] triggered
+KG	0	15:23:13.503	Core 01	2025.08.26 00:03:40   deal #2020 buy 0.1 US30m at 45318.7 done (based on order #2032)
+FE	0	15:23:13.503	Core 01	2025.08.26 00:03:40   deal performed [#2020 buy 0.1 US30m at 45318.7]
+RM	0	15:23:13.503	Core 01	2025.08.26 00:03:40   order performed buy 0.1 at 45318.7 [#2032 buy limit 0.1 US30m at 45318.7]
+HM	0	15:23:13.503	Core 01	2025.08.26 00:32:40   stop loss triggered #2032 buy 0.1 US30m 45318.7 sl: 45258.6 tp: 45408.9 [#2033 sell 0.1 US30m at 45258.6]
+IG	0	15:23:13.503	Core 01	2025.08.26 00:32:40   deal #2021 sell 0.1 US30m at 45258.6 done (based on order #2033)
+EI	0	15:23:13.503	Core 01	2025.08.26 00:32:40   deal performed [#2021 sell 0.1 US30m at 45258.6]
+PS	0	15:23:13.503	Core 01	2025.08.26 00:32:40   order performed sell 0.1 at 45258.6 [#2033 sell 0.1 US30m at 45258.6]
+GR	0	15:23:13.503	Core 01	2025.08.26 01:15:00   market buy 0.1 US30m sl: 45198.0 tp: 45418.5 (45284.4 / 45286.2 / 45284.4)
+NQ	0	15:23:13.503	Core 01	2025.08.26 01:15:00   deal #2022 buy 0.1 US30m at 45286.2 done (based on order #2034)
+EO	0	15:23:13.503	Core 01	2025.08.26 01:15:00   deal performed [#2022 buy 0.1 US30m at 45286.2]
+CJ	0	15:23:13.503	Core 01	2025.08.26 01:15:00   order performed buy 0.1 at 45286.2 [#2034 buy 0.1 US30m at 45286.2]
+DI	0	15:23:13.503	Core 01	2025.08.26 01:15:00   CTrade::OrderSend: market buy 0.10 US30m sl: 45198.0 tp: 45418.5 [done at 45286.2]
+PG	0	15:23:13.503	Core 01	2025.08.26 07:06:40   stop loss triggered #2034 buy 0.1 US30m 45286.2 sl: 45198.0 tp: 45418.5 [#2035 sell 0.1 US30m at 45198.0]
+DJ	0	15:23:13.503	Core 01	2025.08.26 07:06:40   deal #2023 sell 0.1 US30m at 45198.0 done (based on order #2035)
+FG	0	15:23:13.503	Core 01	2025.08.26 07:06:40   deal performed [#2023 sell 0.1 US30m at 45198.0]
+DE	0	15:23:13.503	Core 01	2025.08.26 07:06:40   order performed sell 0.1 at 45198.0 [#2035 sell 0.1 US30m at 45198.0]
+PK	0	15:23:13.503	Core 01	2025.08.26 07:15:00   market buy 0.09 US30m sl: 45121.6 tp: 45238.8 (45166.8 / 45168.5 / 45166.8)
+LI	0	15:23:13.503	Core 01	2025.08.26 07:15:00   deal #2024 buy 0.09 US30m at 45168.5 done (based on order #2036)
+KR	0	15:23:13.503	Core 01	2025.08.26 07:15:00   deal performed [#2024 buy 0.09 US30m at 45168.5]
+GL	0	15:23:13.503	Core 01	2025.08.26 07:15:00   order performed buy 0.09 at 45168.5 [#2036 buy 0.09 US30m at 45168.5]
+EO	0	15:23:13.503	Core 01	2025.08.26 07:15:00   CTrade::OrderSend: market buy 0.09 US30m sl: 45121.6 tp: 45238.8 [done at 45168.5]
+JP	0	15:23:13.503	Core 01	2025.08.26 07:35:40   take profit triggered #2036 buy 0.09 US30m 45168.5 sl: 45121.6 tp: 45238.8 [#2037 sell 0.09 US30m at 45238.8]
+KP	0	15:23:13.503	Core 01	2025.08.26 07:35:40   deal #2025 sell 0.09 US30m at 45238.8 done (based on order #2037)
+QO	0	15:23:13.503	Core 01	2025.08.26 07:35:40   deal performed [#2025 sell 0.09 US30m at 45238.8]
+FN	0	15:23:13.503	Core 01	2025.08.26 07:35:40   order performed sell 0.09 at 45238.8 [#2037 sell 0.09 US30m at 45238.8]
+NQ	0	15:23:13.503	Core 01	2025.08.26 08:00:00   market buy 0.1 US30m sl: 45143.4 tp: 45298.4 (45203.7 / 45205.4 / 45203.7)
+DR	0	15:23:13.503	Core 01	2025.08.26 08:00:00   deal #2026 buy 0.1 US30m at 45205.4 done (based on order #2038)
+CH	0	15:23:13.503	Core 01	2025.08.26 08:00:00   deal performed [#2026 buy 0.1 US30m at 45205.4]
+FE	0	15:23:13.503	Core 01	2025.08.26 08:00:00   order performed buy 0.1 at 45205.4 [#2038 buy 0.1 US30m at 45205.4]
+EE	0	15:23:13.503	Core 01	2025.08.26 08:00:00   CTrade::OrderSend: market buy 0.10 US30m sl: 45143.4 tp: 45298.4 [done at 45205.4]
+CK	0	15:23:13.503	Core 01	2025.08.26 13:32:40   take profit triggered #2038 buy 0.1 US30m 45205.4 sl: 45143.4 tp: 45298.4 [#2039 sell 0.1 US30m at 45298.4]
+EH	0	15:23:13.503	Core 01	2025.08.26 13:32:40   deal #2027 sell 0.1 US30m at 45298.4 done (based on order #2039)
+GJ	0	15:23:13.503	Core 01	2025.08.26 13:32:40   deal performed [#2027 sell 0.1 US30m at 45298.4]
+DP	0	15:23:13.503	Core 01	2025.08.26 13:32:40   order performed sell 0.1 at 45298.4 [#2039 sell 0.1 US30m at 45298.4]
+HO	0	15:23:13.503	Core 01	2025.08.26 14:00:00   market buy 0.1 US30m sl: 45250.7 tp: 45378.2 (45300.7 / 45301.7 / 45300.7)
+HO	0	15:23:13.503	Core 01	2025.08.26 14:00:00   deal #2028 buy 0.1 US30m at 45301.7 done (based on order #2040)
+JR	0	15:23:13.503	Core 01	2025.08.26 14:00:00   deal performed [#2028 buy 0.1 US30m at 45301.7]
+JO	0	15:23:13.503	Core 01	2025.08.26 14:00:00   order performed buy 0.1 at 45301.7 [#2040 buy 0.1 US30m at 45301.7]
+CK	0	15:23:13.503	Core 01	2025.08.26 14:00:00   CTrade::OrderSend: market buy 0.10 US30m sl: 45250.7 tp: 45378.2 [done at 45301.7]
+QD	0	15:23:13.503	Core 01	2025.08.26 15:16:40   stop loss triggered #2040 buy 0.1 US30m 45301.7 sl: 45250.7 tp: 45378.2 [#2041 sell 0.1 US30m at 45250.7]
+QO	0	15:23:13.503	Core 01	2025.08.26 15:16:40   deal #2029 sell 0.1 US30m at 45250.7 done (based on order #2041)
+JQ	0	15:23:13.503	Core 01	2025.08.26 15:16:40   deal performed [#2029 sell 0.1 US30m at 45250.7]
+GJ	0	15:23:13.503	Core 01	2025.08.26 15:16:40   order performed sell 0.1 at 45250.7 [#2041 sell 0.1 US30m at 45250.7]
+II	0	15:23:13.503	Core 01	2025.08.26 15:30:00   buy limit 0.1 US30m at 45239.8 sl: 45208.1 tp: 45287.4 (45254.7 / 45255.7 / 45254.7)
+MF	0	15:23:13.503	Core 01	2025.08.26 15:30:00   CTrade::OrderSend: buy limit 0.10 US30m at 45239.8 sl: 45208.1 tp: 45287.4 [done]
+MG	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#2042 buy limit 0.1 US30m at 45239.8]
+FE	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#2004 buy limit 0.19 US30m at 45014.5]
+GJ	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#1995 buy limit 0.08 US30m at 44762.7]
+PK	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#1848 buy limit 0.12 US30m at 44440.7]
+DH	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#1845 buy limit 0.15 US30m at 44405.0]
+OI	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#1753 buy limit 0.17 US30m at 43779.8]
+IN	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#1601 buy limit 0.06 US30m at 43497.7]
+CL	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#892 buy limit 0.07 US30m at 43209.4]
+QN	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#886 buy limit 0.32 US30m at 43109.4]
+LQ	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#862 buy limit 0.13 US30m at 42949.5]
+QP	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#857 buy limit 0.12 US30m at 42887.0]
+NS	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#768 buy limit 0.05 US30m at 42401.0]
+KR	0	15:23:13.503	Core 01	2025.08.31 23:59:59   order canceled due end of test [#665 buy limit 0.05 US30m at 41971.8]
+HK	0	15:23:13.503	Core 01	final balance 2827.26 USD
+NM	0	15:23:13.503	Core 01	2025.08.31 23:59:59   REMIX V4 resumen: senales=1977 abiertas=779 pendientes=248 rech_margen=900 rech_riesgo=8 rech_minlote=0 rech_posiciones=0 | max_margen_simbolo=5.002% max_lotes=0.84 min_lotes=0.05 max_simultaneas=14 max_riesgo_agregado=4.380%
+LK	0	15:23:13.503	Core 01	US30m,M15: 352937 ticks, 5933 bars generated. Environment synchronized in 0:00:00.309. Test passed in 0:00:00.885 (including ticks preprocessing 0:00:00.015).
+CK	0	15:23:13.503	Core 01	US30m,M15: total time from login to stop testing 0:00:01.194 (including 0:00:00.309 for history data synchronization)
+RR	0	15:23:13.503	Core 01	64 Mb memory used including 2 Mb of history data, 64 Mb of tick data
+GJ	0	15:23:13.503	Core 01	log file "C:\REMIX_MT5_LAB\terminal\Tester\Agent-127.0.0.1-3000\logs\20261109.log" written
+MF	0	15:23:13.631	Tester	automatic testing finished
+RQ	0	15:23:13.634	Core 01	connection closed
+HD	0	16:35:22.355	Tester	Cloud servers switched off
+HE	0	16:35:24.442	Tester	"REMIX\REMIX_V5_GENERIC.ex5" X64
+GS	0	16:35:24.506	Tester	Experts\REMIX\REMIX_V5_GENERIC.ex5 on EURUSDm,M15 from 2026.01.02 00:00 to 2026.03.01 00:00
+OO	0	16:35:24.506	Tester	optimization on all Market Watch symbols started
+HH	0	16:35:24.517	Core 01	agent process started on 127.0.0.1:3000
+NN	0	16:35:25.027	Core 01	connecting to 127.0.0.1:3000
+CI	0	16:35:25.053	Core 01	connected
+CS	0	16:35:25.053	Tester	history synchronization of 357 Market Watch symbols started on 16 threads
+FE	0	16:35:25.053	Tester	XAUUSDm: history data begins from 2022.08.08 00:00
+LK	0	16:35:25.053	Tester	BTCUSDm: history data begins from 2023.12.29 00:00
+GQ	0	16:35:25.054	Tester	XRPUSDm: history data begins from 2023.12.08 00:00
+EF	0	16:35:25.054	Tester	ADAUSDm: history data begins from 2024.07.09 00:00
+QN	0	16:35:25.054	Tester	ETHUSDm: history data begins from 2023.12.27 00:00
+HD	0	16:35:25.054	Tester	DOTUSDm: history data begins from 2024.07.10 00:00
+RK	0	16:35:25.054	Tester	EURUSDm: history data begins from 2014.01.14 00:00
+JR	0	16:35:25.054	Tester	BCHUSDm: preliminary downloading of M1 history started
+KF	0	16:35:25.054	Tester	USDJPYm: history data begins from 2022.10.28 00:00
+FM	0	16:35:25.054	Tester	SOLUSDm: history data begins from 2022.10.08 00:00
+RQ	0	16:35:25.054	Tester	LTCUSDm: preliminary downloading of M1 history started
+CI	0	16:35:25.054	Tester	BATUSDm: history data begins from 2024.09.24 00:00
+EM	0	16:35:25.054	Tester	BTCUSDTm: history data begins from 2026.06.01 00:00
+EE	0	16:35:25.054	Tester	BNBUSDm: preliminary downloading of M1 history started
+NO	0	16:35:25.054	Tester	USDCNHm: preliminary downloading of M1 history started
+CR	0	16:35:25.054	Tester	AUDUSDm: history data begins from 2022.10.23 00:00
+PE	0	16:35:25.064	Core 02	agent process started on 127.0.0.1:3001
+LQ	0	16:35:25.068	Core 01	authorized (agent build 6249)
+DH	0	16:35:25.155	Tester	FILUSDm: history data begins from 2024.07.10 00:00
+HN	0	16:35:25.155	Tester	SNXUSDm: history data begins from 2024.10.03 00:00
+LE	0	16:35:25.155	Tester	UNIUSDm: history data begins from 2024.09.28 00:00
+ML	0	16:35:25.264	Tester	XTZUSDm: history check started
+RD	0	16:35:25.264	Tester	ENJUSDm: history check started
+DM	0	16:35:25.264	Tester	XNGUSDm: history check started
+RG	0	16:35:25.264	Tester	USDCHFm: history check started
+CN	0	16:35:25.265	Tester	TETUSDm: history check started
+LH	0	16:35:25.265	Tester	USDTHBm: history check started
+JQ	0	16:35:25.265	Tester	XAGUSDm: history check started
+EK	0	16:35:25.265	Tester	USDZARm: history check started
+NR	0	16:35:25.265	Tester	USDCADm: history check started
+OM	0	16:35:25.372	Tester	USDDKKm: history check started
+PD	0	16:35:25.372	Tester	USDHUFm: history check started
+IM	0	16:35:25.372	Tester	USDCZKm: history check started
+CD	0	16:35:25.596	Core 02	connecting to 127.0.0.1:3001
+HS	0	16:35:25.611	Core 02	connected
+KJ	0	16:35:25.619	Core 02	authorized (agent build 6249)
+PQ	0	16:35:25.623	Core 02	common synchronization completed
+DN	0	16:35:25.624	Core 01	common synchronization completed
+MI	0	16:35:25.643	Core 03	agent process started on 127.0.0.1:3002
+OQ	0	16:35:25.674	Core 01	XAUUSDm: history for 2025 year synchronized
+QN	0	16:35:25.699	Core 01	XAUUSDm: history for 2026 year synchronized
+RK	0	16:35:25.699	Core 01	XAUUSDm: history synchronization completed [1758 Kb]
+RM	0	16:35:25.699	Core 01	XAUUSDm: 1.72 Mb of history processed in 0:00:00.062
+OJ	0	16:35:25.856	Core 02	BTCUSDm: history for 2025 year synchronized
+GQ	0	16:35:25.893	Core 02	BTCUSDm: history for 2026 year synchronized
+LE	0	16:35:25.893	Core 02	BTCUSDm: history synchronization completed [6988 Kb]
+DG	0	16:35:25.894	Core 02	BTCUSDm: 6.82 Mb of history processed in 0:00:00.250
+JS	0	16:35:26.134	Core 03	connecting to 127.0.0.1:3002
+LF	0	16:35:26.147	Core 03	connected
+FD	0	16:35:26.155	Core 03	authorized (agent build 6249)
+QL	0	16:35:26.158	Core 03	common synchronization completed
+LK	0	16:35:26.173	Core 04	agent process started on 127.0.0.1:3003
+OS	0	16:35:26.224	Core 02	USDJPYm: history for 2025 year synchronized
+JH	0	16:35:26.233	Core 02	USDJPYm: history for 2026 year synchronized
+MM	0	16:35:26.233	Core 02	USDJPYm: history synchronization completed [2320 Kb]
+PO	0	16:35:26.234	Core 02	USDJPYm: 2.27 Mb of history processed in 0:00:00.078
+DD	0	16:35:26.259	Core 03	ETHUSDm: history for 2025 year synchronized
+NS	0	16:35:26.274	Core 03	ETHUSDm: history for 2026 year synchronized
+OF	0	16:35:26.274	Core 03	ETHUSDm: history synchronization completed [4728 Kb]
+JP	0	16:35:26.275	Core 03	ETHUSDm: 4.62 Mb of history processed in 0:00:00.109
+JR	0	16:35:26.570	Tester	XTZUSDm: preliminary downloading of M1 history completed in 0:00:01.515
+QF	0	16:35:26.570	Tester	XTZUSDm: history data begins from 2024.07.10 00:00
+CM	0	16:35:26.789	Tester	USDMXNm: history check started
+KD	0	16:35:27.332	Tester	ENJUSDm: preliminary downloading of M1 history completed in 0:00:02.281
+CH	0	16:35:27.332	Tester	ENJUSDm: history data begins from 2024.07.18 00:00
+JR	0	16:35:27.357	Core 04	connecting to 127.0.0.1:3003
+DE	0	16:35:27.369	Core 04	connected
+ME	0	16:35:27.385	Core 04	authorized (agent build 6249)
+NS	2	16:35:27.389	Core 02	pass 8 on ADAUSDm tested with error "cannot synchronize history (ADAUSDm)" (0:00:00.001)
+NP	2	16:35:27.390	Core 03	pass 9 on BATUSDm tested with error "cannot synchronize history (BATUSDm)" (0:00:00.001)
+QR	0	16:35:27.390	Core 04	common synchronization completed
+LE	0	16:35:27.398	Core 05	agent process started on 127.0.0.1:3004
+JQ	0	16:35:27.546	Tester	USDNOKm: history check started
+JE	0	16:35:27.600	Core 01	XRPUSDm: history for 2025 year synchronized
+HL	0	16:35:27.630	Core 01	XRPUSDm: history for 2026 year synchronized
+QG	0	16:35:27.630	Core 01	XRPUSDm: history synchronization completed [4490 Kb]
+JQ	0	16:35:27.630	Core 01	XRPUSDm: 4.39 Mb of history processed in 0:00:00.234
+CQ	0	16:35:27.899	Core 05	connecting to 127.0.0.1:3004
+QP	0	16:35:27.912	Core 05	connected
+JF	0	16:35:27.930	Core 05	authorized (agent build 6249)
+EM	2	16:35:27.931	Core 02	pass 12 on ENJUSDm tested with error "cannot synchronize history (ENJUSDm)" (0:00:00.002)
+OO	2	16:35:27.932	Core 03	pass 13 on FILUSDm tested with error "cannot synchronize history (FILUSDm)" (0:00:00.001)
+FN	2	16:35:27.932	Core 04	pass 11 on DOTUSDm tested with error "cannot synchronize history (DOTUSDm)" (0:00:00.001)
+EI	2	16:35:27.945	Core 04	pass 17 on XTZUSDm tested with error "cannot synchronize history (XTZUSDm)" (0:00:00.011)
+CJ	0	16:35:27.989	Core 02	SOLUSDm: history for 2025 year synchronized
+IQ	0	16:35:28.014	Core 04	AUDUSDm: history for 2025 year synchronized
+NH	0	16:35:28.021	Core 02	SOLUSDm: history for 2026 year synchronized
+EK	0	16:35:28.021	Core 02	SOLUSDm: history synchronization completed [1655 Kb]
+IM	0	16:35:28.022	Core 02	SOLUSDm: 1.62 Mb of history processed in 0:00:00.079
+NK	0	16:35:28.025	Core 04	AUDUSDm: history for 2026 year synchronized
+PN	0	16:35:28.025	Core 04	AUDUSDm: history synchronization completed [1915 Kb]
+KH	0	16:35:28.026	Core 04	AUDUSDm: 1.87 Mb of history processed in 0:00:00.078
+FG	2	16:35:28.054	Core 01	pass 14 on SNXUSDm tested with error "cannot synchronize history (SNXUSDm)" (0:00:00.012)
+OQ	2	16:35:28.055	Core 03	pass 16 on UNIUSDm tested with error "cannot synchronize history (UNIUSDm)" (0:00:00.012)
+FM	0	16:35:28.163	Tester	USDCNHm: preliminary downloading of M1 history stopped due to timeout
+KQ	0	16:35:28.164	Tester	BCHUSDm: preliminary downloading of M1 history stopped due to timeout
+RE	0	16:35:28.164	Tester	BNBUSDm: preliminary downloading of M1 history stopped due to timeout
+MH	0	16:35:28.164	Tester	LTCUSDm: preliminary downloading of M1 history stopped due to timeout
+HM	0	16:35:28.195	Tester	USDNOKm: preliminary downloading of M1 history stopped due to timeout
+QP	0	16:35:28.195	Tester	XNGUSDm: preliminary downloading of M1 history stopped due to timeout
+IE	0	16:35:28.195	Tester	USDZARm: preliminary downloading of M1 history stopped due to timeout
+LI	0	16:35:28.195	Tester	USDCADm: preliminary downloading of M1 history stopped due to timeout
+NM	0	16:35:28.195	Tester	USDDKKm: preliminary downloading of M1 history stopped due to timeout
+GP	0	16:35:28.195	Tester	USDHUFm: preliminary downloading of M1 history stopped due to timeout
+GD	0	16:35:28.195	Tester	USDMXNm: preliminary downloading of M1 history stopped due to timeout
+EI	0	16:35:28.195	Tester	USDCHFm: preliminary downloading of M1 history stopped due to timeout
+DL	0	16:35:28.195	Tester	USDTHBm: preliminary downloading of M1 history stopped due to timeout
+MQ	0	16:35:28.195	Tester	TETUSDm: preliminary downloading of M1 history stopped due to timeout
+PD	0	16:35:28.195	Tester	USDCZKm: preliminary downloading of M1 history stopped due to timeout
+DH	0	16:35:28.195	Tester	XAGUSDm: preliminary downloading of M1 history stopped due to timeout
+ER	0	16:35:28.195	Tester	Market Watch symbols history synchronized
+MF	0	16:35:29.286	Core 01	USDCNHm: history check timeout
+JN	0	16:35:29.506	Core 01	USDCNHm: history synchronization started
+GG	0	16:35:29.506	Core 02	BCHUSDm: history check started
+HN	0	16:35:32.669	Core 02	BCHUSDm: preliminary downloading of M1 history started
+LP	0	16:35:51.822	Core 01	USDCNHm: history downloading completed
+JF	0	16:35:51.884	Core 01	USDCNHm: history for 2025 year synchronized
+CO	0	16:35:51.893	Core 01	USDCNHm: history for 2026 year synchronized
+OH	0	16:35:51.893	Core 01	USDCNHm: history synchronization completed [2510 Kb]
+PR	0	16:35:51.894	Core 01	USDCNHm: 2.45 Mb of history processed in 0:00:22.594
+JD	0	16:35:57.602	Tester	BCHUSDm: history data begins from 2024.12.27 00:00
+PL	0	16:35:57.602	Tester	LTCUSDm: history data begins from 2024.12.03 00:00
+ER	0	16:35:57.602	Core 04	BNBUSDm: preliminary downloading of M1 history started
+PD	0	16:35:57.679	Core 03	LTCUSDm: history for 2025 year synchronized
+PR	0	16:35:57.687	Core 02	BCHUSDm: history for 2025 year synchronized
+HJ	0	16:35:57.690	Core 03	LTCUSDm: history for 2026 year synchronized
+PM	0	16:35:57.690	Core 03	LTCUSDm: history synchronization completed [2985 Kb]
+JO	0	16:35:57.691	Core 03	LTCUSDm: 2.92 Mb of history processed in 0:00:00.078
+OD	0	16:35:57.700	Core 02	BCHUSDm: history for 2026 year synchronized
+MQ	0	16:35:57.700	Core 02	BCHUSDm: history synchronization completed [3780 Kb]
+PK	0	16:35:57.701	Core 02	BCHUSDm: 3.69 Mb of history processed in 0:00:00.094
+DM	0	16:36:08.272	Tester	BNBUSDm: history data begins from 2024.08.05 00:00
+JN	0	16:36:08.294	Core 04	BNBUSDm: history for 2025 year synchronized
+KG	0	16:36:08.306	Core 04	BNBUSDm: history for 2026 year synchronized
+MP	0	16:36:08.306	Core 04	BNBUSDm: history synchronization completed [1508 Kb]
+OJ	0	16:36:08.307	Core 04	BNBUSDm: 1.47 Mb of history processed in 0:00:00.031
+OM	0	16:36:08.488	Tester	XNGUSDm: history data begins from 2022.07.07 00:00
+OQ	0	16:36:08.492	Core 05	common synchronization completed
+LL	0	16:36:08.721	Core 01	TETUSDm: preliminary downloading of M1 history started
+IN	0	16:36:08.839	Core 05	XNGUSDm: history for 2025 year synchronized
+DE	0	16:36:08.859	Core 05	XNGUSDm: history for 2026 year synchronized
+JP	0	16:36:08.859	Core 05	XNGUSDm: history synchronization completed [2068 Kb]
+HJ	0	16:36:08.860	Core 05	XNGUSDm: 2.02 Mb of history processed in 0:00:00.359
+OM	0	16:36:13.293	Tester	TETUSDm: found history data from 2026.05.31 00:00 to 2026.11.09 00:00, specified period is out of this range
+LJ	0	16:36:13.510	Core 02	USDTHBm: preliminary downloading of M1 history started
+JQ	0	16:36:28.415	Tester	USDTHBm: history data begins from 2024.12.30 00:00
+EK	0	16:36:28.477	Core 02	USDTHBm: history for 2025 year synchronized
+PR	0	16:36:28.486	Core 02	USDTHBm: history for 2026 year synchronized
+HE	0	16:36:28.486	Core 02	USDTHBm: history synchronization completed [2752 Kb]
+GG	0	16:36:28.487	Core 02	USDTHBm: 2.69 Mb of history processed in 0:00:00.062
+EQ	0	16:36:28.633	Tester	XAGUSDm: history data begins from 2022.08.03 00:00
+DD	0	16:36:28.738	Core 03	XAGUSDm: history for 2025 year synchronized
+FS	0	16:36:28.748	Core 03	XAGUSDm: history for 2026 year synchronized
+IF	0	16:36:28.749	Core 03	XAGUSDm: history synchronization completed [2338 Kb]
+JP	0	16:36:28.749	Core 03	XAGUSDm: 2.28 Mb of history processed in 0:00:00.109
+QP	0	16:36:28.852	Core 04	USDZARm: history check started
+RK	0	16:36:28.960	Core 04	USDZARm: preliminary downloading of M1 history started
+HQ	0	16:36:55.376	Tester	USDZARm: history data begins from 2024.12.20 00:00
+LJ	0	16:36:55.448	Core 04	USDZARm: history for 2025 year synchronized
+ES	0	16:36:55.460	Core 04	USDZARm: history for 2026 year synchronized
+RD	0	16:36:55.460	Core 04	USDZARm: history synchronization completed [3729 Kb]
+IF	0	16:36:55.461	Core 04	USDZARm: 3.64 Mb of history processed in 0:00:00.094
+HS	0	16:36:55.592	Core 05	USDCADm: history check started
+RK	0	16:36:55.810	Tester	USDCADm: history data begins from 2022.10.20 00:00
+JM	0	16:36:55.817	Core 06	agent process started on 127.0.0.1:3005
+OE	0	16:36:55.982	Core 05	USDCADm: history for 2025 year synchronized
+LR	0	16:36:56.150	Core 05	USDCADm: history for 2026 year synchronized
+DG	0	16:36:56.150	Core 05	USDCADm: history synchronization completed [1931 Kb]
+EQ	0	16:36:56.151	Core 05	USDCADm: 1.89 Mb of history processed in 0:00:00.344
+LP	0	16:36:56.314	Core 06	connecting to 127.0.0.1:3005
+IG	0	16:36:56.325	Core 06	connected
+KG	0	16:36:56.333	Core 06	authorized (agent build 6249)
+NN	0	16:36:56.546	Tester	USDCHFm: history data begins from 2022.10.19 00:00
+PG	0	16:36:56.669	Core 02	USDCZKm: preliminary downloading of M1 history started
+CF	0	16:36:56.876	Core 01	USDCHFm: history for 2025 year synchronized
+FN	0	16:36:56.896	Core 01	USDCHFm: history for 2026 year synchronized
+FK	0	16:36:56.896	Core 01	USDCHFm: history synchronization completed [1917 Kb]
+MM	0	16:36:56.897	Core 01	USDCHFm: 1.87 Mb of history processed in 0:00:00.344
+KF	0	16:37:06.917	Tester	USDCZKm: history data begins from 2024.12.31 00:00
+RP	0	16:37:06.967	Core 02	USDCZKm: history for 2025 year synchronized
+OO	0	16:37:06.974	Core 02	USDCZKm: history for 2026 year synchronized
+RJ	0	16:37:06.974	Core 02	USDCZKm: history synchronization completed [1822 Kb]
+CL	0	16:37:06.974	Core 02	USDCZKm: 1.78 Mb of history processed in 0:00:00.047
+KD	0	16:37:07.140	Core 03	USDDKKm: history check started
+OO	0	16:37:07.356	Core 03	USDDKKm: preliminary downloading of M1 history started
+OD	0	16:37:53.132	Tester	USDDKKm: history data begins from 2024.12.18 00:00
+OF	0	16:37:53.196	Core 03	USDDKKm: history for 2025 year synchronized
+FO	0	16:37:53.206	Core 03	USDDKKm: history for 2026 year synchronized
+NH	0	16:37:53.206	Core 03	USDDKKm: history synchronization completed [3027 Kb]
+RR	0	16:37:53.206	Core 03	USDDKKm: 2.96 Mb of history processed in 0:00:00.062
+KF	0	16:37:53.349	Core 04	USDHUFm: history check started
+GO	0	16:37:54.444	Core 04	USDHUFm: preliminary downloading of M1 history started
+JD	0	16:38:03.601	Tester	USDHUFm: history data begins from 2024.12.13 00:00
+JF	0	16:38:03.652	Core 04	USDHUFm: history for 2025 year synchronized
+JM	0	16:38:03.660	Core 04	USDHUFm: history for 2026 year synchronized
+LI	0	16:38:03.660	Core 04	USDHUFm: history synchronization completed [1937 Kb]
+PS	0	16:38:03.660	Core 04	USDHUFm: 1.89 Mb of history processed in 0:00:00.047
+LF	0	16:38:03.820	Core 05	USDMXNm: history check started
+CL	0	16:38:03.930	Core 05	USDMXNm: preliminary downloading of M1 history started
+IS	0	16:38:20.493	Tester	USDMXNm: history data begins from 2024.12.27 00:00
+IE	0	16:38:20.561	Core 05	USDMXNm: history for 2025 year synchronized
+MM	0	16:38:20.571	Core 05	USDMXNm: history for 2026 year synchronized
+IH	0	16:38:20.571	Core 05	USDMXNm: history synchronization completed [3375 Kb]
+FR	0	16:38:20.572	Core 05	USDMXNm: 3.30 Mb of history processed in 0:00:00.078
+JF	0	16:38:20.713	Core 06	USDNOKm: history check started
+FL	0	16:38:20.932	Core 06	USDNOKm: preliminary downloading of M1 history started
+JS	0	16:38:45.483	Tester	USDNOKm: history data begins from 2024.12.27 00:00
+DK	0	16:38:45.486	Core 06	common synchronization completed
+OQ	0	16:38:45.508	Tester	NZDUSDm: history data begins from 2022.11.01 00:00
+DJ	0	16:38:45.567	Core 06	USDNOKm: history for 2025 year synchronized
+ER	0	16:38:45.578	Core 06	USDNOKm: history for 2026 year synchronized
+GG	0	16:38:45.578	Core 06	USDNOKm: history synchronization completed [3694 Kb]
+PQ	0	16:38:45.579	Core 06	USDNOKm: 3.61 Mb of history processed in 0:00:00.078
+RQ	0	16:38:45.727	Core 02	USDPLNm: history check started
+IF	0	16:38:45.824	Core 01	NZDUSDm: history for 2025 year synchronized
+JS	0	16:38:45.836	Core 02	USDPLNm: preliminary downloading of M1 history started
+IK	0	16:38:45.843	Core 01	NZDUSDm: history for 2026 year synchronized
+PN	0	16:38:45.843	Core 01	NZDUSDm: history synchronization completed [2034 Kb]
+OH	0	16:38:45.844	Core 01	NZDUSDm: 1.99 Mb of history processed in 0:00:00.328
+RJ	0	16:39:08.207	Tester	USDPLNm: history data begins from 2024.12.30 00:00
+PP	0	16:39:08.207	Core 03	USDSEKm: preliminary downloading of M1 history started
+PK	0	16:39:08.277	Core 02	USDPLNm: history for 2025 year synchronized
+OR	0	16:39:08.288	Core 02	USDPLNm: history for 2026 year synchronized
+GE	0	16:39:08.288	Core 02	USDPLNm: history synchronization completed [3133 Kb]
+JG	0	16:39:08.288	Core 02	USDPLNm: 3.06 Mb of history processed in 0:00:00.078
+NQ	0	16:39:33.738	Tester	USDSEKm: history data begins from 2024.12.30 00:00
+FK	0	16:39:33.808	Core 03	USDSEKm: history for 2025 year synchronized
+JR	0	16:39:33.818	Core 03	USDSEKm: history for 2026 year synchronized
+LE	0	16:39:33.818	Core 03	USDSEKm: history synchronization completed [3627 Kb]
+GG	0	16:39:33.820	Core 03	USDSEKm: 3.54 Mb of history processed in 0:00:00.078
+OR	0	16:39:33.955	Core 04	USDSGDm: history check started
+CK	0	16:39:34.065	Core 04	USDSGDm: preliminary downloading of M1 history started
+IP	0	16:39:51.202	Tester	USDSGDm: history data begins from 2024.12.18 00:00
+OJ	0	16:39:51.272	Core 04	USDSGDm: history for 2025 year synchronized
+FQ	0	16:39:51.283	Core 04	USDSGDm: history for 2026 year synchronized
+CE	0	16:39:51.283	Core 04	USDSGDm: history synchronization completed [2157 Kb]
+CG	0	16:39:51.284	Core 04	USDSGDm: 2.11 Mb of history processed in 0:00:00.078
+JR	0	16:39:51.420	Core 05	USDTRYm: history check started
+JH	0	16:39:51.528	Core 05	USDTRYm: preliminary downloading of M1 history started
+KO	0	16:40:03.512	Tester	USDTRYm: history data begins from 2024.12.18 00:00
+JI	0	16:40:03.584	Core 05	USDTRYm: history for 2025 year synchronized
+NQ	0	16:40:03.594	Core 05	USDTRYm: history for 2026 year synchronized
+MD	0	16:40:03.594	Core 05	USDTRYm: history synchronization completed [2580 Kb]
+GF	0	16:40:03.594	Core 05	USDTRYm: 2.52 Mb of history processed in 0:00:00.078
+JS	0	16:40:03.730	Core 06	GBPUSDm: history check started
+JH	0	16:40:03.840	Tester	GBPUSDm: history data begins from 2022.10.26 00:00
+MR	0	16:40:03.850	Core 07	agent process started on 127.0.0.1:3006
+MJ	0	16:40:04.192	Core 06	GBPUSDm: history for 2025 year synchronized
+PR	0	16:40:04.202	Core 06	GBPUSDm: history for 2026 year synchronized
+CE	0	16:40:04.202	Core 06	GBPUSDm: history synchronization completed [2199 Kb]
+CG	0	16:40:04.203	Core 06	GBPUSDm: 2.15 Mb of history processed in 0:00:00.359
+GS	0	16:40:04.353	Core 07	connecting to 127.0.0.1:3006
+RF	0	16:40:04.365	Core 07	connected
+MD	0	16:40:04.374	Core 07	authorized (agent build 6249)
+GN	0	16:40:04.589	Core 01	USDHKDm: preliminary downloading of M1 history started
+IE	0	16:40:15.273	Tester	USDHKDm: history data begins from 2024.12.20 00:00
+PK	0	16:40:15.274	Core 02	USDILSm: preliminary downloading of M1 history started
+PM	0	16:40:15.332	Core 01	USDHKDm: history for 2025 year synchronized
+KJ	0	16:40:15.341	Core 01	USDHKDm: history for 2026 year synchronized
+QO	0	16:40:15.341	Core 01	USDHKDm: history synchronization completed [1894 Kb]
+NI	0	16:40:15.342	Core 01	USDHKDm: 1.85 Mb of history processed in 0:00:00.063
+FJ	0	16:40:22.901	Tester	USDILSm: history data begins from 2024.12.17 00:00
+PL	0	16:40:22.934	Core 02	USDILSm: history for 2025 year synchronized
+PD	0	16:40:22.939	Core 02	USDILSm: history for 2026 year synchronized
+QO	0	16:40:22.939	Core 02	USDILSm: history synchronization completed [1185 Kb]
+OI	0	16:40:22.939	Core 02	USDILSm: 1.16 Mb of history processed in 0:00:00.031
+FI	0	16:40:23.121	Core 03	USDAEDm: history check started
+DS	0	16:40:23.229	Core 03	USDAEDm: preliminary downloading of M1 history started
+IH	0	16:40:29.013	Tester	USDAEDm: history data begins from 2024.12.06 00:00
+DP	0	16:40:29.013	Core 04	USDAMDm: preliminary downloading of M1 history started
+RH	0	16:40:29.031	Core 03	USDAEDm: history for 2025 year synchronized
+OQ	0	16:40:29.033	Core 03	USDAEDm: history for 2026 year synchronized
+CF	0	16:40:29.033	Core 03	USDAEDm: history synchronization completed [248 Kb]
+QG	0	16:40:29.034	Core 03	USDAEDm: 248.64 Kb of history processed in 0:00:00.015
+KN	0	16:40:32.178	Tester	USDAMDm: history data begins from 2024.12.20 00:00
+MF	0	16:40:32.178	Core 05	USDARSm: preliminary downloading of M1 history started
+MQ	0	16:40:32.187	Core 04	USDAMDm: history for 2025 year synchronized
+HN	0	16:40:32.189	Core 04	USDAMDm: history for 2026 year synchronized
+OK	0	16:40:32.189	Core 04	USDAMDm: history synchronization completed [47 Kb]
+JN	0	16:40:32.189	Core 04	USDAMDm: 47.28 Kb of history processed in 0:00:00.000
+PG	0	16:40:38.388	Tester	USDARSm: history data begins from 2024.12.22 00:00
+EM	0	16:40:38.389	Core 06	USDAZNm: preliminary downloading of M1 history started
+OO	0	16:40:38.416	Core 05	USDARSm: history for 2025 year synchronized
+KD	0	16:40:38.420	Core 05	USDARSm: history for 2026 year synchronized
+MR	0	16:40:38.420	Core 05	USDARSm: history synchronization completed [769 Kb]
+EK	0	16:40:38.421	Core 05	USDARSm: 769.26 Kb of history processed in 0:00:00.031
+JL	0	16:40:38.833	Tester	USDAZNm: history data begins from 2024.12.19 00:00
+PO	0	16:40:38.840	Core 06	USDAZNm: history for 2025 year synchronized
+PF	0	16:40:38.841	Core 06	USDAZNm: history for 2026 year synchronized
+HR	0	16:40:38.841	Core 06	USDAZNm: history synchronization completed [2 Kb]
+DK	0	16:40:38.841	Core 06	USDAZNm: 2.25 Kb of history processed in 0:00:00.000
+IL	0	16:40:39.052	Core 07	USDBDTm: preliminary downloading of M1 history started
+QS	0	16:40:43.853	Tester	USDBDTm: history data begins from 2024.12.22 00:00
+GK	0	16:40:43.856	Core 07	common synchronization completed
+JR	0	16:40:43.864	Core 01	USDBGNm: preliminary downloading of M1 history started
+PD	0	16:40:43.886	Core 07	USDBDTm: history for 2025 year synchronized
+FS	0	16:40:43.889	Core 07	USDBDTm: history for 2026 year synchronized
+PE	0	16:40:43.889	Core 07	USDBDTm: history synchronization completed [598 Kb]
+IP	0	16:40:43.889	Core 07	USDBDTm: 598.47 Kb of history processed in 0:00:00.016
+GS	0	16:40:46.160	Tester	USDBGNm: found history data from 2024.12.12 00:00 to 2025.12.31 00:00, specified period is out of this range
+LQ	0	16:40:46.160	Core 02	USDBHDm: preliminary downloading of M1 history started
+HJ	0	16:40:46.172	Core 01	USDBGNm: history for 2025 year synchronized
+FL	0	16:40:46.172	Core 01	USDBGNm: history synchronization completed [128 Kb]
+NI	0	16:40:46.172	Core 01	USDBGNm: 128.65 Kb of history processed in 0:00:00.000
+FK	0	16:40:48.673	Tester	USDBHDm: history data begins from 2024.11.21 00:00
+IM	0	16:40:48.687	Core 02	USDBHDm: history for 2025 year synchronized
+HJ	0	16:40:48.689	Core 02	USDBHDm: history for 2026 year synchronized
+PO	0	16:40:48.689	Core 02	USDBHDm: history synchronization completed [42 Kb]
+HJ	0	16:40:48.689	Core 02	USDBHDm: 42.32 Kb of history processed in 0:00:00.000
+JJ	0	16:40:48.899	Core 03	USDBNDm: preliminary downloading of M1 history started
+CQ	0	16:40:55.979	Tester	USDBNDm: history data begins from 2024.12.04 00:00
+RK	0	16:40:56.022	Core 03	USDBNDm: history for 2025 year synchronized
+KS	0	16:40:56.028	Core 03	USDBNDm: history for 2026 year synchronized
+MD	0	16:40:56.028	Core 03	USDBNDm: history synchronization completed [1159 Kb]
+OF	0	16:40:56.029	Core 03	USDBNDm: 1.13 Mb of history processed in 0:00:00.047
+JR	0	16:40:56.197	Core 04	USDBRLm: history check started
+GH	0	16:40:56.306	Core 04	USDBRLm: preliminary downloading of M1 history started
+DO	0	16:41:02.217	Tester	USDBRLm: history data begins from 2024.12.03 00:00
+LG	0	16:41:02.217	Core 05	USDCLPm: preliminary downloading of M1 history started
+RG	0	16:41:02.247	Core 04	USDBRLm: history for 2025 year synchronized
+MN	0	16:41:02.252	Core 04	USDBRLm: history for 2026 year synchronized
+JI	0	16:41:02.252	Core 04	USDBRLm: history synchronization completed [780 Kb]
+FL	0	16:41:02.253	Core 04	USDBRLm: 780.19 Kb of history processed in 0:00:00.031
+DE	0	16:41:07.663	Tester	USDCLPm: history data begins from 2024.12.06 00:00
+OP	0	16:41:07.683	Core 05	USDCLPm: history for 2025 year synchronized
+KO	0	16:41:07.686	Core 05	USDCLPm: history for 2026 year synchronized
+EI	0	16:41:07.686	Core 05	USDCLPm: history synchronization completed [679 Kb]
+QL	0	16:41:07.687	Core 05	USDCLPm: 679.71 Kb of history processed in 0:00:00.015
+GG	0	16:41:07.882	Core 06	USDCNYm: preliminary downloading of M1 history started
+KL	0	16:41:14.195	Tester	USDCNYm: history data begins from 2024.12.15 00:00
+QS	0	16:41:14.195	Core 07	USDCOPm: preliminary downloading of M1 history started
+QD	0	16:41:14.216	Core 06	USDCNYm: history for 2025 year synchronized
+CS	0	16:41:14.219	Core 06	USDCNYm: history for 2026 year synchronized
+QE	0	16:41:14.219	Core 06	USDCNYm: history synchronization completed [408 Kb]
+JP	0	16:41:14.219	Core 06	USDCNYm: 408.10 Kb of history processed in 0:00:00.016
+PR	0	16:41:18.324	Tester	USDCOPm: history data begins from 2024.12.18 00:00
+ME	0	16:41:18.330	Core 08	agent process started on 127.0.0.1:3007
+KL	0	16:41:18.343	Core 07	USDCOPm: history for 2025 year synchronized
+CK	0	16:41:18.346	Core 07	USDCOPm: history for 2026 year synchronized
+DM	0	16:41:18.346	Core 07	USDCOPm: history synchronization completed [539 Kb]
+HH	0	16:41:18.346	Core 07	USDCOPm: 539.08 Kb of history processed in 0:00:00.016
+EH	0	16:41:18.821	Core 08	connecting to 127.0.0.1:3007
+RO	0	16:41:18.832	Core 08	connected
+FO	0	16:41:18.840	Core 08	authorized (agent build 6249)
+JF	0	16:41:18.840	Core 01	USDDZDm: preliminary downloading of M1 history started
+HM	0	16:41:22.101	Tester	USDDZDm: history data begins from 2024.12.05 00:00
+GO	0	16:41:22.119	Core 01	USDDZDm: history for 2025 year synchronized
+EG	0	16:41:22.121	Core 01	USDDZDm: history for 2026 year synchronized
+LQ	0	16:41:22.121	Core 01	USDDZDm: history synchronization completed [216 Kb]
+KD	0	16:41:22.121	Core 01	USDDZDm: 216.85 Kb of history processed in 0:00:00.016
+JO	0	16:41:22.332	Core 02	USDEGPm: preliminary downloading of M1 history started
+OS	0	16:41:26.361	Tester	USDEGPm: history data begins from 2024.12.22 00:00
+LJ	0	16:41:26.362	Core 03	USDGELm: preliminary downloading of M1 history started
+QS	0	16:41:26.387	Core 02	USDEGPm: history for 2025 year synchronized
+GK	0	16:41:26.391	Core 02	USDEGPm: history for 2026 year synchronized
+NM	0	16:41:26.391	Core 02	USDEGPm: history synchronization completed [526 Kb]
+QH	0	16:41:26.391	Core 02	USDEGPm: 526.18 Kb of history processed in 0:00:00.016
+QK	0	16:41:28.769	Tester	USDGELm: history data begins from 2024.11.12 00:00
+QM	0	16:41:28.777	Core 03	USDGELm: history for 2025 year synchronized
+OJ	0	16:41:28.778	Core 03	USDGELm: history for 2026 year synchronized
+EO	0	16:41:28.778	Core 03	USDGELm: history synchronization completed [33 Kb]
+PJ	0	16:41:28.779	Core 03	USDGELm: 33.52 Kb of history processed in 0:00:00.000
+KK	0	16:41:29.002	Core 04	USDGHSm: preliminary downloading of M1 history started
+GP	0	16:41:33.471	Tester	USDGHSm: history data begins from 2024.12.22 00:00
+CG	0	16:41:33.472	Core 05	USDIDRm: preliminary downloading of M1 history started
+RP	0	16:41:33.522	Core 04	USDGHSm: history for 2025 year synchronized
+PO	0	16:41:33.525	Core 04	USDGHSm: history for 2026 year synchronized
+CI	0	16:41:33.525	Core 04	USDGHSm: history synchronization completed [636 Kb]
+JM	0	16:41:33.526	Core 04	USDGHSm: 636.40 Kb of history processed in 0:00:00.047
+FF	0	16:41:45.140	Tester	USDIDRm: history data begins from 2024.12.17 00:00
+DQ	0	16:41:45.176	Core 05	USDIDRm: history for 2025 year synchronized
+OH	0	16:41:45.181	Core 05	USDIDRm: history for 2026 year synchronized
+DK	0	16:41:45.181	Core 05	USDIDRm: history synchronization completed [1516 Kb]
+IM	0	16:41:45.181	Core 05	USDIDRm: 1.48 Mb of history processed in 0:00:00.031
+GF	0	16:41:45.360	Core 06	USDINRm: preliminary downloading of M1 history started
+CM	0	16:42:07.001	Tester	USDINRm: history data begins from 2024.12.22 00:00
+QR	0	16:42:07.001	Core 07	USDISKm: preliminary downloading of M1 history started
+FE	0	16:42:07.019	Core 06	USDINRm: history for 2025 year synchronized
+ML	0	16:42:07.022	Core 06	USDINRm: history for 2026 year synchronized
+ED	0	16:42:07.022	Core 06	USDINRm: history synchronization completed [390 Kb]
+CQ	0	16:42:07.022	Core 06	USDINRm: 390.18 Kb of history processed in 0:00:00.015
+IS	0	16:42:22.252	Tester	USDISKm: history data begins from 2024.12.27 00:00
+JI	0	16:42:22.253	Core 08	USDJODm: preliminary downloading of M1 history started
+QS	0	16:42:22.308	Core 07	USDISKm: history for 2025 year synchronized
+FJ	0	16:42:22.315	Core 07	USDISKm: history for 2026 year synchronized
+EM	0	16:42:22.315	Core 07	USDISKm: history synchronization completed [1912 Kb]
+NO	0	16:42:22.316	Core 07	USDISKm: 1.87 Mb of history processed in 0:00:00.062
+OH	0	16:42:25.630	Tester	USDJODm: history data begins from 2024.12.31 00:00
+PR	0	16:42:25.634	Core 08	common synchronization completed
+IE	0	16:42:25.696	Core 08	USDJODm: history for 2025 year synchronized
+RR	0	16:42:25.713	Core 08	USDJODm: history for 2026 year synchronized
+FG	0	16:42:25.713	Core 08	USDJODm: history synchronization completed [46 Kb]
+NS	0	16:42:25.714	Core 08	USDJODm: 46.78 Kb of history processed in 0:00:00.032
+GR	0	16:42:25.801	Core 01	USDKESm: preliminary downloading of M1 history started
+DH	0	16:42:31.470	Tester	USDKESm: history data begins from 2024.12.22 00:00
+KN	0	16:42:31.470	Core 02	USDKGSm: preliminary downloading of M1 history started
+QH	0	16:42:31.489	Core 01	USDKESm: history for 2025 year synchronized
+LP	0	16:42:31.492	Core 01	USDKESm: history for 2026 year synchronized
+MP	0	16:42:31.492	Core 01	USDKESm: history synchronization completed [739 Kb]
+IE	0	16:42:31.492	Core 01	USDKESm: 739.66 Kb of history processed in 0:00:00.016
+OO	0	16:42:31.797	Tester	USDKGSm: found history data from 2024.10.04 00:00 to 2025.10.16 00:00, specified period is out of this range
+DR	0	16:42:31.799	Core 02	USDKGSm: history for 2025 year synchronized
+MF	0	16:42:31.799	Core 02	USDKGSm: history synchronization completed [2 Kb]
+QG	0	16:42:31.799	Core 02	USDKGSm: 2.12 Kb of history processed in 0:00:00.015
+HS	0	16:42:32.011	Core 03	USDKRWm: history check started
+PJ	0	16:42:32.122	Core 03	USDKRWm: preliminary downloading of M1 history started
+OQ	0	16:43:05.724	Tester	USDKRWm: history data begins from 2024.12.26 00:00
+JG	0	16:43:05.724	Core 04	USDKWDm: preliminary downloading of M1 history started
+CQ	0	16:43:05.789	Core 03	USDKRWm: history for 2025 year synchronized
+RN	0	16:43:05.800	Core 03	USDKRWm: history for 2026 year synchronized
+QK	0	16:43:05.800	Core 03	USDKRWm: history synchronization completed [3990 Kb]
+EM	0	16:43:05.801	Core 03	USDKRWm: 3.90 Mb of history processed in 0:00:00.078
+JF	0	16:43:14.003	Tester	USDKWDm: history data begins from 2024.11.20 00:00
+RL	0	16:43:14.003	Core 05	USDKZTm: preliminary downloading of M1 history started
+QN	0	16:43:14.016	Core 04	USDKWDm: history for 2025 year synchronized
+GE	0	16:43:14.019	Core 04	USDKWDm: history for 2026 year synchronized
+KS	0	16:43:14.019	Core 04	USDKWDm: history synchronization completed [112 Kb]
+CK	0	16:43:14.019	Core 04	USDKWDm: 112.87 Kb of history processed in 0:00:00.015
+JM	0	16:43:17.491	Tester	USDKZTm: history data begins from 2024.12.04 00:00
+JR	0	16:43:17.491	Core 06	USDLBPm: preliminary downloading of M1 history started
+EE	0	16:43:17.505	Core 05	USDKZTm: history for 2025 year synchronized
+OM	0	16:43:17.506	Core 05	USDKZTm: history for 2026 year synchronized
+JF	0	16:43:17.506	Core 05	USDKZTm: history synchronization completed [41 Kb]
+RS	0	16:43:17.506	Core 05	USDKZTm: 41.53 Kb of history processed in 0:00:00.016
+PS	0	16:43:19.680	Tester	USDLBPm: history data begins from 2024.10.21 00:00
+RE	0	16:43:19.690	Core 06	USDLBPm: history for 2025 year synchronized
+NL	0	16:43:19.691	Core 06	USDLBPm: history for 2026 year synchronized
+EG	0	16:43:19.691	Core 06	USDLBPm: history synchronization completed [34 Kb]
+MQ	0	16:48:20.165	Tester	Cloud servers switched off
+OF	0	16:48:22.533	Tester	"REMIX\REMIX_V5_GENERIC.ex5" X64
+IQ	0	16:48:22.623	Tester	cache file 'tester\cache\REMIX_V5_GENERIC.all_symbols.M15.20260102.20260301.12.76AAD8DF6130C47AA8F1425F26C9D9D0.opt' deleted
+MS	0	16:48:22.625	Tester	Experts\REMIX\REMIX_V5_GENERIC.ex5 on EURUSDm,M15 from 2026.01.02 00:00 to 2026.03.01 00:00
+DO	0	16:48:22.626	Tester	optimization on all Market Watch symbols started
+PH	0	16:48:22.632	Core 01	agent process started on 127.0.0.1:3000
+FN	0	16:48:23.818	Core 01	connecting to 127.0.0.1:3000
+CI	0	16:48:23.831	Core 01	connected
+FS	0	16:48:23.832	Tester	history synchronization of 357 Market Watch symbols started on 16 threads
+GK	0	16:48:23.833	Tester	Market Watch symbols history synchronized
+MQ	0	16:48:23.838	Core 02	agent process started on 127.0.0.1:3001
+KR	0	16:48:23.841	Core 01	authorized (agent build 6249)
+DN	0	16:48:24.356	Core 02	connecting to 127.0.0.1:3001
+HI	0	16:48:24.368	Core 02	connected
+QP	0	16:48:24.377	Core 02	authorized (agent build 6249)
+NK	0	16:48:24.601	Core 01	XAUUSDm: history check started
+KS	0	16:48:25.034	Tester	XAUUSDm: history data begins from 2022.08.08 00:00
+IK	0	16:48:25.038	Core 01	common synchronization completed
+QQ	0	16:48:25.267	Tester	BTCUSDm: history data begins from 2023.12.29 00:00
+GE	0	16:48:25.271	Core 02	common synchronization completed
+CM	0	16:48:25.292	Core 03	agent process started on 127.0.0.1:3002
+PJ	0	16:48:26.475	Core 03	connecting to 127.0.0.1:3002
+QM	0	16:48:26.492	Core 03	connected
+OM	0	16:48:26.501	Core 03	authorized (agent build 6249)
+GD	0	16:48:26.727	Tester	USDJPYm: history data begins from 2022.10.28 00:00
+OK	0	16:48:26.727	Tester	ETHUSDm: history data begins from 2023.12.27 00:00
+IS	0	16:48:26.944	Tester	BCHUSDm: history data begins from 2024.12.09 00:00
+CJ	0	16:48:26.947	Core 03	common synchronization completed
+IP	0	16:48:27.178	Tester	LTCUSDm: history data begins from 2024.12.03 00:00
+DG	0	16:48:27.178	Tester	XRPUSDm: history data begins from 2023.12.08 00:00
+ML	0	16:48:27.179	Tester	ADAUSDm: found history data from 2024.07.09 00:00 to 2024.08.08 00:00, specified period is out of this range
+LQ	0	16:48:27.187	Core 04	agent process started on 127.0.0.1:3003
+LF	0	16:48:27.641	Core 04	connecting to 127.0.0.1:3003
+IQ	0	16:48:27.654	Core 04	connected
+CI	0	16:48:27.664	Core 04	authorized (agent build 6249)
+EQ	0	16:48:27.665	Tester	BATUSDm: found history data from 2024.09.24 00:00 to 2024.10.23 00:00, specified period is out of this range
+PQ	0	16:48:27.665	Tester	BNBUSDm: history data begins from 2023.10.10 00:00
+DI	2	16:48:27.665	Core 03	pass 8 on ADAUSDm tested with error "cannot synchronize history (ADAUSDm)" (0:00:00.001)
+EH	0	16:48:27.895	Tester	DOTUSDm: found history data from 2024.07.10 00:00 to 2024.08.08 00:00, specified period is out of this range
+DF	0	16:48:27.896	Tester	ENJUSDm: found history data from 2024.07.18 00:00 to 2024.08.08 00:00, specified period is out of this range
+PH	2	16:48:27.897	Core 01	pass 9 on BATUSDm tested with error "cannot synchronize history (BATUSDm)" (0:00:00.001)
+GJ	0	16:48:27.899	Core 04	common synchronization completed
+GQ	0	16:48:28.126	Tester	FILUSDm: found history data from 2024.07.10 00:00 to 2024.08.08 00:00, specified period is out of this range
+QQ	0	16:48:28.127	Tester	SNXUSDm: found history data from 2024.10.03 00:00 to 2024.10.24 00:00, specified period is out of this range
+JR	2	16:48:28.127	Core 03	pass 11 on DOTUSDm tested with error "cannot synchronize history (DOTUSDm)" (0:00:00.001)
+QP	0	16:48:28.128	Tester	SOLUSDm: history data begins from 2022.10.08 00:00
+CK	2	16:48:28.128	Core 04	pass 12 on ENJUSDm tested with error "cannot synchronize history (ENJUSDm)" (0:00:00.001)
+HH	0	16:48:28.129	Tester	UNIUSDm: found history data from 2024.09.28 00:00 to 2024.10.23 00:00, specified period is out of this range
+CJ	0	16:48:28.136	Core 05	agent process started on 127.0.0.1:3004
+FM	0	16:48:28.574	Core 05	connecting to 127.0.0.1:3004
+PD	0	16:48:28.589	Core 05	connected
+NR	0	16:48:28.597	Core 05	authorized (agent build 6249)
+QQ	2	16:48:28.597	Core 01	pass 13 on FILUSDm tested with error "cannot synchronize history (FILUSDm)" (0:00:00.001)
+GM	0	16:48:28.598	Tester	XTZUSDm: found history data from 2024.07.10 00:00 to 2024.08.08 00:00, specified period is out of this range
+PQ	2	16:48:28.598	Core 02	pass 14 on SNXUSDm tested with error "cannot synchronize history (SNXUSDm)" (0:00:00.001)
+ES	0	16:48:28.599	Tester	BTCUSDTm: found history data from 2026.06.01 00:00 to 2026.11.09 00:00, specified period is out of this range
+EM	0	16:48:28.599	Tester	XNGUSDm: history data begins from 2022.07.07 00:00
+ON	2	16:48:28.599	Core 04	pass 16 on UNIUSDm tested with error "cannot synchronize history (UNIUSDm)" (0:00:00.001)
+ME	0	16:48:28.599	Tester	TETUSDm: found history data from 2026.05.31 00:00 to 2026.11.09 00:00, specified period is out of this range
+KD	0	16:48:28.826	Tester	AUDUSDm: history data begins from 2022.10.23 00:00
+KH	0	16:48:28.831	Core 05	common synchronization completed
+GO	2	16:48:28.843	Core 01	pass 17 on XTZUSDm tested with error "cannot synchronize history (XTZUSDm)" (0:00:00.001)
+RE	0	16:48:28.843	Tester	USDCNHm: history data begins from 2024.07.15 00:00
+KJ	0	16:48:28.844	Tester	USDTHBm: history data begins from 2024.07.23 00:00
+GQ	0	16:48:29.062	Tester	XAGUSDm: history data begins from 2022.08.03 00:00
+GF	0	16:48:29.063	Tester	USDZARm: history data begins from 2024.09.04 00:00
+QP	0	16:48:29.074	Core 06	agent process started on 127.0.0.1:3005
+NG	0	16:48:29.586	Core 06	connecting to 127.0.0.1:3005
+LR	0	16:48:29.598	Core 06	connected
+KH	0	16:48:29.606	Core 06	authorized (agent build 6249)
+GS	0	16:48:29.824	Tester	USDCADm: history data begins from 2022.10.20 00:00
+GH	0	16:48:29.948	Tester	USDCHFm: history data begins from 2022.10.19 00:00
+HO	0	16:48:30.165	Tester	USDCZKm: history data begins from 2024.09.01 00:00
+ED	0	16:48:30.166	Tester	USDDKKm: history data begins from 2024.09.09 00:00
+JL	0	16:48:30.381	Tester	USDHUFm: history data begins from 2024.09.06 00:00
+JR	0	16:48:30.614	Tester	USDMXNm: history data begins from 2024.09.05 00:00
+CJ	0	16:48:30.617	Core 06	common synchronization completed
+LP	0	16:48:30.849	Tester	USDNOKm: history data begins from 2024.09.02 00:00
+QG	0	16:48:31.069	Tester	NZDUSDm: history data begins from 2022.11.01 00:00
+CN	0	16:48:31.288	Tester	USDPLNm: history data begins from 2024.09.10 00:00
+FD	0	16:48:31.506	Tester	USDSEKm: history data begins from 2024.09.06 00:00
+KJ	0	16:48:31.725	Tester	USDSGDm: history data begins from 2024.08.26 00:00
+QQ	0	16:48:31.726	Tester	USDTRYm: history data begins from 2024.09.05 00:00
+OJ	0	16:48:31.738	Core 07	agent process started on 127.0.0.1:3006
+JM	0	16:48:32.269	Core 07	connecting to 127.0.0.1:3006
+PD	0	16:48:32.283	Core 07	connected
+RR	0	16:48:32.291	Core 07	authorized (agent build 6249)
+JL	0	16:48:32.505	Tester	GBPUSDm: history data begins from 2022.10.26 00:00
+KS	0	16:48:32.736	Tester	USDHKDm: history data begins from 2024.09.03 00:00
+DI	0	16:48:32.955	Tester	USDILSm: history data begins from 2024.03.22 00:00
+JN	0	16:48:33.172	Tester	USDAEDm: history data begins from 2024.07.17 00:00
+IG	0	16:48:33.173	Tester	USDAMDm: history data begins from 2024.04.07 00:00
+CM	0	16:48:33.174	Tester	USDARSm: history data begins from 2024.08.04 00:00
+GR	0	16:48:33.174	Tester	USDAZNm: history data begins from 2022.03.13 00:00
+HK	0	16:48:33.182	Core 07	common synchronization completed
+JQ	0	16:48:33.182	Tester	USDBDTm: history data begins from 2024.08.04 00:00
+RI	0	16:48:33.453	Tester	USDBGNm: found history data from 2023.02.03 00:00 to 2025.12.31 00:00, specified period is out of this range
+FF	0	16:48:33.670	Tester	USDBHDm: history data begins from 2023.09.19 00:00
+NL	0	16:48:33.889	Tester	USDBNDm: history data begins from 2024.08.13 00:00
+NP	0	16:48:34.112	Core 05	USDBRLm: history check started
+DL	0	16:48:34.218	Tester	USDBRLm: history data begins from 2024.04.16 00:00
+MS	0	16:48:34.438	Tester	USDCLPm: history data begins from 2024.03.24 00:00
+GI	0	16:48:34.655	Tester	USDCNYm: history data begins from 2024.07.19 00:00
+KR	0	16:48:34.665	Core 08	agent process started on 127.0.0.1:3007
+FE	0	16:48:35.828	Core 08	connecting to 127.0.0.1:3007
+FL	0	16:48:35.841	Core 08	connected
+QJ	0	16:48:35.849	Core 08	authorized (agent build 6249)
+RG	0	16:48:36.073	Core 01	USDCOPm: history check started
+MM	0	16:48:36.181	Tester	USDCOPm: history data begins from 2024.04.23 00:00
+NP	0	16:48:36.399	Core 02	USDDZDm: history check started
+PL	0	16:48:36.613	Tester	USDDZDm: history data begins from 2024.04.02 00:00
+NQ	0	16:48:36.833	Core 03	USDEGPm: history check started
+HK	0	16:48:36.941	Tester	USDEGPm: history data begins from 2024.08.04 00:00
+CP	0	16:48:37.160	Core 04	USDGELm: history check started
+EK	0	16:48:37.817	Tester	USDGELm: history data begins from 2023.07.20 00:00
+LR	0	16:48:38.033	Core 05	USDGHSm: history check started
+PI	0	16:48:38.356	Tester	USDGHSm: history data begins from 2024.08.04 00:00
+NS	0	16:48:38.576	Core 06	USDIDRm: history check started
+CI	0	16:48:38.685	Tester	USDIDRm: history data begins from 2024.04.12 00:00
+JO	0	16:48:38.685	Tester	USDINRm: history data begins from 2024.08.04 00:00
+DE	0	16:48:38.902	Tester	USDISKm: history data begins from 2024.07.03 00:00
+GN	0	16:48:38.907	Core 08	common synchronization completed
+GE	0	16:48:39.134	Tester	USDJODm: history data begins from 2024.03.08 00:00
+IK	0	16:48:39.353	Tester	USDKESm: history data begins from 2024.08.04 00:00
+DQ	0	16:48:39.572	Tester	USDKGSm: found history data from 2024.10.04 00:00 to 2025.10.16 00:00, specified period is out of this range
+JQ	0	16:48:39.788	Tester	USDKRWm: history data begins from 2024.07.30 00:00
+GF	0	16:48:39.896	Tester	USDKWDm: history data begins from 2024.03.15 00:00
+EL	0	16:48:39.896	Tester	USDKZTm: history data begins from 2023.10.11 00:00
+PS	0	16:48:40.116	Tester	USDLBPm: history data begins from 2023.01.27 00:00
+QJ	0	16:48:40.334	Tester	USDLKRm: history data begins from 2024.06.14 00:00
+MM	0	16:48:40.347	Core 09	agent process started on 127.0.0.1:3008
+PJ	0	16:48:40.868	Core 09	connecting to 127.0.0.1:3008
+RM	0	16:48:40.884	Core 09	connected
+DM	0	16:48:40.892	Core 09	authorized (agent build 6249)
+FD	0	16:48:41.113	Tester	USDMADm: history data begins from 2023.07.10 00:00
+IJ	0	16:48:41.332	Tester	USDMYRm: history data begins from 2024.07.02 00:00
+QS	0	16:48:41.549	Tester	USDNGNm: history data begins from 2024.08.04 00:00
+JI	0	16:48:41.765	Tester	USDNPRm: history data begins from 2024.04.11 00:00
+ON	0	16:48:41.874	Tester	USDOMRm: history data begins from 2023.06.07 00:00
+OD	0	16:48:42.092	Tester	USDPHPm: history data begins from 2024.05.24 00:00
+CJ	0	16:48:42.311	Tester	USDPKRm: history data begins from 2024.08.04 00:00
+CP	0	16:48:42.529	Tester	USDQARm: history data begins from 2023.03.08 00:00
+OH	0	16:48:42.746	Tester	USDRONm: history data begins from 2024.08.19 00:00
+RL	0	16:48:42.753	Core 09	common synchronization completed
+DG	0	16:48:42.763	Tester	USDRURm: found history data from 2024.10.07 00:00 to 2024.11.15 00:00, specified period is out of this range
+HG	0	16:48:42.921	Tester	USDSARm: history data begins from 2024.06.12 00:00
+FM	0	16:48:43.139	Core 03	USDSYPm: preliminary downloading of M1 history started
+FO	2	16:48:43.139	Core 01	pass 77 on USDRURm tested with error "cannot synchronize history (USDRURm)" (0:00:00.001)
+LS	0	16:48:43.248	Tester	USDSYPm: history data begins from 2023.08.10 00:00
+IK	0	16:48:43.467	Tester	USDTJSm: history data begins from 2023.02.24 00:00
+JQ	0	16:48:43.685	Tester	USDTMTm: history data begins from 2023.07.17 00:00
+CF	0	16:48:43.903	Tester	USDTNDm: history data begins from 2023.06.26 00:00
+OL	0	16:48:43.904	Tester	USDTWDm: history data begins from 2024.05.08 00:00
+NS	0	16:48:44.121	Tester	USDUAHm: history data begins from 2024.02.14 00:00
+OK	0	16:48:44.338	Tester	USDUGXm: history data begins from 2024.01.16 00:00
+LM	0	16:48:44.349	Core 10	agent process started on 127.0.0.1:3009
+LJ	0	16:48:44.852	Core 10	connecting to 127.0.0.1:3009
+PM	0	16:48:44.864	Core 10	connected
+FM	0	16:48:44.872	Core 10	authorized (agent build 6249)
+EE	0	16:48:45.097	Tester	USDUZSm: history data begins from 2022.08.30 00:00
+QK	0	16:48:45.311	Tester	USDVNDm: history data begins from 2022.05.10 00:00
+KR	0	16:48:45.530	Tester	USDVUVm: history data begins from 2024.04.17 00:00
+NH	0	16:48:45.749	Tester	USDXOFm: history data begins from 2024.08.25 00:00
+KN	0	16:48:45.750	Tester	USDHRKm: found history data from 2022.11.24 00:00 to 2022.12.30 00:00, specified period is out of this range
+PO	0	16:48:45.967	Core 06	USDRUBm: history check started
+KG	0	16:48:46.513	Tester	USDRUBm: found history data from 2024.10.07 00:00 to 2024.11.15 00:00, specified period is out of this range
+NE	0	16:48:46.730	Tester	USDIQDm: history data begins from 2025.12.07 00:00
+KM	0	16:48:46.947	Tester	USDAOAm: found history data from 2026.06.02 00:00 to 2026.11.09 00:00, specified period is out of this range
+FJ	0	16:48:47.167	Tester	USDHNLm: found history data from 2026.06.01 00:00 to 2026.11.09 00:00, specified period is out of this range
+GK	0	16:48:47.386	Tester	USDGTQm: found history data from 2026.06.01 00:00 to 2026.11.09 00:00, specified period is out of this range
+OH	0	16:48:47.510	Tester	USDBOBm: found history data from 2026.11.05 00:00 to 2026.11.09 00:00, specified period is out of this range
+KH	0	16:48:47.727	Tester	USDMZNm: found history data from 2026.11.03 00:00 to 2026.11.09 00:00, specified period is out of this range
+DF	0	16:48:47.727	Tester	XPDUSDm: history data begins from 2024.09.01 00:00
+RO	0	16:48:47.947	Core 04	XPTUSDm: preliminary downloading of M1 history started
+ON	2	16:48:47.948	Core 05	pass 90 on USDHRKm tested with error "cannot synchronize history (USDHRKm)" (0:00:00.001)
+GH	2	16:48:47.948	Core 06	pass 91 on USDRUBm tested with error "cannot synchronize history (USDRUBm)" (0:00:00.001)
+RF	0	16:49:06.143	Tester	XPTUSDm: history data begins from 2024.12.30 00:00
+OQ	0	16:49:06.211	Core 04	XPTUSDm: history for 2025 year synchronized
+QH	0	16:49:06.221	Core 04	XPTUSDm: history for 2026 year synchronized
+QK	0	16:49:06.221	Core 04	XPTUSDm: history synchronization completed [2967 Kb]
+NM	0	16:49:06.221	Core 04	XPTUSDm: 2.90 Mb of history processed in 0:00:00.078
+NF	0	16:49:06.361	Core 05	XALUSDm: preliminary downloading of M1 history started
+EM	0	16:49:31.108	Tester	XALUSDm: history data begins from 2024.12.24 00:00
+KO	0	16:49:31.158	Core 05	XALUSDm: history for 2025 year synchronized
+KF	0	16:49:31.166	Core 05	XALUSDm: history for 2026 year synchronized
+JQ	0	16:49:31.166	Core 05	XALUSDm: history synchronization completed [2047 Kb]
+OK	0	16:49:31.166	Core 05	XALUSDm: 2.00 Mb of history processed in 0:00:00.047
+OO	0	16:49:31.325	Core 06	XCUUSDm: history check started
+FF	0	16:49:31.543	Core 06	XCUUSDm: preliminary downloading of M1 history started
+GM	0	16:49:47.449	Tester	XCUUSDm: history data begins from 2024.12.19 00:00
+GO	0	16:49:47.502	Core 06	XCUUSDm: history for 2025 year synchronized
+HD	0	16:49:47.513	Core 06	XCUUSDm: history for 2026 year synchronized
+LQ	0	16:49:47.513	Core 06	XCUUSDm: history synchronization completed [2646 Kb]
+RK	0	16:49:47.513	Core 06	XCUUSDm: 2.58 Mb of history processed in 0:00:00.062
+NM	0	16:49:47.661	Core 07	XNIUSDm: preliminary downloading of M1 history started
+OR	0	16:50:07.382	Tester	XNIUSDm: history data begins from 2024.12.16 00:00
+ND	0	16:50:07.417	Core 07	XNIUSDm: history for 2025 year synchronized
+DL	0	16:50:07.423	Core 07	XNIUSDm: history for 2026 year synchronized
+MG	0	16:50:07.423	Core 07	XNIUSDm: history synchronization completed [1554 Kb]
+JQ	0	16:50:07.424	Core 07	XNIUSDm: 1.52 Mb of history processed in 0:00:00.046
+EQ	0	16:50:07.599	Core 08	XPBUSDm: history check started
+CK	0	16:50:07.709	Core 08	XPBUSDm: preliminary downloading of M1 history started
+KP	0	16:50:22.393	Tester	XPBUSDm: history data begins from 2024.12.30 00:00
+HE	0	16:50:22.438	Core 08	XPBUSDm: history for 2025 year synchronized
+QR	0	16:50:22.445	Core 08	XPBUSDm: history for 2026 year synchronized
+FG	0	16:50:22.445	Core 08	XPBUSDm: history synchronization completed [1710 Kb]
+OQ	0	16:50:22.445	Core 08	XPBUSDm: 1.67 Mb of history processed in 0:00:00.047
+QP	0	16:50:22.609	Core 09	XZNUSDm: history check started
