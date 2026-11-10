@@ -68,7 +68,12 @@ def mark_uploaded(name: str, sha: str, drive_id: str, link: str) -> None:
             r.update(upload_state="UPLOADED", drive_id=drive_id, drive_link=link); hit = True
     assert hit, "elemento no esta en la cola"
     _write(QUEUE, rows)
-    _write(MANIFEST, [r for r in rows if r["upload_state"] == "UPLOADED"])
+    up = [r for r in rows if r["upload_state"] == "UPLOADED"]
+    keys = {(r["name"], r["sha256"]) for r in up}
+    extra = [r for r in _read(MANIFEST) if (r["name"], r["sha256"]) not in keys]       # conserva filas de drive_sync (columnas extra)
+    allf = list(FIELDS) + [k for r in extra for k in r if k not in FIELDS]
+    with MANIFEST.open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=list(dict.fromkeys(allf)), restval="", extrasaction="ignore"); w.writeheader(); w.writerows(up + extra)
     write_status()
 
 

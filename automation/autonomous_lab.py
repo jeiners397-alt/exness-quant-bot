@@ -51,6 +51,8 @@ def run_mt5_experiment(*, ea_src: Path, expert: str, symbol: str, period: str, s
                 drive_backup.enqueue(f, "04", rid)
     ck["done"][rid] = {"status": meta["status"], "utc": datetime.now(timezone.utc).isoformat()}
     ck_save(ck)
+    from automation import drive_sync                  # respaldo automatico tras cada experimento
+    drive_sync.sync_after_batch(rid)
     return meta
 
 

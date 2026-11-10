@@ -1,0 +1,3 @@
+symbol,event,variant,rr,n_is,n_oos,expR_is,t_is,expR_oos,t_oos,hit_is,hit_oos,cost_ATR,expR_gross_is,p_ctrl_is,p_ctrl_oos,expR_oos_cost1p5,expR_oos_cost2,expR_oos_cost3,ci_oos_lo,ci_oos_hi,N_tests,t_star_multiplicity,is_candidate,oos_confirms,passes_multiplicity_is,robust_cost1p5,oos_ci_excludes_0,class
+XAUUSDm,E02_SWEEP_96,inverted,3.0,161,159,0.2999,2.04,0.2435,1.66,0.317,0.308,0.027,0.3269,0.01,0.05,0.23685,0.2302,0.21689999999999998,-0.0433,0.5303,1000,3.72,True,True,False,True,False,C
+XAUUSDm,E02_SWEEP_96,inverted,1.5,161,159,0.2152,2.18,0.1446,1.46,0.497,0.459,0.027,0.2422,0.01,0.05,0.13795000000000002,0.1313,0.11800000000000001,-0.0493,0.3384,1000,3.72,True,False,False,True,False,C

@@ -54,7 +54,15 @@ def classify(trades: int, pf, net, exp_r, status: str, bars_hq) -> tuple[str, st
     return "C", f"negativo o marginal (neto {net}, PF {pf})"
 
 
-def run_batch(symbols: dict[str, str], families: list[str], tfs: list[str], from_date: str, to_date: str, model="ohlc_1m", timeout=2400, limit: int | None = None) -> None:
+def run_batch(symbols: dict[str, str], families: list[str], tfs: list[str], from_date: str, to_date: str, model="ohlc_1m", timeout=2400, limit: int | None = None, sync_label: str = "V6_BATCH") -> None:
+    try:
+        _run_batch_core(symbols, families, tfs, from_date, to_date, model, timeout, limit)
+    finally:                                       # respaldo automatico a Drive tras cada lote (nunca interrumpe la investigacion)
+        from automation import drive_sync
+        drive_sync.sync_after_batch(sync_label)
+
+
+def _run_batch_core(symbols, families, tfs, from_date, to_date, model, timeout, limit) -> None:
     c = compile_ea(EA_SRC)
     assert c["ok"], c
     done = {r["run_id"] for r in _rows()}

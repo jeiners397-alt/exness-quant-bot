@@ -1,0 +1,1 @@
+symbol,event,variant,rr,n_is,n_oos,expR_is,t_is,expR_oos,t_oos,hit_is,hit_oos,cost_ATR,expR_gross_is,p_ctrl_is,p_ctrl_oos,expR_oos_cost1p5,expR_oos_cost2,expR_oos_cost3,ci_oos_lo,ci_oos_hi,N_tests,t_star_multiplicity,is_candidate,oos_confirms,passes_multiplicity_is,robust_cost1p5,oos_ci_excludes_0,class
