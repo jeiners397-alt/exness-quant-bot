@@ -47,7 +47,7 @@ def write_set(path: Path, inputs: dict) -> Path:
 def build_ini(path: Path, *, expert: str, symbol: str, period: str, from_date: str, to_date: str, deposit=3000.0, currency="USD", leverage=200,
               model=1, report: str, inputs: dict | None = None, set_name: str | None = None, shutdown=True) -> Path:
     """INI oficial. Las entradas van en [TesterInputs] (clave=valor) y ademas se genera un .set equivalente."""
-    L = ["[Tester]", f"Expert={expert}", f"Symbol={symbol}", f"Period={period}", f"Model={model}", "ExecutionMode=0", "Optimization=0",
+    L = ["[Tester]", f"Expert={expert}", f"Symbol={symbol}", f"Period={period}", f"Model={model}", f"ExecutionMode={os.environ.get('V8_EXECMODE', '0')}", "Optimization=0",
          f"FromDate={from_date}", f"ToDate={to_date}", "ForwardMode=0", f"Deposit={deposit}", f"Currency={currency}", f"Leverage={leverage}",
          f"Report={report}", "ReplaceReport=1", f"ShutdownTerminal={1 if shutdown else 0}", "Visual=0"]
     if set_name:

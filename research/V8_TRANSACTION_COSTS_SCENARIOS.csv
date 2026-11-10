@@ -1,0 +1,5 @@
+escenario,n,neto_USD_tester_costes_historicos,costes_x1_5,costes_x2,costes_x3,swap_total_USD,PF_x2,nota
+H1_RR1.5,316,395.6,364.9,334.2,272.9,-30.0,1.144,A=historicos del tester (x1) | B=+50% spread (x1.5) | C=x2 | D=retraso: ExecutionMode del tester sin efecto medible -> se modela como x2..x3 de spread; MODELADO
+H1_RR3.0,315,835.7,805.1,774.5,713.4,-53.0,1.273,A=historicos del tester (x1) | B=+50% spread (x1.5) | C=x2 | D=retraso: ExecutionMode del tester sin efecto medible -> se modela como x2..x3 de spread; MODELADO
+H4_RR2.0,248,1622.8,1599.1,1575.4,1528.1,-96.0,1.468,A=historicos del tester (x1) | B=+50% spread (x1.5) | C=x2 | D=retraso: ExecutionMode del tester sin efecto medible -> se modela como x2..x3 de spread; MODELADO
+H4_RR3.0,248,2172.8,2149.1,2125.4,2078.1,-133.5,1.554,A=historicos del tester (x1) | B=+50% spread (x1.5) | C=x2 | D=retraso: ExecutionMode del tester sin efecto medible -> se modela como x2..x3 de spread; MODELADO

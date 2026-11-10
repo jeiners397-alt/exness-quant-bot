@@ -1,0 +1,4 @@
+variant,rr,signal_time,entry_time,dir_py,entry_py,sl,tp,atr,exit_time,exit_price,reason,R_gross,cost_R,R_net,spread_entry,entry_bar,position_id,dir_ea,open_time,close_time,entry_ea,exit,sl_dist,volume,profit,commission,swap,R,mfe_R,mae_R,bars_held,exit_reason,margin,risk_money,spread_pts_entry,hour_entry,_merge
+,,,,,,,,,,,,,,,,2024-01-03 10:00:00,2.0,-1.0,2024-01-03 10:00:00,2024-01-03 11:22:40,2056.745,2052.338,2.938,0.01,4.41,0.0,0.0,1.4999,1.4556,0.2093,1.0,TP,4.11,2.94,200.0,10.0,right_only
+,,,,,,,,,,,,,,,,2024-01-05 14:00:00,4.0,-1.0,2024-01-05 14:00:00,2024-01-05 14:01:40,2039.88,2043.987,4.107,0.01,-4.11,0.0,0.0,-1.0,0.0,0.6723,0.0,SL,4.08,4.11,200.0,14.0,right_only
+,,,,,,,,,,,,,,,,2026-10-30 15:00:00,632.0,-1.0,2026-10-30 15:00:00,2026-10-30 17:15:40,3917.556,3887.667,19.926,0.01,29.89,0.0,0.0,1.5,1.452,0.3281,2.0,TP,7.84,19.93,240.0,15.0,right_only

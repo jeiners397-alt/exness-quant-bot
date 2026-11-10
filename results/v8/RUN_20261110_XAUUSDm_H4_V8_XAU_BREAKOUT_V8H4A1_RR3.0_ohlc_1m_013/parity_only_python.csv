@@ -1,0 +1,2 @@
+variant,rr,signal_time,entry_time,dir_py,entry_py,sl,tp,atr,exit_time,exit_price,reason,R_gross,cost_R,R_net,spread_entry,entry_bar,position_id,dir_ea,open_time,close_time,entry_ea,exit,sl_dist,volume,profit,commission,swap,R,mfe_R,mae_R,bars_held,exit_reason,margin,risk_money,spread_pts_entry,hour_entry,_merge
+H4A1,3.0,2026-01-30 16:00:00,2026-01-30 20:00:00,-1.0,4932.672,5126.065071428571,4352.492785714285,193.39307142857143,2026-02-10,5030.082,TIME,-0.5036891925881561,0.0008273305699014,-0.5045165231580576,0.16,2026-01-30 20:00:00,,,,,,,,,,,,,,,,,,,,,left_only

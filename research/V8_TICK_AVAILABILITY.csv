@@ -1,0 +1,3 @@
+﻿symbol,probe,estado,detalle
+XAUUSDm,copy_ticks_range 1h por mes 2024-01..2026-10 (instancia aislada),ERROR_DATOS,"La llamada copy_ticks_range no devolvio datos en >10 min para la primera muestra (descarga de ticks del servidor demo bloqueada o sin respuesta); sonda abortada sin sustituir por ninguna fuente. Cache local data/raw/v8_ticks vacia."
+XAUUSDm,Strategy Tester Model=4 (ticks reales),PARCIAL,"history_quality 9% y 194915225 ticks (generado: 194915052): el probador solo tuvo ticks reales para una fraccion pequena del periodo; resto generado. Run 008."
