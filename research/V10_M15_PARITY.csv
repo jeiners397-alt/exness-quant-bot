@@ -1,0 +1,2 @@
+run_id,variant,rr,n_python,n_ea,matched,only_python,only_ea,signal_overlap_pct,direction_agree_pct,median_entry_diff_ATR,exit_reason_agree_pct,median_abs_R_diff,sumR_python_net,sumR_ea_gross,sumR_ea_net_money,expR_python_net,expR_ea_net_money,only_python_causes,python_expR_net,python_sumR_net
+RUN_20261110_XAUUSDm_M15_V8_XAU_BREAKOUT_V10M15B_RR3_015,M15B,3.0,1104,1076,1072,32,4,97.1,100.0,0.0228,98.2,0.0,59.74,67.02,71.07,0.0541,0.0623,{'ORDER_FAIL_10018': 32},0.0541,59.7

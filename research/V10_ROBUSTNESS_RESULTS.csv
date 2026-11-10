@@ -1,0 +1,43 @@
+sistema,prueba,medida,valor,nota
+XAU H4 breakout-20 (congelada),"bootstrap por bloques (8 op., 4000 rep.)",boot_expR_lo,0.0649,
+XAU H4 breakout-20 (congelada),"bootstrap por bloques (8 op., 4000 rep.)",boot_expR_hi,0.5432,
+XAU H4 breakout-20 (congelada),"bootstrap por bloques (8 op., 4000 rep.)",boot_p_expR_le0,0.0063,
+XAU H4 breakout-20 (congelada),"bootstrap por bloques (8 op., 4000 rep.)",boot_pf_lo,1.146,
+XAU H4 breakout-20 (congelada),"bootstrap por bloques (8 op., 4000 rep.)",boot_pf_hi,2.089,
+XAU H4 breakout-20 (congelada),"bootstrap por bloques (8 op., 4000 rep.)",boot_p_pf_le1,0.0032,
+XAU H4 breakout-20 (congelada),Deflated Sharpe Ratio (Bailey-Lopez de Prado 2014),DSR_N1,0.996,SR por operacion; var(SR) estimada entre las pruebas H4/D1 de V8; N = numero de ensayos
+XAU H4 breakout-20 (congelada),Deflated Sharpe Ratio (Bailey-Lopez de Prado 2014),DSR_N54,0.0097,SR por operacion; var(SR) estimada entre las pruebas H4/D1 de V8; N = numero de ensayos
+XAU H4 breakout-20 (congelada),Deflated Sharpe Ratio (Bailey-Lopez de Prado 2014),DSR_N890,0.0,SR por operacion; var(SR) estimada entre las pruebas H4/D1 de V8; N = numero de ensayos
+XAU H4 breakout-20 (congelada),Deflated Sharpe Ratio (Bailey-Lopez de Prado 2014),DSR_N3719,0.0,SR por operacion; var(SR) estimada entre las pruebas H4/D1 de V8; N = numero de ensayos
+XAU H4 breakout-20 (congelada),Deflated Sharpe Ratio (Bailey-Lopez de Prado 2014),sr_trade,0.1592,
+XAU H4 breakout-20 (congelada),Deflated Sharpe Ratio (Bailey-Lopez de Prado 2014),sr0_N3719,0.4693,
+XAU H4 breakout-20 (congelada),Deflated Sharpe Ratio (Bailey-Lopez de Prado 2014),var_sr_trials,0.01689,
+XAU H4 breakout-20 (congelada),Deflated Sharpe Ratio (Bailey-Lopez de Prado 2014),skew_R,0.72,
+XAU H4 breakout-20 (congelada),Deflated Sharpe Ratio (Bailey-Lopez de Prado 2014),kurt_R,1.53,
+XAU H4 breakout-20 (congelada),sensibilidad a costes (spread x k),x0: neto / PF / expR,2221 / 1.59 / 0.308,
+XAU H4 breakout-20 (congelada),sensibilidad a costes (spread x k),x1: neto / PF / expR,2173 / 1.57 / 0.297,
+XAU H4 breakout-20 (congelada),sensibilidad a costes (spread x k),x2: neto / PF / expR,2125 / 1.55 / 0.286,
+XAU H4 breakout-20 (congelada),sensibilidad a costes (spread x k),x3: neto / PF / expR,2077 / 1.54 / 0.275,
+XAU H4 breakout-20 (congelada),sensibilidad a costes (swap x2),neto / PF,2039 / 1.53,
+XAU H4 breakout-20 (congelada),outliers,sin las 1 mejores operaciones: neto / PF,1896 / 1.50,
+XAU H4 breakout-20 (congelada),outliers,sin las 3 mejores operaciones: neto / PF,1556 / 1.41,
+XAU H4 breakout-20 (congelada),outliers,sin las 5 mejores operaciones: neto / PF,1254 / 1.33,
+XAU H4 breakout-20 (congelada),outliers,sin las 10 mejores operaciones: neto / PF,601 / 1.16,
+XAU H4 breakout-20 (congelada),concentracion temporal,sin los 1 mejores meses (2026-01): neto,1511.71,
+XAU H4 breakout-20 (congelada),concentracion temporal,"sin los 3 mejores meses (2026-01, 2026-03, 2025-10): neto",431.94,
+XAU H4 breakout-20 (congelada),estabilidad por tramo,DEV: n / expR / t / PF,86 / 0.2829 / 1.41 / 1.413,
+XAU H4 breakout-20 (congelada),estabilidad por tramo,SEL: n / expR / t / PF,95 / 0.1189 / 0.64 / 1.165,
+XAU H4 breakout-20 (congelada),estabilidad por tramo,VAL: n / expR / t / PF,67 / 0.5688 / 2.38 / 1.94,
+XAU H4 breakout-20 (congelada),estabilidad por tramo,DEV+SEL (sin 2026): n / expR / t / PF,181 / 0.1968 / 1.45 / 1.28,
+XAU H4 breakout-20 (congelada),dependencia de la tendencia,a favor de la tendencia 50d: n / expR / t / PF,172 / 0.4936 / 3.35 / 1.786,"post hoc: hipotesis de nueva generacion, contamina el historico"
+XAU H4 breakout-20 (congelada),dependencia de la tendencia,contra la tendencia 50d: n / expR / t / PF,60 / -0.0809 / -0.37 / 0.896,"post hoc: hipotesis de nueva generacion, contamina el historico"
+XAU H4 breakout-20 (congelada),retardo / latencia,no evaluado,n/a,el parametro de retardo del probador no produce cambios comprobables (V8); se declara como NO evaluado
+XAU H4 breakout-20 (congelada),"Probability of Backtest Overfitting (CSCV, S=8, 70 divisiones)",PBO,0.529,"rejilla H4: 54 configuraciones (ventana x SL x RR), 32 meses; mediana del logit -0.036"
+XAU M15 breakout-96 (control),resultado oficial MT5,n / neto / PF,1076 / 644 / 1.12,
+XAU M15 breakout-96 (control),expectativa,expR / t,0.053 / 0.98,
+XAU M15 breakout-96 (control),bootstrap por bloques (12 op.),IC95 expR / P(expR<=0),"[-0.042, 0.163] / 0.130",
+XAU M15 breakout-96 (control),estabilidad por tramo,DEV: n / expR / t / PF,365 / -0.0051 / -0.06 / 0.94,
+XAU M15 breakout-96 (control),estabilidad por tramo,SEL: n / expR / t / PF,400 / 0.0524 / 0.59 / 1.06,
+XAU M15 breakout-96 (control),estabilidad por tramo,VAL: n / expR / t / PF,311 / 0.1215 / 1.19 / 1.23,
+XAU M15 breakout-96 (control),costes,swap total USD,-43.5,el swap de XAU es negativo para largos y cortos en el servidor; pesa en operaciones de varios dias
+XAU M15 breakout-96 (control),Deflated Sharpe Ratio,DSR (N=3805),0.0,SR/op=0.030; SR0=0.470

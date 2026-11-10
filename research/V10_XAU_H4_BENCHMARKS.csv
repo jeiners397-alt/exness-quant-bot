@@ -1,0 +1,19 @@
+benchmark,periodo,tipo,n,net_usd_001,expR,t,pf,win,max_dd_usd,exposure_pct,worst_trade_R,skew,ann_return_pct,max_dd_pct_3000,net_over_maxdd,cvar5_R,spread_cost_R_mean,ann_sharpe_trade_equiv,nota,ann_vol_usd
+"ESTRATEGIA H4 (oficial MT5, 248 op.)",2024-01-01..2026-10-30,operaciones,248,2172.77,0.2973,2.51,1.571,0.335,390.48,,-1.28,0.72,25.59,13.02,5.56,-1.14,,,,
+"ESTRATEGIA H4 (referencia Python, motor de los benchmarks)",2024-01-01..2026-10-30,operaciones,243,2209.71,0.3483,2.88,1.587,0.346,377.41,43.4,-1.03,0.68,26.03,12.58,5.85,-1.03,0.0109,,,
+B. solo LONG (misma regla),2024-01-01..2026-10-30,operaciones,160,1490.66,0.4375,2.89,1.659,0.369,481.09,26.9,-1.03,0.58,17.56,16.04,3.1,-1.03,,,,
+C. solo SHORT (misma regla),2024-01-01..2026-10-30,operaciones,83,719.04,0.1765,0.88,1.478,0.301,426.14,16.5,-1.03,0.91,8.47,14.2,1.69,-1.03,,,,
+"D. entradas aleatorias (misma hora, frecuencia y % LONG), 600 reps",2024-01-01..2026-10-30,control aleatorio,243,463.87,0.1206,,1.115,,774.96,,,,,25.83,,,,,"expR p5-p95 = [-0.057, 0.303]; p(aleatorio >= estrategia) = 0.027",
+"D-L. entradas aleatorias solo LONG (misma hora y n), 600 reps",2024-01-01..2026-10-30,control aleatorio,160,742.16,0.2952,,1.287,,,,,,,,,,,,"expR p5-p95 = [0.064, 0.524]; ruptura LONG = 0.437; p(aleatorio >= ruptura) = 0.162",
+"D-S. entradas aleatorias solo SHORT (misma hora y n), 600 reps",2024-01-01..2026-10-30,control aleatorio,83,-189.69,-0.202,,0.906,,,,,,,,,,,,"expR p5-p95 = [-0.493, 0.097]; ruptura SHORT = 0.176; p(aleatorio >= ruptura) = 0.027",
+"E1. mismas barras de ruptura, direccion aleatoria, 600 reps",2024-01-01..2026-10-30,control aleatorio,243,609.0,0.1653,,1.15,,,,,,,,,,,,"expR p5-p95 = [0.022, 0.309]; p(>= estrategia) = 0.028",
+"E1b. mismas barras, direccion INVERTIDA (fade de la ruptura)",2024-01-01..2026-10-30,operaciones,243,-1070.04,-0.1372,-1.3,0.77,0.222,1241.74,5.4,-1.06,1.37,-12.6,41.39,-0.86,-1.03,,,,
+"E2. barras aleatorias del mismo regimen (ER30 x ATR%), direccion aleatoria, 600 reps",2024-01-01..2026-10-30,control aleatorio,243,449.57,0.1006,,1.114,,,,,,,,,,,,"expR p5-p95 = [-0.085, 0.281]; p(>= estrategia) = 0.017",
+"F. momentum simple sin filtros (signo ret. 20 velas, 1 posicion, SL1ATR/TP3R)",2024-01-01..2026-10-30,operaciones,470,2537.95,0.1821,2.18,1.304,0.304,782.77,87.4,-1.07,0.88,29.89,26.09,3.24,-1.04,,,,
+"A1. comprar y mantener 1 oz (0,01 lote) todo el periodo",2024-01-01..2026-10-30,serie MTM por barra H4,1,1812.16,,,1.067,0.541,1673.26,100.0,,-1.32,21.34,55.78,1.08,-132.41,,0.62,,831.3
+"A2. comprar y mantener, exposicion igualada a la estrategia (x fraccion de tiempo en mercado)",2024-01-01..2026-10-30,serie MTM por barra H4,1,786.48,,,1.067,0.541,726.2,100.0,,-1.32,9.26,24.21,1.08,-57.47,,0.62,escala lineal,360.8
+ESTRATEGIA H4 (ref. Python) como serie MTM,2024-01-01..2026-10-30,serie MTM por barra H4,444,2650.11,,,1.241,0.29,572.88,39.5,,1.69,31.21,19.1,4.63,-70.81,,1.37,w = posicion firmada en oz (solapes suman); sin spread,550.8
+"A3. comprar y mantener, volatilidad igualada a la estrategia",2024-01-01..2026-10-30,serie MTM por barra H4,1,1200.69,,,1.067,0.541,1108.67,100.0,,-1.32,14.14,36.96,1.08,-87.73,,0.62,posicion 0.66 oz,550.8
+"G1. largo siempre, tamano 1/ATR (volatilidad escalada)",2024-01-01..2026-10-30,serie MTM por barra H4,4522,3791.83,,,1.144,0.541,1210.45,99.7,,-0.09,44.66,40.35,3.13,-95.54,,1.55,,698.5
+G2. momentum 20 velas (signo) con tamano 1/ATR (TSMOM escalado),2024-01-01..2026-10-30,serie MTM por barra H4,4516,1923.18,,,1.07,0.508,914.55,99.5,,0.17,22.65,30.48,2.1,-88.4,,0.8,,681.7
+"F2. momentum 20 velas (signo), 1 oz fija, siempre en mercado",2024-01-01..2026-10-30,serie MTM por barra H4,439,939.0,,,1.034,0.507,1567.46,99.5,,-0.06,11.06,52.25,0.6,-118.38,,0.34,,781.5

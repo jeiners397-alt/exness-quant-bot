@@ -1,0 +1,21 @@
+analisis,variable,tercil,n,expR,t,pf,p_TP,p_SL,p_TIME,duracion_media_velas,nota
+ruptura H4 20 por estado de volatilidad,"ATR% (nivel, terciles muestrales)",bajo,81,0.1541,0.76,1.216,0.284,0.704,0.012,6.2,
+ruptura H4 20 por estado de volatilidad,"ATR% (nivel, terciles muestrales)",medio,81,0.5328,2.46,1.872,0.383,0.605,0.012,7.8,
+ruptura H4 20 por estado de volatilidad,"ATR% (nivel, terciles muestrales)",alto,81,0.358,1.71,1.549,0.333,0.642,0.025,10.4,
+ruptura H4 20 por estado de volatilidad,volatilidad relativa rv20/rv120,bajo,81,0.1333,0.67,1.187,0.272,0.704,0.025,6.4,
+ruptura H4 20 por estado de volatilidad,volatilidad relativa rv20/rv120,medio,79,0.357,1.66,1.537,0.342,0.658,0.0,8.1,
+ruptura H4 20 por estado de volatilidad,volatilidad relativa rv20/rv120,alto,81,0.5889,2.71,1.995,0.395,0.58,0.025,9.8,
+ruptura H4 20 por estado de volatilidad,expansion ATR14 / ATR14 de 30 velas atras,bajo,81,0.4706,2.18,1.739,0.37,0.63,0.0,6.0,
+ruptura H4 20 por estado de volatilidad,expansion ATR14 / ATR14 de 30 velas atras,medio,81,0.05,0.26,1.068,0.259,0.728,0.012,8.4,
+ruptura H4 20 por estado de volatilidad,expansion ATR14 / ATR14 de 30 velas atras,alto,81,0.5245,2.44,1.867,0.37,0.593,0.037,9.9,
+ruptura H4 20 por estado de volatilidad,rango de la vela de ruptura / ATR,bajo,81,0.5202,2.39,1.834,0.383,0.617,0.0,8.5,
+ruptura H4 20 por estado de volatilidad,rango de la vela de ruptura / ATR,medio,81,0.4071,1.91,1.628,0.346,0.642,0.012,6.9,
+ruptura H4 20 por estado de volatilidad,rango de la vela de ruptura / ATR,alto,81,0.1177,0.59,1.167,0.272,0.691,0.037,9.0,
+ruptura H4 20 por estado de volatilidad,compresion previa (rango 10 velas / ATR),bajo,81,0.557,2.58,1.93,0.383,0.593,0.025,6.8,
+ruptura H4 20 por estado de volatilidad,compresion previa (rango 10 velas / ATR),medio,81,0.4054,1.91,1.624,0.346,0.642,0.012,8.9,
+ruptura H4 20 por estado de volatilidad,compresion previa (rango 10 velas / ATR),alto,81,0.0827,0.42,1.113,0.272,0.716,0.012,8.7,
+agrupamiento de volatilidad (autocorrelacion de |r| H4),"lags 1,2,3,6,12,30",,4536,,,,,,,,0.246 0.164 0.233 0.264 0.217 0.139
+transicion de regimen de volatilidad (rv20) a 6 velas,"P(bajo->bajo, medio->medio, alto->alto)",,4517,,,,,,,,0.79 0.65 0.84
+volatilidad posterior a noticias (M5),CPI,,32,,,,,,,,razon vol 60min post/pre mediana 2.3; rango30 x2.19 vs control
+volatilidad posterior a noticias (M5),FOMC,,23,,,,,,,,razon vol 60min post/pre mediana 2.99; rango30 x3.04 vs control
+volatilidad posterior a noticias (M5),NFP,,31,,,,,,,,razon vol 60min post/pre mediana 3.71; rango30 x2.81 vs control

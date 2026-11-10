@@ -1,0 +1,7 @@
+event,dst_us,n,ranura_max_rango_min_respecto_T,utc_hora_evento
+CPI,False,9,0,13:30
+CPI,True,23,0,12:30
+FOMC,False,6,0,19:00
+FOMC,True,17,0,18:00
+NFP,False,12,0,13:30
+NFP,True,19,0,12:30
