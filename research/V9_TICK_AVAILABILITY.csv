@@ -1,0 +1,13 @@
+symbol,sample,fuente,n_ticks,estado,detalle,bid_ask_invalid,dup_time_msc,max_gap_s,spread_med,spread_max,spread_changes
+XAUUSDm,2024-02-14T14:00:00..2024-02-14T14:05:00 UTC,broker,0,ERROR_DATOS,TIMEOUT>100s (proceso aislado terminado),,,,,,
+XAUUSDm,2024-05-15T14:00:00..2024-05-15T14:05:00 UTC,broker,0,ERROR_DATOS,TIMEOUT>100s (proceso aislado terminado),,,,,,
+XAUUSDm,2024-08-14T14:00:00..2024-08-14T14:05:00 UTC,broker,0,ERROR_DATOS,TIMEOUT>100s (proceso aislado terminado),,,,,,
+XAUUSDm,2024-11-13T14:00:00..2024-11-13T14:05:00 UTC,broker,0,ERROR_DATOS,TIMEOUT>100s (proceso aislado terminado),,,,,,
+XAUUSDm,2025-02-12T14:00:00..2025-02-12T14:05:00 UTC,broker,0,ERROR_DATOS,TIMEOUT>100s (proceso aislado terminado),,,,,,
+XAUUSDm,2025-05-14T14:00:00..2025-05-14T14:05:00 UTC,broker,0,ERROR_DATOS,TIMEOUT>100s (proceso aislado terminado),,,,,,
+XAUUSDm,2025-08-13T14:00:00..2025-08-13T14:05:00 UTC,broker,0,ERROR_DATOS,TIMEOUT>100s (proceso aislado terminado),,,,,,
+XAUUSDm,2025-11-12T14:00:00..2025-11-12T14:05:00 UTC,broker,0,ERROR_DATOS,TIMEOUT>100s (proceso aislado terminado),,,,,,
+XAUUSDm,2026-02-11T14:00:00..2026-02-11T14:05:00 UTC,broker,0,ERROR_DATOS,TIMEOUT>100s (proceso aislado terminado),,,,,,
+XAUUSDm,2026-05-13T14:00:00..2026-05-13T14:05:00 UTC,broker,1826,OK,"N 1826 (1, 'Success')",0.0,18.0,1.1,0.308,0.396,264.0
+XAUUSDm,2026-08-12T14:00:00..2026-08-12T14:05:00 UTC,broker,2668,OK,"N 2668 (1, 'Success')",0.0,17.0,1.3,0.26,0.34,982.0
+XAUUSDm,2026-10-28T14:00:00..2026-10-28T14:05:00 UTC,broker,1303,OK,"N 1303 (1, 'Success')",0.0,7.0,1.4,0.24,0.24,653.0

@@ -1,0 +1,7 @@
+tf,split,n,width_ATR_med,p_returns_to_center,p_breaks_range,expR_net_1p5,expR_gross_1p5,t,cost_ATR,mfe_med,mae_med,events_per_day,nota
+M1,DEV,441,2.849,0.773,1.0,-0.413,-0.042,-6.98,0.3711,3.618,3.405,1.99,"J: ER30<0.15 y anchura<3 ATR; fade en el 15% inferior/superior. El movimiento neto tras costes es el resultado, no la 'media' del rango"
+M1,SEL,498,2.833,0.781,1.0,-0.1989,-0.0311,-3.63,0.1678,3.504,3.167,2.26,"J: ER30<0.15 y anchura<3 ATR; fade en el 15% inferior/superior. El movimiento neto tras costes es el resultado, no la 'media' del rango"
+M1,VAL,388,2.83,0.784,1.0,-0.2066,-0.0786,-3.36,0.128,3.613,3.457,2.26,"J: ER30<0.15 y anchura<3 ATR; fade en el 15% inferior/superior. El movimiento neto tras costes es el resultado, no la 'media' del rango"
+M5,DEV,149,2.805,0.617,0.953,-0.0095,0.1318,-0.1,0.1413,1.68,1.604,1.23,"J: ER30<0.15 y anchura<3 ATR; fade en el 15% inferior/superior. El movimiento neto tras costes es el resultado, no la 'media' del rango"
+M5,SEL,109,2.803,0.587,0.954,-0.1794,-0.1112,-1.59,0.0682,1.622,1.757,1.14,"J: ER30<0.15 y anchura<3 ATR; fade en el 15% inferior/superior. El movimiento neto tras costes es el resultado, no la 'media' del rango"
+M5,VAL,123,2.788,0.593,0.902,-0.086,-0.0358,-0.8,0.0502,1.851,1.668,1.4,"J: ER30<0.15 y anchura<3 ATR; fade en el 15% inferior/superior. El movimiento neto tras costes es el resultado, no la 'media' del rango"

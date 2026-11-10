@@ -1,0 +1,2 @@
+run_id,variant,rr,n_python,n_ea,matched,only_python,only_ea,signal_overlap_pct,direction_agree_pct,median_entry_diff_ATR,exit_reason_agree_pct,median_abs_R_diff,sumR_python_net,sumR_ea_gross,sumR_ea_net_money,expR_python_net,expR_ea_net_money,only_python_causes,python_expR_net,python_sumR_net
+RUN_20261110_XAUUSDm_M5_V8_XAU_BREAKOUT_V9M5B_RR1.5_every_tick_014,M5B,1.5,7346,7237,7138,208,99,97.2,100.0,0.0305,95.5,0.0052,-671.73,-544.48,-565.93,-0.0914,-0.0752,"{'ORDER_FAIL_10016': 12, 'ORDER_FAIL_10018': 195, 'COOLDOWN': 1}",-0.0914,-671.7

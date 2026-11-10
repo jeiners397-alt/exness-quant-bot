@@ -1,4 +1,4 @@
-"""V8 Lote A - paridad Python vs Strategy Tester (senales y operaciones).
+﻿"""V8 Lote A - paridad Python vs Strategy Tester (senales y operaciones).
 Uso: python -m research.v8_parity <tag> <variant A_V7_SWEEP_INV|B_CLOSE_OUTSIDE> <rr> <run_id>
 Lee los CSV del EA (carpeta Common) y los copia a results/v8/<run_id>/; compara con la referencia Python."""
 from __future__ import annotations
@@ -14,6 +14,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parent.parent
 COMMON = Path(os.environ["APPDATA"]) / "MetaQuotes" / "Terminal" / "Common" / "Files"
 OUT = ROOT / "results" / "v8"
+FLOOR = "1h"                                     # frecuencia de la vela del TF (1h valido para H1/H4; "5min" para M5)
 
 
 def load_ea(tag: str, run_id: str):
@@ -27,7 +28,7 @@ def load_ea(tag: str, run_id: str):
     T = pd.read_csv(d / "ea_trades.csv") if (d / "ea_trades.csv").exists() else pd.DataFrame()
     if len(T):
         T["open_time"] = pd.to_datetime(T.open_time, format="%Y.%m.%d %H:%M:%S"); T["close_time"] = pd.to_datetime(T.close_time, format="%Y.%m.%d %H:%M:%S")
-        T["entry_bar"] = T.open_time.dt.floor("1h")
+        T["entry_bar"] = T.open_time.dt.floor(FLOOR)
     if len(S):
         S["signal_bar_time"] = pd.to_datetime(S.signal_bar_time, format="%Y.%m.%d %H:%M")
     return S, T
@@ -73,3 +74,4 @@ if __name__ == "__main__":
     r = compare(tag, variant, rr, rid)
     for k, v in r.items():
         print(k, "=", v)
+

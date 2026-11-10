@@ -1,0 +1,84 @@
+{
+ "estado": "CONGELADA - retrospectiva, clase C, NO validada independientemente; ticks reales no disponibles (9% calidad)",
+ "ea_source": "mql5\\REMIX_V8_XAU_BREAKOUT.mq5",
+ "ea_sha256": "430a8976bb7e163c65d1a4c11a520929e71a38b06602472570cd30a465568e3e",
+ "h4_params": {
+  "symbol": "XAUUSDm",
+  "timeframe": "H4",
+  "Variant": "1 (VARIANT_B_CLOSE_OUT: primera vela que cierra fuera del rango de Lookback velas, continuacion)",
+  "Lookback": 20,
+  "PierceATR": "n/a",
+  "ATR_N": 14,
+  "CooldownBars": 6,
+  "SL_ATR": 1.0,
+  "RR": "2.0 y 3.0 (prefijados)",
+  "MaxHoldBars": 40,
+  "FixedLot": 0.01,
+  "MarginPct": 5.0,
+  "RiskPctCap": 3.0,
+  "deposit": 3000,
+  "leverage": 500,
+  "model": "OHLC 1 min",
+  "period": "2024-01-01..2026-10-31"
+ },
+ "h1_params": {
+  "symbol": "XAUUSDm",
+  "timeframe": "H1",
+  "Variant": "0 (VARIANT_A_V7: pico que cierra dentro, a favor del pico)",
+  "Lookback": 96,
+  "PierceATR": 0.1,
+  "ATR_N": 14,
+  "CooldownBars": 12,
+  "SL_ATR": 1.0,
+  "RR": "1.5 y 3.0",
+  "MaxHoldBars": 40,
+  "FixedLot": 0.01
+ },
+ "reserva_prospectiva": "datos >= 2026-11-01 no usados para desarrollar; solo evaluacion de esta definicion exacta",
+ "official_runs": {
+  "H4_RR2": {
+   "run_id": "RUN_20261110_XAUUSDm_H4_V8_XAU_BREAKOUT_V8H4A1_RR2.0_ohlc_1m_012",
+   "report_sha256": "0577bc21356e173660382cb5c93da5dafd9fbba6a38291aef01ef0ba1233d0f2",
+   "trades_sha256": "c43e21b4ca5e7d543b43dd337b8a1f91aa618d80a2189217081a9f1064e56c3a",
+   "stats_sha256": "702f926d018d4edbbd869359d616ab90d1f93a94e1a78060b5e9ce4dd703b1b0",
+   "net_profit": 1622.79,
+   "profit_factor": 1.49,
+   "trades": 248,
+   "equity_dd_pct": 8.11,
+   "history_quality": 98.0
+  },
+  "H4_RR3": {
+   "run_id": "RUN_20261110_XAUUSDm_H4_V8_XAU_BREAKOUT_V8H4A1_RR3.0_ohlc_1m_013",
+   "report_sha256": "750dd750893a7f3d8b1550d3c97b1f50d6d48fd238ff1a9dc81c415c3f4c55b1",
+   "trades_sha256": "7a268b2bfe1385eb55dae308b50492707820412b88f45ff26550c4a0ef13c021",
+   "stats_sha256": "cf5e0f8e0920d4f3895007e1fd76d77713f3f7012255a8168bd545b98e97f387",
+   "net_profit": 2172.77,
+   "profit_factor": 1.57,
+   "trades": 248,
+   "equity_dd_pct": 8.4,
+   "history_quality": 98.0
+  },
+  "H1_RR1.5": {
+   "run_id": "RUN_20261110_XAUUSDm_H1_V8_XAU_BREAKOUT_V8A0_RR1.5_ohlc_1m_005",
+   "report_sha256": "d8aa9e13cb90604427a597fec6522f5ee1df222b5c6e413e171b8fc1607d56b0",
+   "trades_sha256": "e409a4471c7e27d684185ccddc05074e8127f8ccb82b0b1dacdaf36c504f18f8",
+   "stats_sha256": "d7113b0005def4ae659e74ac1ee0d6d7a9e8a58ed9eb07f6a8f7a2110bff4665",
+   "net_profit": 395.57,
+   "profit_factor": 1.17,
+   "trades": 316,
+   "equity_dd_pct": 6.96,
+   "history_quality": 98.0
+  },
+  "H1_RR3": {
+   "run_id": "RUN_20261110_XAUUSDm_H1_V8_XAU_BREAKOUT_V8A0_RR3.0_ohlc_1m_006",
+   "report_sha256": "53a833b579007d35cb7a26483b675600af844bc86a399dbd4ea369205c24082f",
+   "trades_sha256": "d78cf7c379a31726c430bba79203e8e57a7255a409383941925df7bfdf400465",
+   "stats_sha256": "55496e2bdfd952ad6e3eba8bb41ba490a451e76d6815f41eaf08d9a2728f2227",
+   "net_profit": 877.28,
+   "profit_factor": 1.31,
+   "trades": 316,
+   "equity_dd_pct": 6.75,
+   "history_quality": 98.0
+  }
+ }
+}
